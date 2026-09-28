@@ -1,0 +1,2590 @@
+qid	doc_id	grade	source
+cbr0001	cbr_acts/Акт Банка России 12-МР.pdf	3	dataset
+cbr0001	cbr_acts/Акт Банка России 4927-У.pdf	2	dataset
+cbr0001	cbr_acts/Акт Банка России 5697-У.pdf	2	dataset
+cbr0002	cbr_acts/Акт Банка России 12-МР.pdf	3	dataset
+cbr0002	cbr_acts/Акт Банка России 5697-У.pdf	2	dataset
+cbr0003	cbr_acts/Акт Банка России 12-МР.pdf	3	dataset
+cbr0004	cbr_acts/Акт Банка России 12-МР.pdf	3	dataset
+cbr0004	cbr_acts/Акт Банка России 5697-У.pdf	2	dataset
+cbr0005	cbr_acts/Акт Банка России 12-МР.pdf	3	dataset
+cbr0005	cbr_acts/Акт Банка России 5697-У.pdf	2	dataset
+cbr0006	cbr_acts/Акт Банка России 12-МР.pdf	3	dataset
+cbr0006	cbr_acts/Акт Банка России 4927-У.pdf	2	dataset
+cbr0006	cbr_acts/Акт Банка России 5697-У.pdf	2	dataset
+cbr0007	cbr_acts/Акт Банка России 12-МР.pdf	3	dataset
+cbr0007	cbr_acts/Акт Банка России 4927-У.pdf	2	dataset
+cbr0007	cbr_acts/Акт Банка России 5697-У.pdf	2	dataset
+cbr0008	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0009	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0010	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0011	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0012	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0012	cbr_acts/Акт Банка России 242-П.docx	2	dataset
+cbr0013	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0014	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0015	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0016	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0017	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0018	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0019	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0020	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0021	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0021	cbr_acts/Акт Банка России 242-П.docx	2	dataset
+cbr0021	cbr_acts/Акт Банка России 3624-У.pdf	2	dataset
+cbr0022	cbr_acts/Акт Банка России 154-И.pdf	3	dataset
+cbr0023	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0024	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0025	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0026	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0027	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0028	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0029	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0030	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0031	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0032	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0033	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0034	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0035	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0036	cbr_acts/Акт Банка России 183-И.pdf	2	dataset
+cbr0036	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0037	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0038	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0039	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0040	cbr_acts/Акт Банка России 180-И.pdf	2	dataset
+cbr0040	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0041	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0042	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0043	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0044	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0045	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0046	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0047	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0048	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0049	cbr_acts/Акт Банка России 199-И.pdf	3	dataset
+cbr0049	cbr_acts/Акт Банка России 4927-У.pdf	2	dataset
+cbr0049	cbr_acts/Акт Банка России 511-П.pdf	2	dataset
+cbr0050	cbr_acts/Акт Банка России 207-И.pdf	3	dataset
+cbr0050	cbr_acts/Акт Банка России 220-И.pdf	2	dataset
+cbr0050	cbr_acts/Акт Банка России 221-И.pdf	2	dataset
+cbr0051	cbr_acts/Акт Банка России 207-И.pdf	3	dataset
+cbr0052	cbr_acts/Акт Банка России 199-И.pdf	2	dataset
+cbr0052	cbr_acts/Акт Банка России 207-И.pdf	3	dataset
+cbr0053	cbr_acts/Акт Банка России 220-И.pdf	3	dataset
+cbr0054	cbr_acts/Акт Банка России 220-И.pdf	3	dataset
+cbr0055	cbr_acts/Акт Банка России 220-И.pdf	3	dataset
+cbr0056	cbr_acts/Акт Банка России 220-И.pdf	3	dataset
+cbr0057	cbr_acts/Акт Банка России 220-И.pdf	3	dataset
+cbr0058	cbr_acts/Акт Банка России 199-И.pdf	2	dataset
+cbr0058	cbr_acts/Акт Банка России 220-И.pdf	3	dataset
+cbr0059	cbr_acts/Акт Банка России 220-И.pdf	3	dataset
+cbr0060	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0061	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0062	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0063	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0064	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0064	cbr_acts/Акт Банка России 3241-У.pdf	2	dataset
+cbr0065	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0066	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0067	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0068	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0069	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0070	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0071	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0072	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0073	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0074	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0075	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0076	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0076	cbr_acts/Акт Банка России 579-П.pdf	2	dataset
+cbr0077	cbr_acts/Акт Банка России 138-И.pdf	2	dataset
+cbr0077	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0077	cbr_acts/Акт Банка России 375-П.pdf	2	dataset
+cbr0078	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0078	cbr_acts/Акт Банка России 92-Т.docx	2	dataset
+cbr0078	cbr_acts/Акт Банка России 96-Т.pdf	2	dataset
+cbr0079	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0080	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0080	cbr_acts/Акт Банка России 3241-У.pdf	2	dataset
+cbr0081	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0082	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0083	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0084	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0085	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0086	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0087	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0088	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0089	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0090	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0091	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0092	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0093	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0094	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0094	cbr_acts/Акт Банка России 375-П.pdf	2	dataset
+cbr0095	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0096	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0097	cbr_acts/Акт Банка России 242-П.docx	3	dataset
+cbr0098	cbr_acts/Акт Банка России 421-П.pdf	3	dataset
+cbr0098	cbr_acts/Акт Банка России 6667-У.pdf	2	dataset
+cbr0099	cbr_acts/Акт Банка России 421-П.pdf	3	dataset
+cbr0099	cbr_acts/Акт Банка России 510-П.pdf	2	dataset
+cbr0100	cbr_acts/Акт Банка России 421-П.pdf	3	dataset
+cbr0101	cbr_acts/Акт Банка России 421-П.pdf	3	dataset
+cbr0101	cbr_acts/Акт Банка России 510-П.pdf	2	dataset
+cbr0102	cbr_acts/Акт Банка России 462-П.pdf	3	dataset
+cbr0103	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0104	cbr_acts/Акт Банка России 3752-У.pdf	2	dataset
+cbr0104	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0104	cbr_acts/Акт Банка России 716-П.pdf	2	dataset
+cbr0105	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0106	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0107	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0108	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0109	cbr_acts/Акт Банка России 3752-У.pdf	2	dataset
+cbr0109	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0110	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0111	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0112	cbr_acts/Акт Банка России 3752-У.pdf	2	dataset
+cbr0112	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0113	cbr_acts/Акт Банка России 3752-У.pdf	2	dataset
+cbr0113	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0114	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0115	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0116	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0117	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0118	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0119	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0120	cbr_acts/Акт Банка России 180-И.pdf	2	dataset
+cbr0120	cbr_acts/Акт Банка России 3752-У.pdf	2	dataset
+cbr0120	cbr_acts/Акт Банка России 483-П.pdf	3	dataset
+cbr0121	cbr_acts/Акт Банка России 199-И.pdf	2	dataset
+cbr0121	cbr_acts/Акт Банка России 509-П.pdf	3	dataset
+cbr0121	cbr_acts/Акт Банка России 729-П.pdf	2	dataset
+cbr0122	cbr_acts/Акт Банка России 4482-У.pdf	2	dataset
+cbr0122	cbr_acts/Акт Банка России 4927-У.pdf	2	dataset
+cbr0122	cbr_acts/Акт Банка России 4983-У.pdf	2	dataset
+cbr0122	cbr_acts/Акт Банка России 509-П.pdf	3	dataset
+cbr0123	cbr_acts/Акт Банка России 509-П.pdf	3	dataset
+cbr0124	cbr_acts/Акт Банка России 180-И.pdf	2	dataset
+cbr0124	cbr_acts/Акт Банка России 509-П.pdf	3	dataset
+cbr0125	cbr_acts/Акт Банка России 462-П.pdf	2	dataset
+cbr0125	cbr_acts/Акт Банка России 509-П.pdf	3	dataset
+cbr0126	cbr_acts/Акт Банка России 462-П.pdf	2	dataset
+cbr0126	cbr_acts/Акт Банка России 509-П.pdf	3	dataset
+cbr0127	cbr_acts/Акт Банка России 180-И.pdf	2	dataset
+cbr0127	cbr_acts/Акт Банка России 283-П.docx	2	dataset
+cbr0127	cbr_acts/Акт Банка России 462-П.pdf	2	dataset
+cbr0127	cbr_acts/Акт Банка России 509-П.pdf	3	dataset
+cbr0127	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0128	cbr_acts/Акт Банка России 509-П.pdf	3	dataset
+cbr0129	cbr_acts/Акт Банка России 139-И.pdf	2	dataset
+cbr0129	cbr_acts/Акт Банка России 395-П.pdf	2	dataset
+cbr0129	cbr_acts/Акт Банка России 509-П.pdf	3	dataset
+cbr0130	cbr_acts/Акт Банка России 346-П.docx	2	dataset
+cbr0130	cbr_acts/Акт Банка России 462-П.pdf	2	dataset
+cbr0130	cbr_acts/Акт Банка России 509-П.pdf	3	dataset
+cbr0131	cbr_acts/Акт Банка России 462-П.pdf	2	dataset
+cbr0131	cbr_acts/Акт Банка России 509-П.pdf	3	dataset
+cbr0132	cbr_acts/Акт Банка России 139-И.pdf	2	dataset
+cbr0132	cbr_acts/Акт Банка России 40-МР.pdf	2	dataset
+cbr0132	cbr_acts/Акт Банка России 462-П.pdf	2	dataset
+cbr0132	cbr_acts/Акт Банка России 509-П.pdf	3	dataset
+cbr0133	cbr_acts/Акт Банка России 511-П.pdf	3	dataset
+cbr0134	cbr_acts/Акт Банка России 596-П.pdf	3	dataset
+cbr0135	cbr_acts/Акт Банка России 421-П.pdf	2	dataset
+cbr0135	cbr_acts/Акт Банка России 596-П.pdf	3	dataset
+cbr0136	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0137	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0138	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0138	cbr_acts/Акт Банка России 7046-У.pdf	2	dataset
+cbr0139	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0140	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0141	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0142	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0143	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0144	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0145	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0146	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0147	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0148	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0149	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0150	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0151	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0152	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0152	cbr_acts/Акт Банка России 730-П.pdf	2	dataset
+cbr0153	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0153	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0154	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0155	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0156	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0157	cbr_acts/Акт Банка России 2732-У.pdf	2	dataset
+cbr0157	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0157	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0158	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0159	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0160	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0161	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0162	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0163	cbr_acts/Акт Банка России 579-П.pdf	2	dataset
+cbr0163	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0164	cbr_acts/Акт Банка России 579-П.pdf	2	dataset
+cbr0164	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0165	cbr_acts/Акт Банка России 395-П.pdf	2	dataset
+cbr0165	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0166	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0167	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0168	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0169	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0170	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0171	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0172	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0173	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0174	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0175	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0175	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0175	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0176	cbr_acts/Акт Банка России 646-П.pdf	3	dataset
+cbr0177	cbr_acts/Акт Банка России 646-П.pdf	2	dataset
+cbr0177	cbr_acts/Акт Банка России 652-П.pdf	3	dataset
+cbr0178	cbr_acts/Акт Банка России 652-П.pdf	3	dataset
+cbr0179	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0180	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0180	cbr_acts/Акт Банка России 850-П.pdf	2	dataset
+cbr0181	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0182	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0182	cbr_acts/Акт Банка России 850-П.pdf	2	dataset
+cbr0183	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0184	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0185	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0186	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0187	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0188	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0189	cbr_acts/Акт Банка России 199-И.pdf	2	dataset
+cbr0189	cbr_acts/Акт Банка России 646-П.pdf	2	dataset
+cbr0189	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0190	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0191	cbr_acts/Акт Банка России 646-П.pdf	2	dataset
+cbr0191	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0192	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0193	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0193	cbr_acts/Акт Банка России 744-П.pdf	2	dataset
+cbr0194	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0194	cbr_acts/Акт Банка России 744-П.pdf	2	dataset
+cbr0195	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0196	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0197	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0198	cbr_acts/Акт Банка России 652-П.pdf	2	dataset
+cbr0198	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0198	cbr_acts/Акт Банка России 744-П.pdf	2	dataset
+cbr0199	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0200	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0201	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0202	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0203	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0204	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0205	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0206	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0207	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0208	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0209	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0210	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0211	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0212	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0213	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0214	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0215	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0216	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0217	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0218	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0219	cbr_acts/Акт Банка России 242-П.docx	2	dataset
+cbr0219	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0220	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0221	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0221	cbr_acts/Акт Банка России 744-П.pdf	2	dataset
+cbr0222	cbr_acts/Акт Банка России 483-П.pdf	2	dataset
+cbr0222	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0222	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0223	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0224	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0224	cbr_acts/Акт Банка России 744-П.pdf	2	dataset
+cbr0225	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0226	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0226	cbr_acts/Акт Банка России 744-П.pdf	2	dataset
+cbr0227	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0228	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0229	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0230	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0231	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0232	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0233	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0234	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0235	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0236	cbr_acts/Акт Банка России 199-И.pdf	2	dataset
+cbr0236	cbr_acts/Акт Банка России 242-П.docx	2	dataset
+cbr0236	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0237	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0238	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0239	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0240	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0241	cbr_acts/Акт Банка России 4927-У.pdf	2	dataset
+cbr0241	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0242	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0242	cbr_acts/Акт Банка России 744-П.pdf	2	dataset
+cbr0243	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0244	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0245	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0246	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0246	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0247	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0248	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0249	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0250	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0251	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0252	cbr_acts/Акт Банка России 652-П.pdf	2	dataset
+cbr0252	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0253	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0254	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0255	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0256	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0257	cbr_acts/Акт Банка России 716-П.pdf	3	dataset
+cbr0258	cbr_acts/Акт Банка России 483-П.pdf	2	dataset
+cbr0258	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0259	cbr_acts/Акт Банка России 483-П.pdf	2	dataset
+cbr0259	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0260	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0261	cbr_acts/Акт Банка России 483-П.pdf	2	dataset
+cbr0261	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0262	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0263	cbr_acts/Акт Банка России 483-П.pdf	2	dataset
+cbr0263	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0264	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0265	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0266	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0267	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0268	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0268	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0268	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0269	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0270	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0271	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0272	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0273	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0274	cbr_acts/Акт Банка России 483-П.pdf	2	dataset
+cbr0274	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0275	cbr_acts/Акт Банка России 483-П.pdf	2	dataset
+cbr0275	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0276	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0276	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0277	cbr_acts/Акт Банка России 483-П.pdf	2	dataset
+cbr0277	cbr_acts/Акт Банка России 730-П.pdf	3	dataset
+cbr0278	cbr_acts/Акт Банка России 4927-У.pdf	2	dataset
+cbr0278	cbr_acts/Акт Банка России 744-П.pdf	3	dataset
+cbr0279	cbr_acts/Акт Банка России 3624-У.pdf	2	dataset
+cbr0279	cbr_acts/Акт Банка России 5969-У.pdf	2	dataset
+cbr0279	cbr_acts/Акт Банка России 716-П.pdf	2	dataset
+cbr0279	cbr_acts/Акт Банка России 744-П.pdf	3	dataset
+cbr0280	cbr_acts/Акт Банка России 4927-У.pdf	2	dataset
+cbr0280	cbr_acts/Акт Банка России 716-П.pdf	2	dataset
+cbr0280	cbr_acts/Акт Банка России 744-П.pdf	3	dataset
+cbr0281	cbr_acts/Акт Банка России 744-П.pdf	3	dataset
+cbr0282	cbr_acts/Акт Банка России 4927-У.pdf	2	dataset
+cbr0282	cbr_acts/Акт Банка России 744-П.pdf	3	dataset
+cbr0283	cbr_acts/Акт Банка России 744-П.pdf	3	dataset
+cbr0284	cbr_acts/Акт Банка России 815-П.pdf	3	dataset
+cbr0285	cbr_acts/Акт Банка России 3624-У.pdf	2	dataset
+cbr0285	cbr_acts/Акт Банка России 4482-У.pdf	2	dataset
+cbr0285	cbr_acts/Акт Банка России 4927-У.pdf	2	dataset
+cbr0285	cbr_acts/Акт Банка России 729-П.pdf	2	dataset
+cbr0285	cbr_acts/Акт Банка России 815-П.pdf	3	dataset
+cbr0286	cbr_acts/Акт Банка России 3580-У.pdf	3	dataset
+cbr0287	cbr_acts/Акт Банка России 3580-У.pdf	3	dataset
+cbr0288	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0288	cbr_acts/Акт Банка России 3883-У.pdf	2	dataset
+cbr0289	cbr_acts/Акт Банка России 154-И.pdf	2	dataset
+cbr0289	cbr_acts/Акт Банка России 242-П.docx	2	dataset
+cbr0289	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0290	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0291	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0292	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0293	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0294	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0294	cbr_acts/Акт Банка России 4212-У.pdf	2	dataset
+cbr0295	cbr_acts/Акт Банка России 242-П.docx	2	dataset
+cbr0295	cbr_acts/Акт Банка России 346-П.docx	2	dataset
+cbr0295	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0295	cbr_acts/Акт Банка России 3883-У.pdf	2	dataset
+cbr0296	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0297	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0298	cbr_acts/Акт Банка России 242-П.docx	2	dataset
+cbr0298	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0298	cbr_acts/Акт Банка России 385-П.pdf	2	dataset
+cbr0299	cbr_acts/Акт Банка России 242-П.docx	2	dataset
+cbr0299	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0300	cbr_acts/Акт Банка России 2332-У.docx	2	dataset
+cbr0300	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0301	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0302	cbr_acts/Акт Банка России 242-П.docx	2	dataset
+cbr0302	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0303	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0304	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0305	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0306	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0307	cbr_acts/Акт Банка России 3624-У.pdf	3	dataset
+cbr0308	cbr_acts/Акт Банка России 3777-У.pdf	3	dataset
+cbr0309	cbr_acts/Акт Банка России 3780-У.pdf	3	dataset
+cbr0309	cbr_acts/Акт Банка России 3783-У.pdf	2	dataset
+cbr0310	cbr_acts/Акт Банка России 3777-У.pdf	2	dataset
+cbr0310	cbr_acts/Акт Банка России 3780-У.pdf	3	dataset
+cbr0310	cbr_acts/Акт Банка России 4618-У.pdf	2	dataset
+cbr0310	cbr_acts/Акт Банка России 4619-У.pdf	2	dataset
+cbr0311	cbr_acts/Акт Банка России 4336-У.pdf	3	dataset
+cbr0311	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0311	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0312	cbr_acts/Акт Банка России 4336-У.pdf	3	dataset
+cbr0312	cbr_acts/Акт Банка России 622-П.pdf	2	dataset
+cbr0313	cbr_acts/Акт Банка России 4336-У.pdf	3	dataset
+cbr0313	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0313	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0313	cbr_acts/Акт Банка России 730-П.pdf	2	dataset
+cbr0314	cbr_acts/Акт Банка России 4336-У.pdf	3	dataset
+cbr0315	cbr_acts/Акт Банка России 4336-У.pdf	3	dataset
+cbr0315	cbr_acts/Акт Банка России 4927-У.pdf	2	dataset
+cbr0315	cbr_acts/Акт Банка России 5456-У.pdf	2	dataset
+cbr0315	cbr_acts/Акт Банка России 646-П.pdf	2	dataset
+cbr0316	cbr_acts/Акт Банка России 4336-У.pdf	3	dataset
+cbr0317	cbr_acts/Акт Банка России 4336-У.pdf	3	dataset
+cbr0318	cbr_acts/Акт Банка России 4336-У.pdf	3	dataset
+cbr0318	cbr_acts/Акт Банка России 4927-У.pdf	2	dataset
+cbr0319	cbr_acts/Акт Банка России 4212-У.pdf	2	dataset
+cbr0319	cbr_acts/Акт Банка России 4336-У.pdf	3	dataset
+cbr0319	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0319	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0320	cbr_acts/Акт Банка России 4336-У.pdf	3	dataset
+cbr0321	cbr_acts/Акт Банка России 4212-У.pdf	2	dataset
+cbr0321	cbr_acts/Акт Банка России 4336-У.pdf	3	dataset
+cbr0322	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0322	cbr_acts/Акт Банка России 4983-У.pdf	2	dataset
+cbr0322	cbr_acts/Акт Банка России 5994-У.pdf	2	dataset
+cbr0322	cbr_acts/Акт Банка России 6406-У.pdf	2	dataset
+cbr0323	cbr_acts/Акт Банка России 199-И.pdf	2	dataset
+cbr0323	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0324	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0325	cbr_acts/Акт Банка России 199-И.pdf	2	dataset
+cbr0325	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0325	cbr_acts/Акт Банка России 454-П.pdf	2	dataset
+cbr0326	cbr_acts/Акт Банка России 4481-У.pdf	2	dataset
+cbr0326	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0326	cbr_acts/Акт Банка России 4983-У.pdf	2	dataset
+cbr0326	cbr_acts/Акт Банка России 509-П.pdf	2	dataset
+cbr0327	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0328	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0329	cbr_acts/Акт Банка России 180-И.pdf	2	dataset
+cbr0329	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0329	cbr_acts/Акт Банка России 4967-У.pdf	2	dataset
+cbr0329	cbr_acts/Акт Банка России 509-П.pdf	2	dataset
+cbr0329	cbr_acts/Акт Банка России 511-П.pdf	2	dataset
+cbr0330	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0331	cbr_acts/Акт Банка России 180-И.pdf	2	dataset
+cbr0331	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0331	cbr_acts/Акт Банка России 509-П.pdf	2	dataset
+cbr0332	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0332	cbr_acts/Акт Банка России 4638-У.pdf	2	dataset
+cbr0333	cbr_acts/Акт Банка России 3081-У.pdf	2	dataset
+cbr0333	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0333	cbr_acts/Акт Банка России 4638-У.pdf	2	dataset
+cbr0333	cbr_acts/Акт Банка России 4639-У.pdf	2	dataset
+cbr0334	cbr_acts/Акт Банка России 3081-У.pdf	2	dataset
+cbr0334	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0334	cbr_acts/Акт Банка России 4638-У.pdf	2	dataset
+cbr0334	cbr_acts/Акт Банка России 4639-У.pdf	2	dataset
+cbr0335	cbr_acts/Акт Банка России 3081-У.pdf	2	dataset
+cbr0335	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0335	cbr_acts/Акт Банка России 4638-У.pdf	2	dataset
+cbr0335	cbr_acts/Акт Банка России 4639-У.pdf	2	dataset
+cbr0336	cbr_acts/Акт Банка России 3081-У.pdf	2	dataset
+cbr0336	cbr_acts/Акт Банка России 4482-У.pdf	3	dataset
+cbr0336	cbr_acts/Акт Банка России 4638-У.pdf	2	dataset
+cbr0337	cbr_acts/Акт Банка России 3777-У.pdf	2	dataset
+cbr0337	cbr_acts/Акт Банка России 3780-У.pdf	2	dataset
+cbr0337	cbr_acts/Акт Банка России 4618-У.pdf	3	dataset
+cbr0337	cbr_acts/Акт Банка России 4619-У.pdf	2	dataset
+cbr0338	cbr_acts/Акт Банка России 4619-У.pdf	3	dataset
+cbr0339	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0339	cbr_acts/Акт Банка России 6406-У.pdf	2	dataset
+cbr0340	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0340	cbr_acts/Акт Банка России 6406-У.pdf	2	dataset
+cbr0341	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0342	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0343	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0344	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0345	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0346	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0346	cbr_acts/Акт Банка России 762-П.pdf	2	dataset
+cbr0347	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0348	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0348	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0348	cbr_acts/Акт Банка России 5986-У.pdf	2	dataset
+cbr0349	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0350	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0351	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0352	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0353	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0354	cbr_acts/Акт Банка России 2851-У.pdf	2	dataset
+cbr0354	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0354	cbr_acts/Акт Банка России 714-П.pdf	2	dataset
+cbr0355	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0356	cbr_acts/Акт Банка России 2851-У.pdf	2	dataset
+cbr0356	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0357	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0358	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0359	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0359	cbr_acts/Акт Банка России 646-П.pdf	2	dataset
+cbr0360	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0361	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0362	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0362	cbr_acts/Акт Банка России 5690-У.pdf	2	dataset
+cbr0362	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0363	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0364	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0364	cbr_acts/Акт Банка России 5526-У.pdf	2	dataset
+cbr0365	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0365	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0366	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0367	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0368	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0369	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0369	cbr_acts/Акт Банка России 499-П.pdf	2	dataset
+cbr0370	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0370	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0371	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0372	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0372	cbr_acts/Акт Банка России 5526-У.pdf	2	dataset
+cbr0373	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0374	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0375	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0375	cbr_acts/Акт Банка России 4990-У.pdf	2	dataset
+cbr0376	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0376	cbr_acts/Акт Банка России 5456-У.pdf	2	dataset
+cbr0377	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0378	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0379	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0380	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0381	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0382	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0383	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0384	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0385	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0386	cbr_acts/Акт Банка России 4482-У.pdf	2	dataset
+cbr0386	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0386	cbr_acts/Акт Банка России 4983-У.pdf	2	dataset
+cbr0387	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0387	cbr_acts/Акт Банка России 5456-У.pdf	2	dataset
+cbr0388	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0388	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0389	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0390	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0391	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0392	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0393	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0394	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0395	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0395	cbr_acts/Акт Банка России 5456-У.pdf	2	dataset
+cbr0396	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0396	cbr_acts/Акт Банка России 5456-У.pdf	2	dataset
+cbr0397	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0397	cbr_acts/Акт Банка России 5456-У.pdf	2	dataset
+cbr0398	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0399	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0399	cbr_acts/Акт Банка России 5456-У.pdf	2	dataset
+cbr0399	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0400	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0401	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0402	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0402	cbr_acts/Акт Банка России 5456-У.pdf	2	dataset
+cbr0403	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0403	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0403	cbr_acts/Акт Банка России 605-П.pdf	2	dataset
+cbr0403	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0404	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0405	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0406	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0406	cbr_acts/Акт Банка России 5456-У.pdf	2	dataset
+cbr0407	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0408	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0409	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0410	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0411	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0412	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0413	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0414	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0415	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0416	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0416	cbr_acts/Акт Банка России 646-П.pdf	2	dataset
+cbr0417	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0418	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0419	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0420	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0421	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0421	cbr_acts/Акт Банка России 646-П.pdf	2	dataset
+cbr0422	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0423	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0423	cbr_acts/Акт Банка России 659-П.pdf	2	dataset
+cbr0424	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0425	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0426	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0427	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0427	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0427	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0428	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0429	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0430	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0431	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0432	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0433	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0434	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0435	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0435	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0436	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0437	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0437	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0438	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0438	cbr_acts/Акт Банка России 5019-У.pdf	2	dataset
+cbr0438	cbr_acts/Акт Банка России 579-П.pdf	2	dataset
+cbr0438	cbr_acts/Акт Банка России 606-П.pdf	2	dataset
+cbr0439	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0439	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0440	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0441	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0442	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0443	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0444	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0445	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0446	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0446	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0447	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0448	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0449	cbr_acts/Акт Банка России 4212-У.pdf	2	dataset
+cbr0449	cbr_acts/Акт Банка России 4637-У.pdf	2	dataset
+cbr0449	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0450	cbr_acts/Акт Банка России 4212-У.pdf	2	dataset
+cbr0450	cbr_acts/Акт Банка России 4637-У.pdf	2	dataset
+cbr0450	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0451	cbr_acts/Акт Банка России 3054-У.pdf	2	dataset
+cbr0451	cbr_acts/Акт Банка России 4638-У.pdf	2	dataset
+cbr0451	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0452	cbr_acts/Акт Банка России 180-И.pdf	2	dataset
+cbr0452	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0453	cbr_acts/Акт Банка России 372-П.pdf	2	dataset
+cbr0453	cbr_acts/Акт Банка России 4212-У.pdf	2	dataset
+cbr0453	cbr_acts/Акт Банка России 446-П.pdf	2	dataset
+cbr0453	cbr_acts/Акт Банка России 4637-У.pdf	2	dataset
+cbr0453	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0453	cbr_acts/Акт Банка России 511-П.pdf	2	dataset
+cbr0454	cbr_acts/Акт Банка России 4212-У.pdf	2	dataset
+cbr0454	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0455	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0455	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0456	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0457	cbr_acts/Акт Банка России 180-И.pdf	2	dataset
+cbr0457	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0457	cbr_acts/Акт Банка России 511-П.pdf	2	dataset
+cbr0458	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0459	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0460	cbr_acts/Акт Банка России 180-И.pdf	2	dataset
+cbr0460	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0461	cbr_acts/Акт Банка России 180-И.pdf	2	dataset
+cbr0461	cbr_acts/Акт Банка России 283-П.docx	2	dataset
+cbr0461	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0462	cbr_acts/Акт Банка России 462-П.pdf	2	dataset
+cbr0462	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0463	cbr_acts/Акт Банка России 2923-У.pdf	2	dataset
+cbr0463	cbr_acts/Акт Банка России 4212-У.pdf	2	dataset
+cbr0463	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0463	cbr_acts/Акт Банка России 509-П.pdf	2	dataset
+cbr0464	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0465	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0466	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0467	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0468	cbr_acts/Акт Банка России 3624-У.pdf	2	dataset
+cbr0468	cbr_acts/Акт Банка России 4336-У.pdf	2	dataset
+cbr0468	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0469	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0470	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0471	cbr_acts/Акт Банка России 254-П.docx	2	dataset
+cbr0471	cbr_acts/Акт Банка России 283-П.docx	2	dataset
+cbr0471	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0472	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0473	cbr_acts/Акт Банка России 3580-У.pdf	2	dataset
+cbr0473	cbr_acts/Акт Банка России 4212-У.pdf	2	dataset
+cbr0473	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0474	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0475	cbr_acts/Акт Банка России 2005-У.docx	2	dataset
+cbr0475	cbr_acts/Акт Банка России 3624-У.pdf	2	dataset
+cbr0475	cbr_acts/Акт Банка России 3883-У.pdf	2	dataset
+cbr0475	cbr_acts/Акт Банка России 4212-У.pdf	2	dataset
+cbr0475	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0476	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0477	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0478	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0479	cbr_acts/Акт Банка России 3624-У.pdf	2	dataset
+cbr0479	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0480	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0481	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0482	cbr_acts/Акт Банка России 395-П.pdf	2	dataset
+cbr0482	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0482	cbr_acts/Акт Банка России 509-П.pdf	2	dataset
+cbr0483	cbr_acts/Акт Банка России 254-П.docx	2	dataset
+cbr0483	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0484	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0485	cbr_acts/Акт Банка России 283-П.docx	2	dataset
+cbr0485	cbr_acts/Акт Банка России 3081-У.pdf	2	dataset
+cbr0485	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0486	cbr_acts/Акт Банка России 139-И.pdf	2	dataset
+cbr0486	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0487	cbr_acts/Акт Банка России 2332-У.docx	2	dataset
+cbr0487	cbr_acts/Акт Банка России 3081-У.pdf	2	dataset
+cbr0487	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0488	cbr_acts/Акт Банка России 2332-У.docx	2	dataset
+cbr0488	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0489	cbr_acts/Акт Банка России 283-П.docx	2	dataset
+cbr0489	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0490	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0491	cbr_acts/Акт Банка России 4927-У.pdf	3	dataset
+cbr0492	cbr_acts/Акт Банка России 4983-У.pdf	3	dataset
+cbr0493	cbr_acts/Акт Банка России 4983-У.pdf	3	dataset
+cbr0494	cbr_acts/Акт Банка России 4482-У.pdf	2	dataset
+cbr0494	cbr_acts/Акт Банка России 4638-У.pdf	2	dataset
+cbr0494	cbr_acts/Акт Банка России 4983-У.pdf	3	dataset
+cbr0495	cbr_acts/Акт Банка России 3081-У.pdf	2	dataset
+cbr0495	cbr_acts/Акт Банка России 4983-У.pdf	3	dataset
+cbr0496	cbr_acts/Акт Банка России 499-П.pdf	2	dataset
+cbr0496	cbr_acts/Акт Банка России 4990-У.pdf	3	dataset
+cbr0496	cbr_acts/Акт Банка России 5861-У.pdf	2	dataset
+cbr0496	cbr_acts/Акт Банка России 758-П.pdf	2	dataset
+cbr0497	cbr_acts/Акт Банка России 4990-У.pdf	3	dataset
+cbr0498	cbr_acts/Акт Банка России 4990-У.pdf	3	dataset
+cbr0499	cbr_acts/Акт Банка России 4990-У.pdf	3	dataset
+cbr0500	cbr_acts/Акт Банка России 4990-У.pdf	3	dataset
+cbr0501	cbr_acts/Акт Банка России 4990-У.pdf	3	dataset
+cbr0502	cbr_acts/Акт Банка России 4990-У.pdf	3	dataset
+cbr0503	cbr_acts/Акт Банка России 4990-У.pdf	3	dataset
+cbr0504	cbr_acts/Акт Банка России 4990-У.pdf	3	dataset
+cbr0505	cbr_acts/Акт Банка России 4990-У.pdf	3	dataset
+cbr0506	cbr_acts/Акт Банка России 4990-У.pdf	3	dataset
+cbr0507	cbr_acts/Акт Банка России 4990-У.pdf	3	dataset
+cbr0508	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+cbr0508	cbr_acts/Акт Банка России 7047-У.pdf	2	dataset
+cbr0509	cbr_acts/Акт Банка России 421-П.pdf	2	dataset
+cbr0509	cbr_acts/Акт Банка России 4482-У.pdf	2	dataset
+cbr0509	cbr_acts/Акт Банка России 4983-У.pdf	2	dataset
+cbr0509	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+cbr0509	cbr_acts/Акт Банка России 7277-У.pdf	2	dataset
+cbr0509	cbr_acts/Акт Банка России 864-П.pdf	2	dataset
+cbr0510	cbr_acts/Акт Банка России 611-П.pdf	2	dataset
+cbr0510	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+cbr0511	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+cbr0512	cbr_acts/Акт Банка России 220-И.pdf	2	dataset
+cbr0512	cbr_acts/Акт Банка России 221-И.pdf	2	dataset
+cbr0512	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+cbr0513	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0513	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+cbr0513	cbr_acts/Акт Банка России 7047-У.pdf	2	dataset
+cbr0514	cbr_acts/Акт Банка России 111-И.docx	2	dataset
+cbr0514	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+cbr0515	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+cbr0516	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+cbr0517	cbr_acts/Акт Банка России 590-П.pdf	2	dataset
+cbr0517	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+cbr0518	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+cbr0519	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+cbr0520	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+cbr0521	cbr_acts/Акт Банка России 6406-У.pdf	3	dataset
+ai_00d660efcf3e4607	ai360/Альфа-Банк (Беларусь) МСФО 2025 годовая.pdf	3	dataset
+ai_017f831a3f0e16a3	ai360/Альфа-Банк (Беларусь) МСФО 2022 годовая.pdf	3	dataset
+ai_029f46c431cd202e	ai360/Альфа-Банк (Беларусь) МСФО 2025 годовая.pdf	3	dataset
+ai_04651cb10e3750ff	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_057fe74c5c2242d8	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_0678360197cb8600	ai360/Альфа-Банк (Беларусь) МСФО 2025 годовая.pdf	3	dataset
+ai_091433c0842b7e48	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	dataset
+ai_0b1b43f4908de90e	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	dataset
+ai_0be3ab9a0b78592f	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_0cda5d5112ef82b9	ai360/Совкомбанк МСФО 2023 годовая.pdf	3	dataset
+ai_0da1bc202a67ec7c	ai360/Россельхозбанк МСФО 2025 годовая.pdf	3	dataset
+ai_0da74b4ba508ee7b	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_11baefbb9080ab0e	ai360/Россельхозбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_167e29be08e126ac	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_17bd95cc633d9041	ai360/Альфа-Банк (Беларусь) МСФО 2025 годовая.pdf	3	dataset
+ai_191b5e6965d2d99b	ai360/Совкомбанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_19a0fe7ede307322	ai360/Альфа-Банк (Беларусь) МСФО 2023 годовая.pdf	3	dataset
+ai_1a50ceac98532ffe	ai360/Совкомбанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_1c7c286da833b166	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_1e0b0c6b0cb65284	ai360/Россельхозбанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_1ec088dbd548212d	ai360/Альфа-Банк (Беларусь) МСФО 2022 годовая.pdf	3	dataset
+ai_1feecb8f3da81619	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	dataset
+ai_206ed7eeee67dfd8	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_2072337fcec37513	ai360/Альфа-Банк (Беларусь) МСФО 2022 годовая.pdf	3	dataset
+ai_24c79b6e27a32a0a	ai360/Совкомбанк МСФО 2022 годовая.pdf	3	dataset
+ai_24d6f921a5894ef7	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	dataset
+ai_289737dd73c6f1cc	ai360/Альфа-Банк (Беларусь) МСФО 2025 годовая.pdf	3	dataset
+ai_2a07c94c50bcbd40	ai360/Альфа-Банк (Беларусь) МСФО 2023 годовая.pdf	3	dataset
+ai_2c8b9ad5c7ff480f	ai360/Россельхозбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_2c8e73d1e5acd6bc	ai360/Россельхозбанк МСФО 2025 годовая.pdf	3	dataset
+ai_2f55b97bf078f0a7	ai360/Совкомбанк МСФО 2023 годовая.pdf	3	dataset
+ai_2f5e75f2461f546a	ai360/Совкомбанк МСФО 2022 годовая.pdf	3	dataset
+ai_30ae3b79ea34ec92	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_31f112161888e057	ai360/Совкомбанк МСФО 2023 годовая.pdf	3	dataset
+ai_349c407ae0fd7460	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_38b4e31186fb5d55	ai360/Совкомбанк МСФО 2023 годовая.pdf	3	dataset
+ai_39dec8e1e20e1287	ai360/Совкомбанк МСФО 2023 годовая.pdf	3	dataset
+ai_3e29054a9dd8e6ce	ai360/Совкомбанк МСФО 2022 годовая.pdf	3	dataset
+ai_3e5f4fba6b8e4226	ai360/Альфа-Банк (Беларусь) МСФО 2023 годовая.pdf	3	dataset
+ai_3efe88f2a06fdb31	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_3fe5ac6c532fc5fa	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_41294fd8567f0bba	ai360/Россельхозбанк МСФО 2025 годовая.pdf	3	dataset
+ai_453c2254648939ac	ai360/Совкомбанк МСФО 2022 годовая.pdf	3	dataset
+ai_455e24ad587d8689	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_45d2c814ffc06178	ai360/Совкомбанк МСФО 2025 годовая.pdf	3	dataset
+ai_462f7b5a3abcabad	ai360/Совкомбанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_49b8dba88ad5bf33	ai360/Совкомбанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_4ab749325e80835c	ai360/Россельхозбанк МСФО 2025 годовая.pdf	3	dataset
+ai_4d78e276b27b44e5	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	dataset
+ai_50cf02333eb1edae	ai360/Россельхозбанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_53e2d103f4c0f375	ai360/Альфа-Банк (Беларусь) МСФО 2025 годовая.pdf	3	dataset
+ai_5a155a335503f384	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_5a6e994115e997dd	ai360/Россельхозбанк МСФО 2022 годовая.pdf	3	dataset
+ai_5a8b33307efdf9d1	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	dataset
+ai_5a91505d34d3b019	ai360/Россельхозбанк МСФО 2023 годовая.pdf	3	dataset
+ai_5de70f8f43cb1561	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_669c5b200ec32f7f	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	dataset
+ai_66bd062c077d704f	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_670c0f6147b7e048	ai360/Альфа-Банк (Беларусь) МСФО 2022 годовая.pdf	3	dataset
+ai_7005635cb10f93b7	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_7252315cdd3fe85d	ai360/Альфа-Банк (Беларусь) МСФО 2025 годовая.pdf	3	dataset
+ai_72a5bbc09c2214e1	ai360/Россельхозбанк МСФО 2025 годовая.pdf	3	dataset
+ai_72eb212b8f78b28b	ai360/Совкомбанк МСФО 2023 годовая.pdf	3	dataset
+ai_76a0e755fa6d9d32	ai360/Совкомбанк МСФО 2023 годовая.pdf	3	dataset
+ai_7cbe8add57414a31	ai360/Россельхозбанк МСФО 2022 годовая.pdf	3	dataset
+ai_7cd7ba037eaa8abd	ai360/Россельхозбанк МСФО 2025 годовая.pdf	3	dataset
+ai_7d2573eb5b106665	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_818485c13ff51577	ai360/Альфа-Банк (Беларусь) МСФО 2022 годовая.pdf	3	dataset
+ai_82d6b45a86b6ed69	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_876024b432ff1587	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_883240ca37fd8de4	ai360/Совкомбанк МСФО 2023 годовая.pdf	3	dataset
+ai_8bbd4498a00ce8ae	ai360/Совкомбанк МСФО 2022 годовая.pdf	3	dataset
+ai_8c0608aea8fd9e9e	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_8ed39d72090da333	ai360/Совкомбанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_92c8f72bc7a2ea77	ai360/Совкомбанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_92eae2d17511fec0	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_9393c72e3f2e5294	ai360/Альфа-Банк (Беларусь) МСФО 2022 годовая.pdf	3	dataset
+ai_9443ca5767dd26a8	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	dataset
+ai_95476210fecd2f6e	ai360/Совкомбанк МСФО 2022 годовая.pdf	3	dataset
+ai_95faa5ae8a82c351	ai360/Совкомбанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_96a3f388bd2536de	ai360/Совкомбанк МСФО 2025 годовая.pdf	3	dataset
+ai_96defddda594f6b7	ai360/Совкомбанк МСФО 2023 годовая.pdf	3	dataset
+ai_972669f76f3bb85d	ai360/Альфа-Банк (Беларусь) МСФО 2023 годовая.pdf	3	dataset
+ai_9890e657dcde9ef9	ai360/Россельхозбанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_9a9e3987431c0857	ai360/Совкомбанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_9e2854920609d733	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_9f7185218b34b454	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_9f84c42a55a39949	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_a294b59614138add	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_a71216323fb88f39	ai360/Россельхозбанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_ae6be71a4f56c3c4	ai360/Совкомбанк МСФО 2022 годовая.pdf	3	dataset
+ai_afa00a5acc259698	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_b1e2530b6722c40e	ai360/Альфа-Банк (Беларусь) МСФО 2022 годовая.pdf	3	dataset
+ai_b46c542df7c7c262	ai360/Совкомбанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_b6bc3fe7e7ac1549	ai360/Россельхозбанк МСФО 2023 годовая.pdf	3	dataset
+ai_b8a1328284e4a199	ai360/Россельхозбанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_b9307db063833bc6	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_bc9617f4363fbc0f	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_beed50d3dc3330a8	ai360/Альфа-Банк (Беларусь) МСФО 2023 годовая.pdf	3	dataset
+ai_c210e87ab3e92c64	ai360/Россельхозбанк МСФО 2022 годовая.pdf	3	dataset
+ai_c38dc80c51368b72	ai360/Совкомбанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_c3f1c388dbb5ad10	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_c59c39b2818dc3bc	ai360/Россельхозбанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_c7eb61368af32a80	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	dataset
+ai_ca1d48ca75e23151	ai360/Совкомбанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_ca7c5cff40f226d1	ai360/Россельхозбанк МСФО 2025 годовая.pdf	3	dataset
+ai_cb0c977043978b2a	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	dataset
+ai_cd1bdca80e77287f	ai360/Альфа-Банк (Беларусь) МСФО 2022 годовая.pdf	3	dataset
+ai_d15c61c8a8b50a88	ai360/Совкомбанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_d44c1bafd9067209	ai360/Альфа-Банк (Беларусь) МСФО 2022 годовая.pdf	3	dataset
+ai_d4d62056a95d7c29	ai360/Альфа-Банк (Беларусь) МСФО 2025 годовая.pdf	3	dataset
+ai_d51bb1acd9e8cbbb	ai360/Россельхозбанк МСФО 2023 годовая.pdf	3	dataset
+ai_d747ffff9c64a814	ai360/Альфа-Банк (Беларусь) МСФО 2022 годовая.pdf	3	dataset
+ai_db30f48f99f43b2c	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	dataset
+ai_dcedb0486d5bdfdc	ai360/Россельхозбанк МСФО 2022 годовая.pdf	3	dataset
+ai_deda60af1461b23a	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	dataset
+ai_e3b2fc13fd4d6654	ai360/Совкомбанк МСФО 2025 годовая.pdf	3	dataset
+ai_e6ae431e1041acb0	ai360/Россельхозбанк МСФО 2025 годовая.pdf	3	dataset
+ai_eea8ace9cb69d49a	ai360/Россельхозбанк МСФО 2025 годовая.pdf	3	dataset
+ai_fbeb7874d0f7921c	ai360/Россельхозбанк МСФО 2023 годовая.pdf	3	dataset
+ai_009c97884b8dc010	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_00e8ee23542080b4	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_025e92860211ec8d	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_03ab4f26e1800cca	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_03cb5e036ae4eb77	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_064f412170bc7d63	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_07632ceda67e4c55	ai360/ВТБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_08107ef4c313d76d	ai360/Т-Банк МСФО 2023 годовая.pdf	3	dataset
+ai_081f30007bb81eeb	ai360/МКБ МСФО 2022 годовая.pdf	3	dataset
+ai_092f79290918b880	ai360/Сбербанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_09a24831b90478e8	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_09ccebfe6f34c9cd	ai360/ДОМ.РФ МСФО 2025 годовая.pdf	3	dataset
+ai_0a1229cbe86d0679	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_0a88e71cae033cae	ai360/Т-Банк МСФО 2022 годовая.pdf	3	dataset
+ai_0b1542042e4b7394	ai360/ДОМ.РФ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_0b7f66e5b7d2e385	ai360/МКБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_0b8208cb4dcef61e	ai360/Сбербанк МСФО 2024 годовая.pdf	3	dataset
+ai_0ce4f4035b5c2dbd	ai360/МКБ МСФО 2025 годовая.pdf	3	dataset
+ai_0d281c9f7a5181f9	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_0fb2ba9071aa25d7	ai360/Сбербанк МСФО 2024 годовая.pdf	3	dataset
+ai_0fce6841540fc351	ai360/Т-Банк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_11ae1efe29257856	ai360/ВТБ МСФО 2023 годовая.pdf	3	dataset
+ai_125c5878ee95f590	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_12a634ec427dafe5	ai360/Сбербанк МСФО 2024 годовая.pdf	3	dataset
+ai_12f8e11a9bde9331	ai360/ДОМ.РФ МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_130b2df886f48082	ai360/Сбербанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_13744c822f484838	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_139eab53d929ed1c	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_14f074bad2e8efb8	ai360/Сбербанк МСФО 2022 годовая.pdf	3	dataset
+ai_1680a3fe917e4e44	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_1680a3fe917e4e44	ai360/ДОМ.РФ МСФО 2023 годовая.pdf	3	dataset
+ai_1680a3fe917e4e44	ai360/ДОМ.РФ МСФО 2024 годовая.pdf	3	dataset
+ai_18eaa3abc8f79348	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_195e7889ffe4e19b	ai360/Сбербанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_19ff330afb9a7893	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_1a1f4f1cf8f242db	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_1a83fa832432f36e	ai360/МКБ МСФО 2022 годовая.pdf	3	dataset
+ai_1aa55ae9d91104e1	ai360/Т-Банк МСФО 2025 годовая.pdf	3	dataset
+ai_1bdca54e87fbb299	ai360/ДОМ.РФ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_1be47f98cb2e96b7	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_2213282582033680	ai360/МКБ МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_2249ef8b22b6be28	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_226043ff62d45099	ai360/Т-Банк МСФО 2025 годовая.pdf	3	dataset
+ai_23227ac563fff291	ai360/ВТБ МСФО 2022 годовая.pdf	3	dataset
+ai_23227ac563fff291	ai360/ВТБ МСФО 2023 годовая.pdf	3	dataset
+ai_23227ac563fff291	ai360/ВТБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_24ae24cc6933dc3b	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_24c504eb43357b41	ai360/ВТБ МСФО 2023 годовая.pdf	3	dataset
+ai_24c504eb43357b41	ai360/Сбербанк МСФО 2023 годовая.pdf	3	dataset
+ai_24c504eb43357b41	ai360/Т-Банк МСФО 2023 годовая.pdf	3	dataset
+ai_25b997418ab9e838	ai360/ВТБ МСФО 2023 годовая.pdf	3	dataset
+ai_271dcf89a0609764	ai360/ДОМ.РФ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_288fb8692d00440b	ai360/Сбербанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_29e2c06a8b3c8b55	ai360/Сбербанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_2a2151547b740353	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_2b6afbbe4b713bb8	ai360/Т-Банк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_2c4c79d9b72ecc07	ai360/ВТБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_2c5cbb5d10408190	ai360/МКБ МСФО 2023 годовая.pdf	3	dataset
+ai_2cd167bdfa2ef1c1	ai360/Сбербанк МСФО 2024 годовая.pdf	3	dataset
+ai_2cd481eccdf88dc6	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_2dc2eb71d86bfcbf	ai360/ВТБ МСФО 2022 годовая.pdf	3	dataset
+ai_2dc2eb71d86bfcbf	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_2e9f7397f56dbd9f	ai360/ДОМ.РФ МСФО 2023 годовая.pdf	3	dataset
+ai_2ea75d1a2ef019d8	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_305b08fcbee5f822	ai360/ДОМ.РФ МСФО 2023 годовая.pdf	3	dataset
+ai_305b08fcbee5f822	ai360/ДОМ.РФ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_305b08fcbee5f822	ai360/ДОМ.РФ МСФО 2025 годовая.pdf	3	dataset
+ai_31080f4294c077fc	ai360/Т-Банк МСФО 2022 годовая.pdf	3	dataset
+ai_314c8a58f447e043	ai360/ДОМ.РФ МСФО 2023 годовая.pdf	3	dataset
+ai_31cd4c34eded9505	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_327bc047895b6671	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_335c4cf22af17a55	ai360/ВТБ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_341836d99a0709a8	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_341836d99a0709a8	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_341836d99a0709a8	ai360/МКБ МСФО 2022 годовая.pdf	3	dataset
+ai_367546d95b92fd15	ai360/ДОМ.РФ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_36e850f00ec630d1	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_376447f4fe7b6b85	ai360/МКБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_38c3d5e654d2bc05	ai360/ДОМ.РФ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_39a036f82180c7f2	ai360/ДОМ.РФ МСФО 2023 годовая.pdf	3	dataset
+ai_39a036f82180c7f2	ai360/ДОМ.РФ МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_39a036f82180c7f2	ai360/ДОМ.РФ МСФО 2025 годовая.pdf	3	dataset
+ai_3a13fe375c297c61	ai360/ВТБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_3b38f40bdce757e8	ai360/Т-Банк МСФО 2024 годовая.pdf	3	dataset
+ai_3bb84eecfef98e08	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_3c0393547fc35761	ai360/ВТБ МСФО 2023 годовая.pdf	3	dataset
+ai_3c84f77263ed1824	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_3cce4a5481ced874	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_3e1fc2f0aaa2ab46	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_3fdb43da427e23f4	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_417ff090b3d92aca	ai360/МКБ МСФО 2022 годовая.pdf	3	dataset
+ai_437f32ffa0b6db12	ai360/ДОМ.РФ МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_437f32ffa0b6db12	ai360/ДОМ.РФ МСФО 2024 годовая.pdf	3	dataset
+ai_43ac9776a642fc61	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_44b078f1ced74454	ai360/Т-Банк МСФО 2025 годовая.pdf	3	dataset
+ai_466f82e30e179836	ai360/ДОМ.РФ МСФО 2024 годовая.pdf	3	dataset
+ai_46793d8ec679e7d5	ai360/МКБ МСФО 2025 годовая.pdf	3	dataset
+ai_487ce81f6eeca891	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_48a3486c28019a52	ai360/Т-Банк МСФО 2025 годовая.pdf	3	dataset
+ai_496c371dec506f24	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_4a067f3522c08870	ai360/МКБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_4a242d8e016cf078	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_4b012dc729df2625	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_4b410e5442aa1d37	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_4cfba4b0d34cdd1d	ai360/Т-Банк МСФО 2025 годовая.pdf	3	dataset
+ai_4ee587adcdc3caa7	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_500edc294e3d9f58	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_5062370c54891e1b	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_52921f422f356f5c	ai360/Сбербанк МСФО 2022 годовая.pdf	3	dataset
+ai_536aab3d07c14b6d	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_53e30366d7460c7d	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_5414f59feb299c61	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_552571a59ac9adbb	ai360/Т-Банк МСФО 2025 годовая.pdf	3	dataset
+ai_559491fa9954c89c	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_55e7a01578a0d64c	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_56d66c43a803c160	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_58aed23bc36137a5	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_58b5154a99b6077e	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_58f2d23a1c0afec6	ai360/Сбербанк МСФО 2024 годовая.pdf	3	dataset
+ai_591b3589cad30e69	ai360/Т-Банк МСФО 2024 годовая.pdf	3	dataset
+ai_591b3589cad30e69	ai360/Т-Банк МСФО 2025 годовая.pdf	3	dataset
+ai_5983797ab816a180	ai360/Т-Банк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_59a0b46c4f215d24	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_5aab85a83f929578	ai360/ДОМ.РФ МСФО 2024 годовая.pdf	3	dataset
+ai_5b467dab0b9e3859	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_5c34e3dfaa304741	ai360/МКБ МСФО 2022 годовая.pdf	3	dataset
+ai_5c5e1c1c784535d4	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_5c7963874c74efe7	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_5e1d93f153dba0b1	ai360/МКБ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_5e5851d8a74e9ca0	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_5ee7c7637a9a69d4	ai360/Сбербанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_5f8d3a1aa0dad326	ai360/Т-Банк МСФО 2025 годовая.pdf	3	dataset
+ai_606c15c49b800de7	ai360/Т-Банк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_60cae06af4c23200	ai360/ДОМ.РФ МСФО 2023 годовая.pdf	3	dataset
+ai_61ec6f6bcfe3e11d	ai360/Сбербанк МСФО 2024 годовая.pdf	3	dataset
+ai_6310c758836c1b68	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_635930f85906267a	ai360/Т-Банк МСФО 2023 годовая.pdf	3	dataset
+ai_647c07ed7adf3c80	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_651499d69c5f7e9f	ai360/Т-Банк МСФО 2022 годовая.pdf	3	dataset
+ai_65d59dfa19a1809c	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_67a4668069c01244	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_69188cefbb0e28c7	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_69fe79a70eda205b	ai360/Сбербанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_6a4debf1e076676b	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_6b1243ef0997ceee	ai360/Сбербанк МСФО 2024 годовая.pdf	3	dataset
+ai_6b73f39b69895e13	ai360/ДОМ.РФ МСФО 2025 годовая.pdf	3	dataset
+ai_6b9060711db0383e	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_6bd626be21592cca	ai360/ВТБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_6c10c667d05b4860	ai360/ДОМ.РФ МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_6e3f2a0c6f85b095	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_6e8fbe7158b65039	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_6e8fbe7158b65039	ai360/ДОМ.РФ МСФО 2023 годовая.pdf	3	dataset
+ai_6e8fbe7158b65039	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_6fa3b052f4cf5262	ai360/Сбербанк МСФО 2024 годовая.pdf	3	dataset
+ai_6fd4c6f17fd11dd2	ai360/МКБ МСФО 2025 годовая.pdf	3	dataset
+ai_7091c193c92e50dc	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_717dff6980663b6b	ai360/Т-Банк МСФО 2024 годовая.pdf	3	dataset
+ai_7229d862e413e81d	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_72362d0ec7f71064	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_72d5d2ba7f8dc824	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_74350610a6c0634e	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_757d6d18a167fa48	ai360/Сбербанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_766f7534af0411ec	ai360/ДОМ.РФ МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_77f7220bd7370d42	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_79144e0344863ab4	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_7934abe11e0568dd	ai360/Сбербанк МСФО 2023 годовая.pdf	3	dataset
+ai_796eb8a855f5f967	ai360/ДОМ.РФ МСФО 2025 годовая.pdf	3	dataset
+ai_796eb8a855f5f967	ai360/МКБ МСФО 2025 годовая.pdf	3	dataset
+ai_796eb8a855f5f967	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_797f0730ead65060	ai360/ДОМ.РФ МСФО 2024 годовая.pdf	3	dataset
+ai_797f0730ead65060	ai360/ДОМ.РФ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_7a29687d1c7c81fc	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_7c05b74f8240e802	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_7c313b85cf983061	ai360/ДОМ.РФ МСФО 2025 годовая.pdf	3	dataset
+ai_7c69ca42d462c9e3	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_7e51c50bb7c5ffa5	ai360/Т-Банк МСФО 2024 годовая.pdf	3	dataset
+ai_7fa247724a25680d	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_7fe8946a7e692528	ai360/ВТБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_804909c2768b6d10	ai360/МКБ МСФО 2025 годовая.pdf	3	dataset
+ai_8220a2f5ce3d4bf0	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_8518e1e34eb0e92b	ai360/Сбербанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_8549fc27685d613c	ai360/ДОМ.РФ МСФО 2025 годовая.pdf	3	dataset
+ai_854e7654d93f5986	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_865e5a8749686e79	ai360/ДОМ.РФ МСФО 2023 годовая.pdf	3	dataset
+ai_8674c68b45aed7bb	ai360/МКБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_8842db3845c9c25c	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_893a139a0a978383	ai360/ВТБ МСФО 2022 годовая.pdf	3	dataset
+ai_893a139a0a978383	ai360/ВТБ МСФО 2023 годовая.pdf	3	dataset
+ai_893a139a0a978383	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_8bcee03dd05c3132	ai360/ДОМ.РФ МСФО 2023 годовая.pdf	3	dataset
+ai_8bd2ef0c2fd4df3f	ai360/ВТБ МСФО 2022 годовая.pdf	3	dataset
+ai_8d323c14ea634a3b	ai360/Т-Банк МСФО 2024 годовая.pdf	3	dataset
+ai_8e956582f0a3c109	ai360/МКБ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_91d471121b3d37a5	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_91dfeee6faccd255	ai360/МКБ МСФО 2025 годовая.pdf	3	dataset
+ai_9397a2c7fa7bf759	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_9466de12620b464c	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_94a826f7b370d314	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_95e7ff44446e2f2a	ai360/ДОМ.РФ МСФО 2024 годовая.pdf	3	dataset
+ai_974f54b42be3aabe	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_98b3edced228edde	ai360/Сбербанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_99984aa890600244	ai360/МКБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_9a02c34dae8a1501	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_9a33e6836043107d	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_9adc1e54d46c051f	ai360/ДОМ.РФ МСФО 2024 годовая.pdf	3	dataset
+ai_9afcd70f08e9be5b	ai360/ДОМ.РФ МСФО 2024 годовая.pdf	3	dataset
+ai_9b3edccc6ef60036	ai360/Т-Банк МСФО 2025 годовая.pdf	3	dataset
+ai_9bbca718a64277c9	ai360/ВТБ МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_9bfa810ce21caaa1	ai360/МКБ МСФО 2023 годовая.pdf	3	dataset
+ai_9c219dfa5dc2309d	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_9c3cf60eb7e18e82	ai360/ВТБ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_9dda7a4dd2b65bed	ai360/Сбербанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_9ea2a9c224dbd494	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_9ea79a2b0180b066	ai360/ВТБ МСФО 2023 годовая.pdf	3	dataset
+ai_9ea79a2b0180b066	ai360/ДОМ.РФ МСФО 2023 годовая.pdf	3	dataset
+ai_9ece942945bb14ae	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_9f6bb41e4905dca2	ai360/Сбербанк МСФО 2024 годовая.pdf	3	dataset
+ai_9fefafe69ca54bda	ai360/Сбербанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_9fefafe69ca54bda	ai360/Сбербанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_a0d2a096742ec650	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_a42320e8c1c5a4b8	ai360/Сбербанк МСФО 2022 годовая.pdf	3	dataset
+ai_a42320e8c1c5a4b8	ai360/Сбербанк МСФО 2023 годовая.pdf	3	dataset
+ai_a42320e8c1c5a4b8	ai360/Сбербанк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_a43207655b2183b6	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_a48ac93c93ea5d4d	ai360/Сбербанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_a855af3d1fcd5226	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_a88e566f3a66b7b3	ai360/ДОМ.РФ МСФО 2024 годовая.pdf	3	dataset
+ai_a9161653b00d19f0	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_a9399d781d5b5d33	ai360/ВТБ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_aa347ff8d0b018df	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_aab31d4a7eeeb9f6	ai360/Т-Банк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_ac40f3a33cf254cf	ai360/МКБ МСФО 2025 годовая.pdf	3	dataset
+ai_afa2a0eee18c1313	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_b035cff8c54e7919	ai360/Т-Банк МСФО 2023 годовая.pdf	3	dataset
+ai_b07ac916d2b910ab	ai360/Т-Банк МСФО 2024 годовая.pdf	3	dataset
+ai_b0dfe52f4f294346	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_b38be4ba3bc1ae10	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_b3a3415ae02f1374	ai360/ВТБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_b485ea2f33b2d286	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_b5c17b6c6509de47	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_b5d71cf3434514bb	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_b6268ac34799e3b4	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_b6268ac34799e3b4	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_b719f5058eba1c06	ai360/Т-Банк МСФО 2023 годовая.pdf	3	dataset
+ai_b719f5058eba1c06	ai360/Т-Банк МСФО 2024 годовая.pdf	3	dataset
+ai_b8fa225bd63df9a7	ai360/Сбербанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_b9311ccb899f0f97	ai360/ВТБ МСФО 2023 годовая.pdf	3	dataset
+ai_bb4da5fc96d3e248	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_bda80ad987b13137	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_c160ba5e3da2454c	ai360/Т-Банк МСФО 2022 годовая.pdf	3	dataset
+ai_c1b5b50b0141d214	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_c20be795c0cb2fcb	ai360/МКБ МСФО 2022 годовая.pdf	3	dataset
+ai_c20be795c0cb2fcb	ai360/МКБ МСФО 2023 годовая.pdf	3	dataset
+ai_c20be795c0cb2fcb	ai360/МКБ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_c219fcb1d603562e	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_c2f3affa1e81ab25	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_c41ddf09c0481dd2	ai360/ВТБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_c453a1f1a56b860a	ai360/Т-Банк МСФО 2025 годовая.pdf	3	dataset
+ai_c520ad506ad398b8	ai360/МКБ МСФО 2022 годовая.pdf	3	dataset
+ai_c520ad506ad398b8	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_c520ad506ad398b8	ai360/МКБ МСФО 2025 годовая.pdf	3	dataset
+ai_c584578a345f3812	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_c69a06ff4d9b398a	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_c70f00060559c9bd	ai360/Сбербанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_c7bcf22fb489132a	ai360/Т-Банк МСФО 2023 годовая.pdf	3	dataset
+ai_ca79c453791df231	ai360/ДОМ.РФ МСФО 2024 годовая.pdf	3	dataset
+ai_ccc1779cc1bbf5c5	ai360/МКБ МСФО 2022 годовая.pdf	3	dataset
+ai_ccc1779cc1bbf5c5	ai360/МКБ МСФО 2023 годовая.pdf	3	dataset
+ai_cd24c0b526224865	ai360/Сбербанк МСФО 2024 годовая.pdf	3	dataset
+ai_cdca85e23cd29bdc	ai360/Т-Банк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_ce586b4e9ca4dba7	ai360/ДОМ.РФ МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_ce88570d8e8406f5	ai360/ВТБ МСФО 2022 годовая.pdf	3	dataset
+ai_cfe8e9cef12bcffb	ai360/Т-Банк МСФО 2022 годовая.pdf	3	dataset
+ai_d0f749b69b537a1b	ai360/Сбербанк МСФО 2024 годовая.pdf	3	dataset
+ai_d13d382500707287	ai360/ВТБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_d2294fb3ca17bc27	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_d2df0283a8c87066	ai360/Т-Банк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_d5ac6bc95b1d52cd	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_d6c204410b785314	ai360/МКБ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_d6ce08ec2e6a7e54	ai360/Сбербанк МСФО 2022 годовая.pdf	3	dataset
+ai_d7c03059ac2805e6	ai360/Сбербанк МСФО 2022 годовая.pdf	3	dataset
+ai_d9a3113a5a5432ce	ai360/ВТБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_db48dc65070a11a6	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_db56a1ffaee15a64	ai360/Сбербанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_dbd2a889304bbed6	ai360/ДОМ.РФ МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_dcf9be061eedb267	ai360/Т-Банк МСФО 2023 годовая.pdf	3	dataset
+ai_dd4b4f4f0313cba9	ai360/МКБ МСФО 2023 годовая.pdf	3	dataset
+ai_def4e31e14f40652	ai360/Сбербанк МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_dfe838690d1e6256	ai360/ДОМ.РФ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_e17501013bebb116	ai360/ДОМ.РФ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_e29d55824fed8a13	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_e2d785fe2e909506	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_e5c4000b6501d2a3	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_e6628a7c685e0be8	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_e68a07e38d6cc924	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_e6da17b4c533b4e4	ai360/Сбербанк МСФО 2025 годовая.pdf	3	dataset
+ai_e6dccc8ba6367eff	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_e7ebfee77436d086	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_e998c23cb5f4e10f	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_e9d0750174c68b2c	ai360/Т-Банк МСФО 2024 годовая.pdf	3	dataset
+ai_e9dddf37313c49a2	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_ea6093d6de789e1c	ai360/ДОМ.РФ МСФО 2023 годовая.pdf	3	dataset
+ai_ea943cb19af99029	ai360/МКБ МСФО 2023 годовая.pdf	3	dataset
+ai_eaecdb3f1771a1bf	ai360/ДОМ.РФ МСФО 2025 годовая.pdf	3	dataset
+ai_eb13b30edbbe9cfe	ai360/Сбербанк МСФО 2023 за 6 месяцев.pdf	3	dataset
+ai_ecffa9e361d24930	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_ed37c37828568fb5	ai360/ДОМ.РФ МСФО 2025 годовая.pdf	3	dataset
+ai_ee6eb98db25abd76	ai360/Т-Банк МСФО 2025 годовая.pdf	3	dataset
+ai_ef6146b5798d99ec	ai360/Т-Банк МСФО 2022 годовая.pdf	3	dataset
+ai_ef7fd8635f0a3284	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_f067c4214a1511df	ai360/Т-Банк МСФО 2022 годовая.pdf	3	dataset
+ai_f20a348ea235f697	ai360/ДОМ.РФ МСФО 2025 годовая.pdf	3	dataset
+ai_f217d039771979d3	ai360/МКБ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_f2c821e5617aef35	ai360/Т-Банк МСФО 2022 годовая.pdf	3	dataset
+ai_f3cde9cdca229e27	ai360/ДОМ.РФ МСФО 2025 годовая.pdf	3	dataset
+ai_f80490b9cf4a00dc	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_f80490b9cf4a00dc	ai360/ДОМ.РФ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_f80490b9cf4a00dc	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_f8b393736de084f6	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_f8fed84a3b659fbf	ai360/Т-Банк МСФО 2025 годовая.pdf	3	dataset
+ai_f9391ec5d7fb3cf2	ai360/Т-Банк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_f95fcb9b4de760d2	ai360/МКБ МСФО 2025 годовая.pdf	3	dataset
+ai_fad5685720391821	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_fb524dcda0d101a6	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_fb862c5dc43cc2eb	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	dataset
+ai_fbe56f652f450b72	ai360/Т-Банк МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_fc3035636ed6736b	ai360/Газпромбанк МСФО 2024 годовая.pdf	3	dataset
+ai_fce1986e6c0f5c33	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_fce1986e6c0f5c33	ai360/ВТБ МСФО 2024 за 6 месяцев.pdf	3	dataset
+ai_fce1986e6c0f5c33	ai360/ВТБ МСФО 2025 за 6 месяцев.pdf	3	dataset
+ai_fd0bb37a77393fdf	ai360/ВТБ МСФО 2023 годовая.pdf	3	dataset
+ai_fd0bb37a77393fdf	ai360/ВТБ МСФО 2024 годовая.pdf	3	dataset
+ai_fd0bb37a77393fdf	ai360/ВТБ МСФО 2025 годовая.pdf	3	dataset
+ai_fdad46150bf51378	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_fe6b81c10dcc4fcf	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	dataset
+ai_ff359acb779249de	ai360/МКБ МСФО 2024 годовая.pdf	3	dataset
+ai_ff989cebf20fec25	ai360/МКБ МСФО 2023 годовая.pdf	3	dataset
+faq0144	cbr_faq/ЦБ — Вопросы и ответы (3).docx	3	dataset
+faq0378	cbr_faq/ЦБ — Глоссарий.txt	3	dataset
+faq0317	cbr_faq/ЦБ — Вопросы и ответы (5).docx	3	dataset
+faq0018	cbr_faq/ЦБ — Вопросы и ответы.docx	3	dataset
+faq0607	cbr_faq/ЦБ — Глоссарий.docx	3	dataset
+faq0161	cbr_faq/ЦБ — Вопросы и ответы (6).docx	3	dataset
+faq0210	cbr_faq/ЦБ — Вопросы и ответы по функционированию системы накопления кредитных историй, бюро креди.txt	3	dataset
+faq0096	cbr_faq/ЦБ — Противодействие недобросовестным практикам.txt	3	dataset
+faq0183	cbr_faq/ЦБ — Наличное денежное обращение.docx	3	dataset
+faq0442	cbr_faq/ЦБ — Памятка для работы с памятными и инвестиционными монетами.docx	3	dataset
+faq0284	cbr_faq/ЦБ — Информационная безопасность.docx	3	dataset
+faq0008	cbr_faq/ЦБ — Микрофинансирование.txt	3	dataset
+faq0402	cbr_faq/ЦБ — Недобросовестные практики поведения.txt	3	dataset
+faq0498	cbr_faq/ЦБ — Поддержка малого и среднего предпринимательства.txt	3	dataset
+faq0058	cbr_faq/ЦБ — Вопросы и ответы.txt	3	dataset
+faq0345	cbr_faq/ЦБ — Совет директоров Банка России.docx	3	dataset
+faq0548	cbr_faq/ЦБ — Виды недобросовестного поведения участников финансового рынка.docx	3	dataset
+faq0557	cbr_faq/ЦБ — Что такое инфляция.txt	3	dataset
+faq0174	cbr_faq/ЦБ — Цифровые финансовые активы.txt	3	dataset
+faq0227	cbr_faq/ЦБ — Вопросы и ответы (2).docx	3	dataset
+faq0275	cbr_faq/ЦБ — Платформа «Знай своего клиента».docx	3	dataset
+faq0451	cbr_faq/ЦБ — Антикризисная политика.docx	3	dataset
+faq0471	cbr_faq/ЦБ — Инструменты макропруденциальной политики.txt	3	dataset
+faq0525	cbr_faq/ЦБ — Удаленная идентификация.docx	3	dataset
+faq0563	cbr_faq/ЦБ — Режим валютного курса Банка России.docx	3	dataset
+faq0575	cbr_faq/ЦБ — Прогнозирование и модельный аппарат.txt	3	dataset
+faq0168	cbr_faq/ЦБ — Банкротство и аннулирование лицензии брокера.docx	3	dataset
+faq0178	cbr_faq/ЦБ — Финансовые платформы и их операторы.txt	3	dataset
+faq0571	cbr_faq/ЦБ — Как мы рассказываем о своих решениях.txt	3	dataset
+faq0280	cbr_faq/ЦБ — Вопросы и ответы (4).docx	3	dataset
+faq0349	cbr_faq/ЦБ — Национальный финансовый совет.txt	3	dataset
+faq0414	cbr_faq/ЦБ — Противодействие мошенническим практикам.docx	3	dataset
+faq0461	cbr_faq/ЦБ — Макропруденциальное стресс-тестирование.txt	3	dataset
+faq0608	cbr_faq/ЦБ — Мониторинг предприятий.docx	3	dataset
+faq0350	cbr_faq/ЦБ — Правовой статус и функции.docx	3	dataset
+faq0352	cbr_faq/ЦБ — Стандарты (2).txt	3	dataset
+faq0411	cbr_faq/ЦБ — ФинЦЕРТ.docx	3	dataset
+faq0482	cbr_faq/ЦБ — Мобильное приложение «Банкноты Банка России».txt	3	dataset
+faq0501	cbr_faq/ЦБ — Система быстрых платежей.txt	3	dataset
+faq0529	cbr_faq/ЦБ — Маркетплейс.txt	3	dataset
+faq0544	cbr_faq/ЦБ — Поведенческий надзор практики и рекомендации.docx	3	dataset
+faq0552	cbr_faq/ЦБ — Цели и принципы денежно-кредитной политики.txt	3	dataset
+faq0568	cbr_faq/ЦБ — Как принимаются решения по ключевой ставке.docx	3	dataset
+faq0339	cbr_faq/ЦБ — Международное сотрудничество.txt	3	dataset
+faq0354	cbr_faq/ЦБ — Стандарты.txt	3	dataset
+faq0396	cbr_faq/ЦБ — Операции денежно-кредитной политики.docx	3	dataset
+faq0397	cbr_faq/ЦБ — Операции в других целях.txt	3	dataset
+faq0409	cbr_faq/ЦБ — Стандарты Банка России.txt	3	dataset
+faq0432	cbr_faq/ЦБ — Организации, с которыми Банк России заключил соглашения (договоры) о распространении.txt	3	dataset
+faq0449	cbr_faq/ЦБ — Департамент финансовой стабильности.txt	3	dataset
+faq0455	cbr_faq/ЦБ — Национальная антициклическая надбавка.docx	3	dataset
+faq0457	cbr_faq/ЦБ — Памятные и инвестиционные монеты Банка России.txt	3	dataset
+faq0458	cbr_faq/ЦБ — Надбавки к коэффициентам риска.txt	3	dataset
+faq0465	cbr_faq/ЦБ — Наблюдение за системно значимыми инфраструктурными организациями и центральными контр.docx	3	dataset
+faq0466	cbr_faq/ЦБ — Модернизация банкнот.docx	3	dataset
+faq0480	cbr_faq/ЦБ — Организация выпуска в обращение и распространение монет Банка России из драгоценных и.docx	3	dataset
+faq0481	cbr_faq/ЦБ — Специальные краски, предназначенные для предотвращения хищения банкнот Банка России п.docx	3	dataset
+faq0484	cbr_faq/ЦБ — Финансовая доступность.docx	3	dataset
+faq0486	cbr_faq/ЦБ — Устойчивое развитие.docx	3	dataset
+faq0507	cbr_faq/ЦБ — Цифровой рубль.txt	3	dataset
+faq0551	cbr_faq/ЦБ — Финансовая грамотность.txt	3	dataset
+faq0566	cbr_faq/ЦБ — Как Банк России влияет на инфляцию.txt	3	dataset
+faq0578	cbr_faq/ЦБ — Обзор денежно-кредитной политики Банка России.docx	3	dataset
+faq0131	cbr_faq/ЦБ — Вопросы и ответы (3).docx	3	dataset
+faq0361	cbr_faq/ЦБ — Глоссарий.txt	3	dataset
+faq0305	cbr_faq/ЦБ — Вопросы и ответы (5).docx	3	dataset
+faq0023	cbr_faq/ЦБ — Вопросы и ответы.docx	3	dataset
+faq0586	cbr_faq/ЦБ — Глоссарий.docx	3	dataset
+faq0167	cbr_faq/ЦБ — Вопросы и ответы (6).docx	3	dataset
+faq0216	cbr_faq/ЦБ — Вопросы и ответы по функционированию системы накопления кредитных историй, бюро креди.txt	3	dataset
+faq0091	cbr_faq/ЦБ — Противодействие недобросовестным практикам.txt	3	dataset
+faq0193	cbr_faq/ЦБ — Наличное денежное обращение.docx	3	dataset
+faq0437	cbr_faq/ЦБ — Памятка для работы с памятными и инвестиционными монетами.docx	3	dataset
+faq0287	cbr_faq/ЦБ — Информационная безопасность.docx	3	dataset
+faq0009	cbr_faq/ЦБ — Микрофинансирование.txt	3	dataset
+faq0407	cbr_faq/ЦБ — Недобросовестные практики поведения.txt	3	dataset
+faq0492	cbr_faq/ЦБ — Поддержка малого и среднего предпринимательства.txt	3	dataset
+faq0039	cbr_faq/ЦБ — Вопросы и ответы.txt	3	dataset
+faq0340	cbr_faq/ЦБ — Совет директоров Банка России.docx	3	dataset
+faq0547	cbr_faq/ЦБ — Виды недобросовестного поведения участников финансового рынка.docx	3	dataset
+faq0558	cbr_faq/ЦБ — Что такое инфляция.txt	3	dataset
+faq0172	cbr_faq/ЦБ — Цифровые финансовые активы.txt	3	dataset
+faq0224	cbr_faq/ЦБ — Вопросы и ответы (2).docx	3	dataset
+faq0274	cbr_faq/ЦБ — Платформа «Знай своего клиента».docx	3	dataset
+faq0454	cbr_faq/ЦБ — Антикризисная политика.docx	3	dataset
+faq0469	cbr_faq/ЦБ — Инструменты макропруденциальной политики.txt	3	dataset
+faq0524	cbr_faq/ЦБ — Удаленная идентификация.docx	3	dataset
+faq0565	cbr_faq/ЦБ — Режим валютного курса Банка России.docx	3	dataset
+faq0577	cbr_faq/ЦБ — Прогнозирование и модельный аппарат.txt	3	dataset
+faq0169	cbr_faq/ЦБ — Банкротство и аннулирование лицензии брокера.docx	3	dataset
+faq0179	cbr_faq/ЦБ — Финансовые платформы и их операторы.txt	3	dataset
+faq0570	cbr_faq/ЦБ — Как мы рассказываем о своих решениях.txt	3	dataset
+faq0277	cbr_faq/ЦБ — Вопросы и ответы (4).docx	3	dataset
+faq0347	cbr_faq/ЦБ — Национальный финансовый совет.txt	3	dataset
+faq0413	cbr_faq/ЦБ — Противодействие мошенническим практикам.docx	3	dataset
+faq0460	cbr_faq/ЦБ — Макропруденциальное стресс-тестирование.txt	3	dataset
+faq0609	cbr_faq/ЦБ — Мониторинг предприятий.docx	3	dataset
+faq0351	cbr_faq/ЦБ — Правовой статус и функции.docx	3	dataset
+faq0353	cbr_faq/ЦБ — Стандарты (2).txt	3	dataset
+faq0410	cbr_faq/ЦБ — ФинЦЕРТ.docx	3	dataset
+faq0483	cbr_faq/ЦБ — Мобильное приложение «Банкноты Банка России».txt	3	dataset
+faq0506	cbr_faq/ЦБ — Система быстрых платежей.txt	3	dataset
+faq0530	cbr_faq/ЦБ — Маркетплейс.txt	3	dataset
+faq0543	cbr_faq/ЦБ — Поведенческий надзор практики и рекомендации.docx	3	dataset
+faq0553	cbr_faq/ЦБ — Цели и принципы денежно-кредитной политики.txt	3	dataset
+faq0567	cbr_faq/ЦБ — Как принимаются решения по ключевой ставке.docx	3	dataset
+faq0132	cbr_faq/ЦБ — Вопросы и ответы (3).docx	3	dataset
+faq0383	cbr_faq/ЦБ — Глоссарий.txt	3	dataset
+faq0302	cbr_faq/ЦБ — Вопросы и ответы (5).docx	3	dataset
+faq0019	cbr_faq/ЦБ — Вопросы и ответы.docx	3	dataset
+faq0599	cbr_faq/ЦБ — Глоссарий.docx	3	dataset
+faq0163	cbr_faq/ЦБ — Вопросы и ответы (6).docx	3	dataset
+faq0223	cbr_faq/ЦБ — Вопросы и ответы по функционированию системы накопления кредитных историй, бюро креди.txt	3	dataset
+faq0082	cbr_faq/ЦБ — Противодействие недобросовестным практикам.txt	3	dataset
+faq0198	cbr_faq/ЦБ — Наличное денежное обращение.docx	3	dataset
+faq0446	cbr_faq/ЦБ — Памятка для работы с памятными и инвестиционными монетами.docx	3	dataset
+faq0286	cbr_faq/ЦБ — Информационная безопасность.docx	3	dataset
+faq0006	cbr_faq/ЦБ — Микрофинансирование.txt	3	dataset
+faq0401	cbr_faq/ЦБ — Недобросовестные практики поведения.txt	3	dataset
+faq0499	cbr_faq/ЦБ — Поддержка малого и среднего предпринимательства.txt	3	dataset
+faq0062	cbr_faq/ЦБ — Вопросы и ответы.txt	3	dataset
+faq0344	cbr_faq/ЦБ — Совет директоров Банка России.docx	3	dataset
+faq0545	cbr_faq/ЦБ — Виды недобросовестного поведения участников финансового рынка.docx	3	dataset
+faq0556	cbr_faq/ЦБ — Что такое инфляция.txt	3	dataset
+faq0175	cbr_faq/ЦБ — Цифровые финансовые активы.txt	3	dataset
+faq0228	cbr_faq/ЦБ — Вопросы и ответы (2).docx	3	dataset
+faq0272	cbr_faq/ЦБ — Платформа «Знай своего клиента».docx	3	dataset
+faq0450	cbr_faq/ЦБ — Антикризисная политика.docx	3	dataset
+faq0468	cbr_faq/ЦБ — Инструменты макропруденциальной политики.txt	3	dataset
+faq0527	cbr_faq/ЦБ — Удаленная идентификация.docx	3	dataset
+faq0561	cbr_faq/ЦБ — Режим валютного курса Банка России.docx	3	dataset
+faq0573	cbr_faq/ЦБ — Прогнозирование и модельный аппарат.txt	3	dataset
+faq0171	cbr_faq/ЦБ — Банкротство и аннулирование лицензии брокера.docx	3	dataset
+faq0180	cbr_faq/ЦБ — Финансовые платформы и их операторы.txt	3	dataset
+faq0569	cbr_faq/ЦБ — Как мы рассказываем о своих решениях.txt	3	dataset
+faq0278	cbr_faq/ЦБ — Вопросы и ответы (4).docx	3	dataset
+faq0348	cbr_faq/ЦБ — Национальный финансовый совет.txt	3	dataset
+faq0412	cbr_faq/ЦБ — Противодействие мошенническим практикам.docx	3	dataset
+faq0462	cbr_faq/ЦБ — Макропруденциальное стресс-тестирование.txt	3	dataset
+faq0610	cbr_faq/ЦБ — Мониторинг предприятий.docx	3	dataset
+faq0130	cbr_faq/ЦБ — Вопросы и ответы (3).docx	3	dataset
+faq0394	cbr_faq/ЦБ — Глоссарий.txt	3	dataset
+faq0306	cbr_faq/ЦБ — Вопросы и ответы (5).docx	3	dataset
+faq0025	cbr_faq/ЦБ — Вопросы и ответы.docx	3	dataset
+faq0588	cbr_faq/ЦБ — Глоссарий.docx	3	dataset
+faq0160	cbr_faq/ЦБ — Вопросы и ответы (6).docx	3	dataset
+faq0207	cbr_faq/ЦБ — Вопросы и ответы по функционированию системы накопления кредитных историй, бюро креди.txt	3	dataset
+faq0099	cbr_faq/ЦБ — Противодействие недобросовестным практикам.txt	3	dataset
+faq0188	cbr_faq/ЦБ — Наличное денежное обращение.docx	3	dataset
+faq0435	cbr_faq/ЦБ — Памятка для работы с памятными и инвестиционными монетами.docx	3	dataset
+zx0001	zx_bank/ZX Bank Ltd. — награды и признание.pdf	3	dataset
+zx0002	zx_bank/ZX Bank Ltd. — награды и признание.pdf	3	dataset
+zx0003	zx_bank/ZX Bank Ltd. — награды и признание.pdf	3	dataset
+zx0004	zx_bank/ZX Bank Ltd. — награды и признание.pdf	3	dataset
+zx0005	zx_bank/ZX Bank Ltd. — награды и признание.pdf	3	dataset
+zx0006	zx_bank/ZX Bank — кредиты для бизнеса.pptx	3	dataset
+zx0007	zx_bank/ZX Bank — кредиты для бизнеса.pptx	3	dataset
+zx0008	zx_bank/ZX Bank — кредиты для бизнеса.pptx	3	dataset
+zx0009	zx_bank/ZX Bank — кредиты для бизнеса.pptx	3	dataset
+zx0010	zx_bank/Как оформить чековую книжку в ZX Bank.docx	3	dataset
+zx0011	zx_bank/Как оформить чековую книжку в ZX Bank.docx	3	dataset
+zx0012	zx_bank/Как оформить чековую книжку в ZX Bank.docx	3	dataset
+zx0013	zx_bank/Как оформить чековую книжку в ZX Bank.docx	3	dataset
+zx0014	zx_bank/Как оформить чековую книжку в ZX Bank.docx	3	dataset
+zx0015	zx_bank/UPI (Unified Payments Interface) — ZX Bank Asia.docx	3	dataset
+zx0016	zx_bank/UPI (Unified Payments Interface) — ZX Bank Asia.docx	3	dataset
+zx0017	zx_bank/UPI (Unified Payments Interface) — ZX Bank Asia.docx	3	dataset
+zx0018	zx_bank/UPI (Unified Payments Interface) — ZX Bank Asia.docx	3	dataset
+zx0019	zx_bank/ZX Bank — обзор сети отделений в Агре.docx	3	dataset
+zx0020	zx_bank/ZX Bank — обзор сети отделений в Агре.docx	3	dataset
+zx0021	zx_bank/ZX Bank — обзор сети отделений в Агре.docx	3	dataset
+zx0022	zx_bank/ZX Bank — обзор сети отделений в Агре.docx	3	dataset
+zx0023	zx_bank/ZX Bank Ltd. — сеть отделений в Бангалоре.pptx	3	dataset
+zx0024	zx_bank/ZX Bank Ltd. — сеть отделений в Бангалоре.pptx	3	dataset
+zx0025	zx_bank/ZX Bank Ltd. — сеть отделений в Бангалоре.pptx	3	dataset
+zx0026	zx_bank/ZX Bank Ltd. — сеть отделений в Бангалоре.pptx	3	dataset
+zx0027	zx_bank/ZX Bank Ltd. — сеть отделений в Бангалоре.pptx	3	dataset
+zx0028	zx_bank/ZX Bank Ltd. — сеть отделений в Шри-Ланке.pdf	3	dataset
+zx0029	zx_bank/ZX Bank Ltd. — сеть отделений в Шри-Ланке.pdf	3	dataset
+zx0030	zx_bank/ZX Bank Ltd. — сеть отделений в Шри-Ланке.pdf	3	dataset
+zx0031	zx_bank/ZX Bank Ltd. — сеть отделений в Шри-Ланке.pdf	3	dataset
+zx0032	zx_bank/ZX Bank Ltd. — сеть отделений в Шри-Ланке.pdf	3	dataset
+zx0033	zx_bank/Как перевести сберегательный счёт ZX Bank в зарплатный счёт.docx	3	dataset
+zx0034	zx_bank/Как перевести сберегательный счёт ZX Bank в зарплатный счёт.docx	3	dataset
+zx0035	zx_bank/Как перевести сберегательный счёт ZX Bank в зарплатный счёт.docx	3	dataset
+zx0036	zx_bank/Как перевести сберегательный счёт ZX Bank в зарплатный счёт.docx	3	dataset
+zx0037	zx_bank/Как перевести зарплатный счёт в сберегательный счёт в ZX Bank.docx	3	dataset
+zx0038	zx_bank/Как перевести зарплатный счёт в сберегательный счёт в ZX Bank.docx	3	dataset
+zx0039	zx_bank/Как перевести зарплатный счёт в сберегательный счёт в ZX Bank.docx	3	dataset
+zx0040	zx_bank/Как перевести зарплатный счёт в сберегательный счёт в ZX Bank.docx	3	dataset
+zx0041	zx_bank/Как перевести зарплатный счёт в сберегательный счёт в ZX Bank.docx	3	dataset
+zx0042	zx_bank/Как сообщить о мошеннической операции в ZX Bank.docx	3	dataset
+zx0043	zx_bank/Как сообщить о мошеннической операции в ZX Bank.docx	3	dataset
+zx0044	zx_bank/Как сообщить о мошеннической операции в ZX Bank.docx	3	dataset
+zx0045	zx_bank/Как сообщить о мошеннической операции в ZX Bank.docx	3	dataset
+zx0046	zx_bank/Как сообщить о мошеннической операции в ZX Bank.docx	3	dataset
+zx0047	zx_bank/ZX Bank — функции безопасности для защиты от онлайн-угроз.pdf	3	dataset
+zx0048	zx_bank/ZX Bank — функции безопасности для защиты от онлайн-угроз.pdf	3	dataset
+zx0049	zx_bank/ZX Bank — функции безопасности для защиты от онлайн-угроз.pdf	3	dataset
+zx0050	zx_bank/ZX Bank — функции безопасности для защиты от онлайн-угроз.pdf	3	dataset
+zx0051	zx_bank/ZX Bank — функции безопасности для защиты от онлайн-угроз.pdf	3	dataset
+zx0052	zx_bank/ZX Bank — программа «Персональный менеджер» (PRM Assistant).pptx	3	dataset
+zx0053	zx_bank/ZX Bank — программа «Персональный менеджер» (PRM Assistant).pptx	3	dataset
+zx0054	zx_bank/ZX Bank — программа «Персональный менеджер» (PRM Assistant).pptx	3	dataset
+zx0055	zx_bank/ZX Bank — программа «Персональный менеджер» (PRM Assistant).pptx	3	dataset
+zx0056	zx_bank/ZX Bank — программа «Персональный менеджер» (PRM Assistant).pptx	3	dataset
+zx0057	zx_bank/Сельскохозяйственный кредит ZX Bank.pdf	3	dataset
+zx0058	zx_bank/Сельскохозяйственный кредит ZX Bank.pdf	3	dataset
+zx0059	zx_bank/Сельскохозяйственный кредит ZX Bank.pdf	3	dataset
+zx0060	zx_bank/Сельскохозяйственный кредит ZX Bank.pdf	3	dataset
+zx0061	zx_bank/ZX Bank — банкоматы в Бангладеш.docx	3	dataset
+zx0062	zx_bank/ZX Bank — банкоматы в Бангладеш.docx	3	dataset
+zx0063	zx_bank/ZX Bank — банкоматы в Бангладеш.docx	3	dataset
+zx0064	zx_bank/ZX Bank — банкоматы в Бангладеш.docx	3	dataset
+zx0065	zx_bank/ZX Bank — банкоматы в Бангладеш.docx	3	dataset
+zx0066	zx_bank/Расположение банкоматов ZX Bank в крупных больницах.pptx	3	dataset
+zx0067	zx_bank/Расположение банкоматов ZX Bank в крупных больницах.pptx	3	dataset
+zx0068	zx_bank/Расположение банкоматов ZX Bank в крупных больницах.pptx	3	dataset
+zx0069	zx_bank/Расположение банкоматов ZX Bank в крупных больницах.pptx	3	dataset
+zx0070	zx_bank/Медицинское страхование.pdf	3	dataset
+zx0071	zx_bank/Медицинское страхование.pdf	3	dataset
+zx0072	zx_bank/Медицинское страхование.pdf	3	dataset
+zx0073	zx_bank/Медицинское страхование.pdf	3	dataset
+zx0074	zx_bank/Медицинское страхование.pdf	3	dataset
+zx0075	zx_bank/ZX Bank — список банкоматов на Бич-роуд (крупные города Индии).pdf	3	dataset
+zx0076	zx_bank/ZX Bank — список банкоматов на Бич-роуд (крупные города Индии).pdf	3	dataset
+zx0077	zx_bank/ZX Bank — список банкоматов на Бич-роуд (крупные города Индии).pdf	3	dataset
+zx0078	zx_bank/ZX Bank — список банкоматов на Бич-роуд (крупные города Индии).pdf	3	dataset
+zx0079	zx_bank/ZX Bank — список банкоматов на Бич-роуд (крупные города Индии).pdf	3	dataset
+zx0080	zx_bank/ZX Bank Ltd. — сеть отделений в Ахмадабаде.pptx	3	dataset
+zx0081	zx_bank/ZX Bank Ltd. — сеть отделений в Ахмадабаде.pptx	3	dataset
+zx0082	zx_bank/ZX Bank Ltd. — сеть отделений в Ахмадабаде.pptx	3	dataset
+zx0083	zx_bank/ZX Bank Ltd. — сеть отделений в Ахмадабаде.pptx	3	dataset
+zx0084	zx_bank/ZX Bank Ltd. — сеть отделений в Коимбатуре.docx	3	dataset
+zx0085	zx_bank/ZX Bank Ltd. — сеть отделений в Коимбатуре.docx	3	dataset
+zx0086	zx_bank/ZX Bank Ltd. — сеть отделений в Коимбатуре.docx	3	dataset
+zx0087	zx_bank/ZX Bank Ltd. — сеть отделений в Коимбатуре.docx	3	dataset
+zx0088	zx_bank/ZX Bank Ltd. — сеть отделений в Коимбатуре.docx	3	dataset
+zx0089	zx_bank/ZX Bank Ltd. — сеть отделений в Джайпуре.docx	3	dataset
+zx0090	zx_bank/ZX Bank Ltd. — сеть отделений в Джайпуре.docx	3	dataset
+zx0091	zx_bank/ZX Bank Ltd. — сеть отделений в Джайпуре.docx	3	dataset
+zx0092	zx_bank/ZX Bank Ltd. — сеть отделений в Джайпуре.docx	3	dataset
+zx0093	zx_bank/ZX Bank Ltd. — информация о потребительском кредите.pdf	3	dataset
+zx0094	zx_bank/ZX Bank Ltd. — информация о потребительском кредите.pdf	3	dataset
+zx0095	zx_bank/ZX Bank Ltd. — информация о потребительском кредите.pdf	3	dataset
+zx0096	zx_bank/ZX Bank Ltd. — информация о потребительском кредите.pdf	3	dataset
+zx0097	zx_bank/ZX Bank Ltd. — информация о потребительском кредите.pdf	3	dataset
+zx0098	zx_bank/ZX Bank Ltd. — сеть отделений в Вишакхапатнаме.docx	3	dataset
+zx0099	zx_bank/ZX Bank Ltd. — сеть отделений в Вишакхапатнаме.docx	3	dataset
+zx0100	zx_bank/ZX Bank Ltd. — сеть отделений в Вишакхапатнаме.docx	3	dataset
+zx0101	zx_bank/ZX Bank Ltd. — сеть отделений в Вишакхапатнаме.docx	3	dataset
+zx0102	zx_bank/Сеть отделений ZX Bank в Бангладеш.pdf	3	dataset
+zx0103	zx_bank/Сеть отделений ZX Bank в Бангладеш.pdf	3	dataset
+zx0104	zx_bank/Сеть отделений ZX Bank в Бангладеш.pdf	3	dataset
+zx0105	zx_bank/Сеть отделений ZX Bank в Бангладеш.pdf	3	dataset
+zx0106	zx_bank/Как открыть банковскую ячейку в отделении ZX Bank.docx	3	dataset
+zx0107	zx_bank/Как открыть банковскую ячейку в отделении ZX Bank.docx	3	dataset
+zx0108	zx_bank/Как открыть банковскую ячейку в отделении ZX Bank.docx	3	dataset
+zx0109	zx_bank/Как открыть банковскую ячейку в отделении ZX Bank.docx	3	dataset
+zx0110	zx_bank/Банкоматы ZX Bank на крупных автостанциях (Индия).pptx	3	dataset
+zx0111	zx_bank/Банкоматы ZX Bank на крупных автостанциях (Индия).pptx	3	dataset
+zx0112	zx_bank/Банкоматы ZX Bank на крупных автостанциях (Индия).pptx	3	dataset
+zx0113	zx_bank/Банкоматы ZX Bank на крупных автостанциях (Индия).pptx	3	dataset
+zx0114	zx_bank/Банкоматы ZX Bank на крупных автостанциях (Индия).pptx	3	dataset
+zx0115	zx_bank/ZX Bank Ltd. — обзор сберегательного счёта.pptx	3	dataset
+zx0116	zx_bank/ZX Bank Ltd. — обзор сберегательного счёта.pptx	3	dataset
+zx0117	zx_bank/ZX Bank Ltd. — обзор сберегательного счёта.pptx	3	dataset
+zx0118	zx_bank/ZX Bank Ltd. — обзор сберегательного счёта.pptx	3	dataset
+zx0119	zx_bank/Правила безопасности для защиты от онлайн-угроз.pptx	3	dataset
+zx0120	zx_bank/Правила безопасности для защиты от онлайн-угроз.pptx	3	dataset
+zx0121	zx_bank/Правила безопасности для защиты от онлайн-угроз.pptx	3	dataset
+zx0122	zx_bank/Правила безопасности для защиты от онлайн-угроз.pptx	3	dataset
+zx0123	zx_bank/Банкоматы ZX Bank в Бутане.pptx	3	dataset
+zx0124	zx_bank/Банкоматы ZX Bank в Бутане.pptx	3	dataset
+zx0125	zx_bank/Банкоматы ZX Bank в Бутане.pptx	3	dataset
+zx0126	zx_bank/Банкоматы ZX Bank в Бутане.pptx	3	dataset
+zx0127	zx_bank/Банкоматы ZX Bank в крупных колледжах и университетах (по городам).docx	3	dataset
+zx0128	zx_bank/Банкоматы ZX Bank в крупных колледжах и университетах (по городам).docx	3	dataset
+zx0129	zx_bank/Банкоматы ZX Bank в крупных колледжах и университетах (по городам).docx	3	dataset
+zx0130	zx_bank/Банкоматы ZX Bank в крупных колледжах и университетах (по городам).docx	3	dataset
+zx0131	zx_bank/Банкоматы ZX Bank в крупных колледжах и университетах (по городам).docx	3	dataset
+zx0132	zx_bank/ZX Bank Ltd. — справочник сети отделений в Пуне.docx	3	dataset
+zx0133	zx_bank/ZX Bank Ltd. — справочник сети отделений в Пуне.docx	3	dataset
+zx0134	zx_bank/ZX Bank Ltd. — справочник сети отделений в Пуне.docx	3	dataset
+zx0135	zx_bank/ZX Bank Ltd. — справочник сети отделений в Пуне.docx	3	dataset
+zx0136	zx_bank/ZX Bank Ltd. — справочник сети отделений в Пуне.docx	3	dataset
+zx0137	zx_bank/Сеть отделений ZX Bank в Индауре.docx	3	dataset
+zx0138	zx_bank/Сеть отделений ZX Bank в Индауре.docx	3	dataset
+zx0139	zx_bank/Сеть отделений ZX Bank в Индауре.docx	3	dataset
+zx0140	zx_bank/Сеть отделений ZX Bank в Индауре.docx	3	dataset
+zx0141	zx_bank/Быстрые трансграничные платежи с ZX Bank.pdf	3	dataset
+zx0142	zx_bank/Быстрые трансграничные платежи с ZX Bank.pdf	3	dataset
+zx0143	zx_bank/Быстрые трансграничные платежи с ZX Bank.pdf	3	dataset
+zx0144	zx_bank/Быстрые трансграничные платежи с ZX Bank.pdf	3	dataset
+zx0145	zx_bank/ZX Bank Ltd. — информация о потребительском кредите.pdf	3	dataset
+zx0146	zx_bank/ZX Bank Ltd. — информация о потребительском кредите.pdf	3	dataset
+zx0147	zx_bank/ZX Bank Ltd. — информация о потребительском кредите.pdf	3	dataset
+zx0148	zx_bank/ZX Bank Ltd. — информация о потребительском кредите.pdf	3	dataset
+zx0149	zx_bank/ZX Bank Ltd. — информация о потребительском кредите.pdf	3	dataset
+zx0150	zx_bank/Сеть отделений ZX Bank в Сурате.pptx	3	dataset
+zx0151	zx_bank/Сеть отделений ZX Bank в Сурате.pptx	3	dataset
+zx0152	zx_bank/Сеть отделений ZX Bank в Сурате.pptx	3	dataset
+zx0153	zx_bank/Сеть отделений ZX Bank в Сурате.pptx	3	dataset
+zx0154	zx_bank/Сеть отделений ZX Bank в Сурате.pptx	3	dataset
+zx0155	zx_bank/ZX Bank — расположение банкоматов в крупных кинотеатрах (2024).docx	3	dataset
+zx0156	zx_bank/ZX Bank — расположение банкоматов в крупных кинотеатрах (2024).docx	3	dataset
+zx0157	zx_bank/ZX Bank — расположение банкоматов в крупных кинотеатрах (2024).docx	3	dataset
+zx0158	zx_bank/ZX Bank — расположение банкоматов в крупных кинотеатрах (2024).docx	3	dataset
+zx0159	zx_bank/ZX Bank — расположение банкоматов в крупных кинотеатрах (2024).docx	3	dataset
+zx0160	zx_bank/Отделения ZX Bank в Колкате.pptx	3	dataset
+zx0161	zx_bank/Отделения ZX Bank в Колкате.pptx	3	dataset
+zx0162	zx_bank/Отделения ZX Bank в Колкате.pptx	3	dataset
+zx0163	zx_bank/Отделения ZX Bank в Колкате.pptx	3	dataset
+zx0164	zx_bank/Отделения ZX Bank в Колкате.pptx	3	dataset
+zx0165	zx_bank/ASK Zia — ваш банковский помощник 24 7.pdf	3	dataset
+zx0166	zx_bank/ASK Zia — ваш банковский помощник 24 7.pdf	3	dataset
+zx0167	zx_bank/ASK Zia — ваш банковский помощник 24 7.pdf	3	dataset
+zx0168	zx_bank/ASK Zia — ваш банковский помощник 24 7.pdf	3	dataset
+zx0169	zx_bank/ASK Zia — ваш банковский помощник 24 7.pdf	3	dataset
+zx0170	zx_bank/Отделения ZX Bank в Патне — справочник по районам.docx	3	dataset
+zx0171	zx_bank/Отделения ZX Bank в Патне — справочник по районам.docx	3	dataset
+zx0172	zx_bank/Отделения ZX Bank в Патне — справочник по районам.docx	3	dataset
+zx0173	zx_bank/Отделения ZX Bank в Патне — справочник по районам.docx	3	dataset
+zx0174	zx_bank/ZX Bank Ltd. — сеть отделений в Дели.pptx	3	dataset
+zx0175	zx_bank/ZX Bank Ltd. — сеть отделений в Дели.pptx	3	dataset
+zx0176	zx_bank/ZX Bank Ltd. — сеть отделений в Дели.pptx	3	dataset
+zx0177	zx_bank/ZX Bank Ltd. — сеть отделений в Дели.pptx	3	dataset
+zx0178	zx_bank/Сеть отделений ZX Bank в Непале.pdf	3	dataset
+zx0179	zx_bank/Сеть отделений ZX Bank в Непале.pdf	3	dataset
+zx0180	zx_bank/Сеть отделений ZX Bank в Непале.pdf	3	dataset
+zx0181	zx_bank/Сеть отделений ZX Bank в Непале.pdf	3	dataset
+zx0182	zx_bank/Как закрыть кредитную карту ZX Bank.docx	3	dataset
+zx0183	zx_bank/Как закрыть кредитную карту ZX Bank.docx	3	dataset
+zx0184	zx_bank/Как закрыть кредитную карту ZX Bank.docx	3	dataset
+zx0185	zx_bank/Как закрыть кредитную карту ZX Bank.docx	3	dataset
+zx0186	zx_bank/Как закрыть кредитную карту ZX Bank.docx	3	dataset
+zx0187	zx_bank/Варианты кредитных карт ZX Bank.pdf	3	dataset
+zx0188	zx_bank/Варианты кредитных карт ZX Bank.pdf	3	dataset
+zx0189	zx_bank/Варианты кредитных карт ZX Bank.pdf	3	dataset
+zx0190	zx_bank/Варианты кредитных карт ZX Bank.pdf	3	dataset
+zx0191	zx_bank/Адреса банкоматов ZX Bank в крупных торговых центрах.pptx	3	dataset
+zx0192	zx_bank/Адреса банкоматов ZX Bank в крупных торговых центрах.pptx	3	dataset
+zx0193	zx_bank/Адреса банкоматов ZX Bank в крупных торговых центрах.pptx	3	dataset
+zx0194	zx_bank/Адреса банкоматов ZX Bank в крупных торговых центрах.pptx	3	dataset
+zx0195	zx_bank/ZX Bank Ltd. — обзор сети отделений в Канпуре.pdf	3	dataset
+zx0196	zx_bank/ZX Bank Ltd. — обзор сети отделений в Канпуре.pdf	3	dataset
+zx0197	zx_bank/ZX Bank Ltd. — обзор сети отделений в Канпуре.pdf	3	dataset
+zx0198	zx_bank/ZX Bank Ltd. — обзор сети отделений в Канпуре.pdf	3	dataset
+zx0199	zx_bank/ZX Bank Ltd. — обзор сети отделений в Канпуре.pdf	3	dataset
+zx0200	zx_bank/Кредит под залог золота ZX Bank.docx	3	dataset
+zx0201	zx_bank/Кредит под залог золота ZX Bank.docx	3	dataset
+zx0202	zx_bank/Кредит под залог золота ZX Bank.docx	3	dataset
+zx0203	zx_bank/Кредит под залог золота ZX Bank.docx	3	dataset
+zx0204	zx_bank/Сеть отделений ZX Bank в Ченнаи.pptx	3	dataset
+zx0205	zx_bank/Сеть отделений ZX Bank в Ченнаи.pptx	3	dataset
+zx0206	zx_bank/Сеть отделений ZX Bank в Ченнаи.pptx	3	dataset
+zx0207	zx_bank/Сеть отделений ZX Bank в Ченнаи.pptx	3	dataset
+zx0208	zx_bank/ZX Bank Ltd. — обзор расчётного счёта.pptx	3	dataset
+zx0209	zx_bank/ZX Bank Ltd. — обзор расчётного счёта.pptx	3	dataset
+zx0210	zx_bank/ZX Bank Ltd. — обзор расчётного счёта.pptx	3	dataset
+zx0211	zx_bank/ZX Bank Ltd. — обзор расчётного счёта.pptx	3	dataset
+zx0212	zx_bank/ZX Bank Ltd. — обзор расчётного счёта.pptx	3	dataset
+zx0213	zx_bank/Сеть отделений ZX Bank в Мумбаи.pptx	3	dataset
+zx0214	zx_bank/Сеть отделений ZX Bank в Мумбаи.pptx	3	dataset
+zx0215	zx_bank/Сеть отделений ZX Bank в Мумбаи.pptx	3	dataset
+zx0216	zx_bank/Сеть отделений ZX Bank в Мумбаи.pptx	3	dataset
+zx0217	zx_bank/Сеть отделений ZX Bank в Мумбаи.pptx	3	dataset
+zx0218	zx_bank/Банкоматы ZX Bank на крупных железнодорожных вокзалах и в аэропортах.pdf	3	dataset
+zx0219	zx_bank/Банкоматы ZX Bank на крупных железнодорожных вокзалах и в аэропортах.pdf	3	dataset
+zx0220	zx_bank/Банкоматы ZX Bank на крупных железнодорожных вокзалах и в аэропортах.pdf	3	dataset
+zx0221	zx_bank/Банкоматы ZX Bank на крупных железнодорожных вокзалах и в аэропортах.pdf	3	dataset
+zx0222	zx_bank/ZX Bank банкоматы в Непале.docx	3	dataset
+zx0223	zx_bank/ZX Bank банкоматы в Непале.docx	3	dataset
+zx0224	zx_bank/ZX Bank банкоматы в Непале.docx	3	dataset
+zx0225	zx_bank/ZX Bank банкоматы в Непале.docx	3	dataset
+zx0226	zx_bank/Сеть банкоматов ZX Bank в крупных парках — Индия.pdf	3	dataset
+zx0227	zx_bank/Сеть банкоматов ZX Bank в крупных парках — Индия.pdf	3	dataset
+zx0228	zx_bank/Сеть банкоматов ZX Bank в крупных парках — Индия.pdf	3	dataset
+zx0229	zx_bank/Сеть банкоматов ZX Bank в крупных парках — Индия.pdf	3	dataset
+zx0230	zx_bank/ZX Bank — руководство по интернет-банку.pdf	3	dataset
+zx0231	zx_bank/ZX Bank — руководство по интернет-банку.pdf	3	dataset
+zx0232	zx_bank/ZX Bank — руководство по интернет-банку.pdf	3	dataset
+zx0233	zx_bank/ZX Bank — руководство по интернет-банку.pdf	3	dataset
+zx0234	zx_bank/ZX Bank — руководство по интернет-банку.pdf	3	dataset
+zx0235	zx_bank/ZX Bank Ltd. — зарплатный сберегательный счёт.pdf	3	dataset
+zx0236	zx_bank/ZX Bank Ltd. — зарплатный сберегательный счёт.pdf	3	dataset
+zx0237	zx_bank/ZX Bank Ltd. — зарплатный сберегательный счёт.pdf	3	dataset
+zx0238	zx_bank/ZX Bank Ltd. — зарплатный сберегательный счёт.pdf	3	dataset
+zx0239	zx_bank/Отделения ZX Bank в Нагпуре.docx	3	dataset
+zx0240	zx_bank/Отделения ZX Bank в Нагпуре.docx	3	dataset
+zx0241	zx_bank/Отделения ZX Bank в Нагпуре.docx	3	dataset
+zx0242	zx_bank/Отделения ZX Bank в Нагпуре.docx	3	dataset
+zx0243	zx_bank/ZX Bank — банкоматы в технопарках крупных городов Индии.docx	3	dataset
+zx0244	zx_bank/ZX Bank — банкоматы в технопарках крупных городов Индии.docx	3	dataset
+zx0245	zx_bank/ZX Bank — банкоматы в технопарках крупных городов Индии.docx	3	dataset
+zx0246	zx_bank/ZX Bank — банкоматы в технопарках крупных городов Индии.docx	3	dataset
+zx0247	zx_bank/ZX Bank — банкоматы в технопарках крупных городов Индии.docx	3	dataset
+zx0248	zx_bank/ZX Bank — банкоматы в Шри-Ланке.pdf	3	dataset
+zx0249	zx_bank/ZX Bank — банкоматы в Шри-Ланке.pdf	3	dataset
+zx0250	zx_bank/ZX Bank — банкоматы в Шри-Ланке.pdf	3	dataset
+zx0251	zx_bank/ZX Bank — банкоматы в Шри-Ланке.pdf	3	dataset
+zx0252	zx_bank/Ипотечный кредит ZX Bank.pdf	3	dataset
+zx0253	zx_bank/Ипотечный кредит ZX Bank.pdf	3	dataset
+zx0254	zx_bank/Ипотечный кредит ZX Bank.pdf	3	dataset
+zx0255	zx_bank/Ипотечный кредит ZX Bank.pdf	3	dataset
+zx0256	zx_bank/Ипотечный кредит ZX Bank.pdf	3	dataset
+zx0257	zx_bank/ZX Bank сеть отделений в Хайдарабаде.pptx	3	dataset
+zx0258	zx_bank/ZX Bank сеть отделений в Хайдарабаде.pptx	3	dataset
+zx0259	zx_bank/ZX Bank сеть отделений в Хайдарабаде.pptx	3	dataset
+zx0260	zx_bank/ZX Bank сеть отделений в Хайдарабаде.pptx	3	dataset
+zx0261	zx_bank/ZX Bank сеть отделений в Хайдарабаде.pptx	3	dataset
+zx0262	zx_bank/Сельскохозяйственный кредит ZX Bank.pdf	3	dataset
+zx0263	zx_bank/Сельскохозяйственный кредит ZX Bank.pdf	3	dataset
+zx0264	zx_bank/Сельскохозяйственный кредит ZX Bank.pdf	3	dataset
+zx0265	zx_bank/Сельскохозяйственный кредит ZX Bank.pdf	3	dataset
+zx0266	zx_bank/Сельскохозяйственный кредит ZX Bank.pdf	3	dataset
+zx0267	zx_bank/Адреса банкоматов ZX Bank на крупных АЗС (по городам).pdf	3	dataset
+zx0268	zx_bank/Адреса банкоматов ZX Bank на крупных АЗС (по городам).pdf	3	dataset
+zx0269	zx_bank/Адреса банкоматов ZX Bank на крупных АЗС (по городам).pdf	3	dataset
+zx0270	zx_bank/Адреса банкоматов ZX Bank на крупных АЗС (по городам).pdf	3	dataset
+zx0271	zx_bank/Сеть отделений ZX Bank в Лудхиане.pdf	3	dataset
+zx0272	zx_bank/Сеть отделений ZX Bank в Лудхиане.pdf	3	dataset
+zx0273	zx_bank/Сеть отделений ZX Bank в Лудхиане.pdf	3	dataset
+zx0274	zx_bank/Сеть отделений ZX Bank в Лудхиане.pdf	3	dataset
+zx0275	zx_bank/Сеть отделений ZX Bank в Лудхиане.pdf	3	dataset
+zx0276	zx_bank/Автокредит ZX Bank.pptx	3	dataset
+zx0277	zx_bank/Автокредит ZX Bank.pptx	3	dataset
+zx0278	zx_bank/Автокредит ZX Bank.pptx	3	dataset
+zx0279	zx_bank/Автокредит ZX Bank.pptx	3	dataset
+zx0280	zx_bank/Кредит на покупку мотоцикла ZX Bank.pdf	3	dataset
+zx0281	zx_bank/Кредит на покупку мотоцикла ZX Bank.pdf	3	dataset
+zx0282	zx_bank/Кредит на покупку мотоцикла ZX Bank.pdf	3	dataset
+zx0283	zx_bank/Кредит на покупку мотоцикла ZX Bank.pdf	3	dataset
+zx0284	zx_bank/ZX Bank — сеть отделений в Бутане.pdf	3	dataset
+zx0285	zx_bank/ZX Bank — сеть отделений в Бутане.pdf	3	dataset
+zx0286	zx_bank/ZX Bank — сеть отделений в Бутане.pdf	3	dataset
+zx0287	zx_bank/ZX Bank — сеть отделений в Бутане.pdf	3	dataset
+zx0288	zx_bank/ZX Bank — сеть отделений в Бутане.pdf	3	dataset
+zx0289	zx_bank/ZX Bank банкоматы в известных ресторанах (крупные города Индии).pptx	3	dataset
+zx0290	zx_bank/ZX Bank банкоматы в известных ресторанах (крупные города Индии).pptx	3	dataset
+zx0291	zx_bank/ZX Bank банкоматы в известных ресторанах (крупные города Индии).pptx	3	dataset
+zx0292	zx_bank/ZX Bank банкоматы в известных ресторанах (крупные города Индии).pptx	3	dataset
+zx0293	zx_bank/ZX Bank банкоматы в известных ресторанах (крупные города Индии).pptx	3	dataset
+zx0294	zx_bank/ZX Bank Ltd.pptx	3	dataset
+zx0295	zx_bank/ZX Bank Ltd.pptx	3	dataset
+zx0296	zx_bank/ZX Bank Ltd.pptx	3	dataset
+zx0297	zx_bank/ZX Bank Ltd.pptx	3	dataset
+zx0298	zx_bank/ZX Bank Ltd.pptx	3	dataset
+zx0299	zx_bank/Сеть отделений ZX Bank в Лакхнау.pptx	3	dataset
+zx0300	zx_bank/Сеть отделений ZX Bank в Лакхнау.pptx	3	dataset
+zx0301	zx_bank/Сеть отделений ZX Bank в Лакхнау.pptx	3	dataset
+zx0302	zx_bank/Сеть отделений ZX Bank в Лакхнау.pptx	3	dataset
+zx0303	zx_bank/Руководство по мобильному приложению ZX Bank Asia.docx	3	dataset
+zx0304	zx_bank/Руководство по мобильному приложению ZX Bank Asia.docx	3	dataset
+zx0305	zx_bank/Руководство по мобильному приложению ZX Bank Asia.docx	3	dataset
+zx0306	zx_bank/Руководство по мобильному приложению ZX Bank Asia.docx	3	dataset
+zx0307	zx_bank/Руководство по мобильному приложению ZX Bank Asia.docx	3	dataset
+zx0308	zx_bank/Срочные вклады ZX Bank.pptx	3	dataset
+zx0309	zx_bank/Срочные вклады ZX Bank.pptx	3	dataset
+zx0310	zx_bank/Срочные вклады ZX Bank.pptx	3	dataset
+zx0311	zx_bank/Срочные вклады ZX Bank.pptx	3	dataset
+zx0312	zx_bank/Срочные вклады ZX Bank.pptx	3	dataset
+zx0313	zx_bank/ZX Bank — оплата счетов и автоплатёж.pptx	3	dataset
+zx0314	zx_bank/ZX Bank — оплата счетов и автоплатёж.pptx	3	dataset
+zx0315	zx_bank/ZX Bank — оплата счетов и автоплатёж.pptx	3	dataset
+zx0316	zx_bank/ZX Bank — оплата счетов и автоплатёж.pptx	3	dataset
+zx0317	zx_bank/Сеть отделений ZX Bank в Бхопале.docx	3	dataset
+zx0318	zx_bank/Сеть отделений ZX Bank в Бхопале.docx	3	dataset
+zx0319	zx_bank/Сеть отделений ZX Bank в Бхопале.docx	3	dataset
+zx0320	zx_bank/Сеть отделений ZX Bank в Бхопале.docx	3	dataset
+zx0321	zx_bank/Сеть отделений ZX Bank в Бхопале.docx	3	dataset
+obl0001	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0002	adgm/ADGM AML — ОЦЕНКА РИСКА КЛИЕНТА.txt	3	dataset
+obl0003	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0004	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0005	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0005	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0005	adgm/ADGM AML — СПЕЦИАЛЬНОЕ ДОЛЖНОСТНОЕ ЛИЦО, ОТВЕТСТВЕННОЕ ЗА ПОД ФТ (СДЛ, MLRO).txt	3	dataset
+obl0006	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0007	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0008	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0009	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0010	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0011	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	dataset
+obl0012	adgm/ADGM AML — ОЦЕНКА РИСКА КЛИЕНТА.txt	3	dataset
+obl0013	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0014	adgm/ADGM AML — КОРРЕСПОНДЕНТСКИЕ БАНКОВСКИЕ ОТНОШЕНИЯ, ЭЛЕКТРОННЫЕ ПЕРЕВОДЫ ДЕНЕЖНЫХ СРЕДСТВ,.txt	3	dataset
+obl0015	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0016	adgm/ADGM AML — СПЕЦИАЛЬНОЕ ДОЛЖНОСТНОЕ ЛИЦО, ОТВЕТСТВЕННОЕ ЗА ПОД ФТ (СДЛ, MLRO).txt	3	dataset
+obl0017	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0018	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0018	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0019	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	dataset
+obl0019	adgm/ADGM AML — КОРРЕСПОНДЕНТСКИЕ БАНКОВСКИЕ ОТНОШЕНИЯ, ЭЛЕКТРОННЫЕ ПЕРЕВОДЫ ДЕНЕЖНЫХ СРЕДСТВ,.txt	3	dataset
+obl0019	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0019	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0020	adgm/ADGM AML — КОРРЕСПОНДЕНТСКИЕ БАНКОВСКИЕ ОТНОШЕНИЯ, ЭЛЕКТРОННЫЕ ПЕРЕВОДЫ ДЕНЕЖНЫХ СРЕДСТВ,.txt	3	dataset
+obl0021	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0021	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0022	adgm/ADGM AML — ОБУЧЕНИЕ И ИНФОРМИРОВАНИЕ В СФЕРЕ ПОД ФТ И АФС.txt	3	dataset
+obl0023	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0024	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0025	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0026	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0027	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0028	adgm/ADGM AML — СПЕЦИАЛЬНОЕ ДОЛЖНОСТНОЕ ЛИЦО, ОТВЕТСТВЕННОЕ ЗА ПОД ФТ (СДЛ, MLRO).txt	3	dataset
+obl0029	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0030	adgm/ADGM AML — РЕГИСТРАЦИЯ УНФПП И НАДЗОР ЗА НИМИ.txt	3	dataset
+obl0031	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0032	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0033	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0034	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0035	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0036	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0037	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0038	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0039	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0040	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	dataset
+obl0041	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0042	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0042	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0043	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	dataset
+obl0044	adgm/ADGM AML — ОЦЕНКА РИСКА КЛИЕНТА.txt	3	dataset
+obl0045	adgm/ADGM AML — КОРРЕСПОНДЕНТСКИЕ БАНКОВСКИЕ ОТНОШЕНИЯ, ЭЛЕКТРОННЫЕ ПЕРЕВОДЫ ДЕНЕЖНЫХ СРЕДСТВ,.txt	3	dataset
+obl0046	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0047	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0048	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0049	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0050	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0050	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0051	adgm/ADGM AML — КОРРЕСПОНДЕНТСКИЕ БАНКОВСКИЕ ОТНОШЕНИЯ, ЭЛЕКТРОННЫЕ ПЕРЕВОДЫ ДЕНЕЖНЫХ СРЕДСТВ,.txt	3	dataset
+obl0051	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0052	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0053	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0053	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0053	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0054	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	dataset
+obl0055	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0056	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0057	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0058	adgm/ADGM AML — СПЕЦИАЛЬНОЕ ДОЛЖНОСТНОЕ ЛИЦО, ОТВЕТСТВЕННОЕ ЗА ПОД ФТ (СДЛ, MLRO).txt	3	dataset
+obl0059	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	dataset
+obl0059	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0060	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	dataset
+obl0061	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0062	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0063	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0064	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0065	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0066	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0067	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0068	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0069	adgm/ADGM AML — СПЕЦИАЛЬНОЕ ДОЛЖНОСТНОЕ ЛИЦО, ОТВЕТСТВЕННОЕ ЗА ПОД ФТ (СДЛ, MLRO).txt	3	dataset
+obl0070	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0071	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0072	adgm/ADGM AML — РЕГИСТРАЦИЯ УНФПП И НАДЗОР ЗА НИМИ.txt	3	dataset
+obl0073	adgm/ADGM AML — ОЦЕНКА РИСКА КЛИЕНТА.txt	3	dataset
+obl0074	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0075	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0076	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0077	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	dataset
+obl0078	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0079	adgm/ADGM AML — РЕГИСТРАЦИЯ УНФПП И НАДЗОР ЗА НИМИ.txt	3	dataset
+obl0080	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0081	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0082	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0082	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0083	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0084	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	dataset
+obl0085	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0086	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0087	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0088	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	dataset
+obl0088	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0088	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0089	adgm/ADGM AML — КОРРЕСПОНДЕНТСКИЕ БАНКОВСКИЕ ОТНОШЕНИЯ, ЭЛЕКТРОННЫЕ ПЕРЕВОДЫ ДЕНЕЖНЫХ СРЕДСТВ,.txt	3	dataset
+obl0090	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0090	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0091	adgm/ADGM AML — КОРРЕСПОНДЕНТСКИЕ БАНКОВСКИЕ ОТНОШЕНИЯ, ЭЛЕКТРОННЫЕ ПЕРЕВОДЫ ДЕНЕЖНЫХ СРЕДСТВ,.txt	3	dataset
+obl0092	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0093	adgm/ADGM AML — СПЕЦИАЛЬНОЕ ДОЛЖНОСТНОЕ ЛИЦО, ОТВЕТСТВЕННОЕ ЗА ПОД ФТ (СДЛ, MLRO).txt	3	dataset
+obl0094	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0095	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0095	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0096	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0096	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0097	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0098	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0099	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0100	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	dataset
+obl0101	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0102	adgm/ADGM AML — ОЦЕНКА РИСКА КЛИЕНТА.txt	3	dataset
+obl0102	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0103	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0104	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0105	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0106	adgm/ADGM AML — СПЕЦИАЛЬНОЕ ДОЛЖНОСТНОЕ ЛИЦО, ОТВЕТСТВЕННОЕ ЗА ПОД ФТ (СДЛ, MLRO).txt	3	dataset
+obl0107	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	dataset
+obl0108	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0109	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0110	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0111	adgm/ADGM AML — ОЦЕНКА РИСКА КЛИЕНТА.txt	3	dataset
+obl0112	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0113	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0114	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0115	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0116	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	dataset
+obl0117	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0118	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0119	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0120	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0121	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0122	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0123	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0124	adgm/ADGM AML — ОЦЕНКА РИСКА КЛИЕНТА.txt	3	dataset
+obl0125	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0126	adgm/ADGM AML — КОРРЕСПОНДЕНТСКИЕ БАНКОВСКИЕ ОТНОШЕНИЯ, ЭЛЕКТРОННЫЕ ПЕРЕВОДЫ ДЕНЕЖНЫХ СРЕДСТВ,.txt	3	dataset
+obl0127	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0128	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	dataset
+obl0128	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0129	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0130	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0131	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0132	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0133	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0134	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	dataset
+obl0135	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0136	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0137	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	dataset
+obl0138	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0139	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	dataset
+obl0140	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0141	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0142	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0143	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0144	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0145	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	dataset
+obl0146	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0147	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	dataset
+obl0148	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0149	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0150	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0151	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0152	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0153	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0154	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0155	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0155	adgm/ADGM AML — ОЦЕНКА РИСКА КЛИЕНТА.txt	3	dataset
+obl0156	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0157	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0158	adgm/ADGM AML — ПРИМЕНЕНИЕ РИСК-ОРИЕНТИРОВАННОГО ПОДХОДА В СФЕРЕ ПОД ФТ И АФС.txt	3	dataset
+obl0159	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0160	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0161	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0162	adgm/ADGM AML — СООБЩЕНИЯ О ПОДОЗРИТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ ОПЕРАЦИИ.txt	3	dataset
+obl0163	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0164	adgm/ADGM AML — СПЕЦИАЛЬНОЕ ДОЛЖНОСТНОЕ ЛИЦО, ОТВЕТСТВЕННОЕ ЗА ПОД ФТ (СДЛ, MLRO).txt	3	dataset
+obl0165	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	dataset
+obl0166	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0167	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	dataset
+obl0168	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0169	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0170	adgm/ADGM AML — ОЦЕНКА РИСКА КЛИЕНТА.txt	3	dataset
+obl0171	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	dataset
+obl0172	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0173	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	dataset
+obl0174	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0175	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	dataset
+obl0175	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	dataset
+obl0176	adgm/ADGM AML — КОРРЕСПОНДЕНТСКИЕ БАНКОВСКИЕ ОТНОШЕНИЯ, ЭЛЕКТРОННЫЕ ПЕРЕВОДЫ ДЕНЕЖНЫХ СРЕДСТВ,.txt	3	dataset
+obl0177	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	dataset
+obl0178	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0179	adgm/ADGM BRR — Планирование восстановления финансовой устойчивости и урегулирования.txt	3	dataset
+obl0180	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0181	adgm/ADGM BRR — Планирование восстановления финансовой устойчивости и урегулирования.txt	3	dataset
+obl0182	adgm/ADGM BRR — Вопросы урегулирования.txt	3	dataset
+obl0183	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0184	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0185	adgm/ADGM BRR — Вопросы урегулирования.txt	3	dataset
+obl0186	adgm/ADGM BRR — Планирование восстановления финансовой устойчивости и урегулирования.txt	3	dataset
+obl0187	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0188	adgm/ADGM BRR — Вопросы урегулирования.txt	3	dataset
+obl0189	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0190	adgm/ADGM BRR — Планирование восстановления финансовой устойчивости и урегулирования.txt	3	dataset
+obl0191	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0192	adgm/ADGM BRR — Вопросы урегулирования.txt	3	dataset
+obl0193	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0194	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0195	adgm/ADGM BRR — Регулятор.txt	3	dataset
+obl0196	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0197	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0198	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0199	adgm/ADGM BRR — Информация, подлежащая включению в Планы восстановления.txt	3	dataset
+obl0200	adgm/ADGM BRR — Вопросы урегулирования.txt	3	dataset
+obl0201	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0202	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0203	adgm/ADGM BRR — Планирование восстановления финансовой устойчивости и урегулирования.txt	3	dataset
+obl0204	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0205	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0206	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0207	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0208	adgm/ADGM BRR — Регулятор.txt	3	dataset
+obl0209	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0210	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0211	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0212	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0213	adgm/ADGM BRR — Вопросы урегулирования.txt	3	dataset
+obl0214	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0215	adgm/ADGM BRR — Инструменты урегулирования и Гарантии при урегулировании.txt	3	dataset
+obl0216	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0217	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0218	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0219	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0220	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0221	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0222	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0223	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0224	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0225	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0226	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0227	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0228	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0229	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0230	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0231	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0232	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0233	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0234	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0235	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0236	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0237	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	dataset
+obl0238	adgm/ADGM CRS — Штрафы и нарушения.txt	3	dataset
+obl0239	adgm/ADGM CRS — Роль и полномочия Регулирующего органа.txt	3	dataset
+obl0240	adgm/ADGM CRS — Роль и полномочия Регулирующего органа.txt	3	dataset
+obl0241	adgm/ADGM CRS — Отчётность и хранение записей.txt	3	dataset
+obl0242	adgm/ADGM CRS — Отчётность и хранение записей.txt	3	dataset
+obl0242	adgm/ADGM CRS — Штрафы и нарушения.txt	3	dataset
+obl0243	adgm/ADGM FATCA — Введение.txt	3	dataset
+obl0244	adgm/ADGM FATCA — Положение, устанавливающее нормы о реализации обмена информацией по вопросам,.txt	3	dataset
+obl0245	adgm/ADGM FATCA — Введение.txt	3	dataset
+obl0246	adgm/ADGM FATCA — Отчётность и ведение записей.txt	3	dataset
+obl0247	adgm/ADGM FATCA — Штрафы и нарушения.txt	3	dataset
+obl0248	adgm/ADGM FATCA — Роль и полномочия Регулирующего органа.txt	3	dataset
+obl0249	adgm/ADGM FATCA — Роль и полномочия Регулирующего органа.txt	3	dataset
+obl0250	adgm/ADGM FATCA — Штрафы и нарушения.txt	3	dataset
+obl0251	adgm/ADGM FATCA — Роль и полномочия Регулирующего органа.txt	3	dataset
+xl000	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl000	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl000	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl000	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl000	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl000	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl000	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl000	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl001	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl001	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl001	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl001	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl001	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl001	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl001	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl001	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl002	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl002	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl002	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl002	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl002	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl002	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl002	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl002	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl003	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl003	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl004	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl004	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl005	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl005	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl006	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl006	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl006	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl006	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl006	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl006	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl006	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl006	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl007	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl007	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl007	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl007	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl007	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl007	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl007	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl007	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl008	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl008	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl009	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl009	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl009	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl009	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl009	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl009	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl009	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl009	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl010	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl010	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl010	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl010	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl010	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl010	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl010	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl010	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl011	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl011	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl011	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl011	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl011	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl011	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl011	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl011	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl012	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl012	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl013	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl013	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl014	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl014	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl014	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl014	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl014	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl014	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl014	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl014	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl015	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl015	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl016	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl016	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl016	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl016	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl016	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl017	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl017	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl017	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl017	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl017	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl017	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl017	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl017	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl018	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl018	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl018	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl018	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl018	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl018	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl018	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl018	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl019	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl019	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl019	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl019	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl019	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl019	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl019	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl019	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl020	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl020	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl021	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl021	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl021	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl021	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl021	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl021	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl021	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl021	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl022	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl022	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl022	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl022	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl022	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl022	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl022	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl022	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl023	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl023	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl024	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl024	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl024	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl024	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl024	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl024	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl024	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl024	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl027	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl027	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl028	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl028	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl028	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl028	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl028	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl029	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl029	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl029	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl029	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl029	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl030	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl030	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl030	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl030	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl030	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl030	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl030	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl030	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl031	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl031	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl032	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl033	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl033	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl033	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl033	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl033	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl033	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl033	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl033	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl034	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl034	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl034	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl034	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl034	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl034	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl034	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl034	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl035	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl035	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl035	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl035	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl035	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl036	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl036	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl037	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl037	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl037	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl037	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl037	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl038	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl038	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl038	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl038	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl038	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl038	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl038	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl038	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl039	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl039	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl040	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl040	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl040	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl040	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl040	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl041	cbr_stat/Статистические показатели банковского сектора obs_280.xlsx	3	dataset
+xl041	cbr_stat/Статистические показатели банковского сектора obs_281.xlsx	3	dataset
+xl041	cbr_stat/Статистические показатели банковского сектора obs_282.xlsx	3	dataset
+xl041	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl041	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl041	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl041	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl041	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl042	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl043	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl044	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl044	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl045	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl045	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl045	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl045	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl045	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl046	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl046	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl047	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl047	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl048	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl048	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl050	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl050	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl051	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl051	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl052	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl052	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl053	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl053	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl053	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl053	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl053	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl054	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl054	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl055	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl055	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl056	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl056	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl056	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl056	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl056	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+xl058	cbr_stat/Статистические показатели банковского сектора obs_283.xlsx	3	dataset
+xl058	cbr_stat/Статистические показатели банковского сектора obs_284.xlsx	3	dataset
+xl058	cbr_stat/Статистические показатели банковского сектора obs_285.xlsx	3	dataset
+xl058	cbr_stat/Статистические показатели банковского сектора obs_286.xlsx	3	dataset
+xl058	cbr_stat/Статистические показатели банковского сектора obs_287.xlsx	3	dataset
+cbr0400_s2	cbr_acts/Акт Банка России 4927-У.pdf	3	inherited
+cbr0400_s3	cbr_acts/Акт Банка России 4927-У.pdf	3	inherited
+cbr0400_s4	cbr_acts/Акт Банка России 4927-У.pdf	3	inherited
+cbr0262_s2	cbr_acts/Акт Банка России 730-П.pdf	3	inherited
+cbr0262_s3	cbr_acts/Акт Банка России 730-П.pdf	3	inherited
+cbr0262_s4	cbr_acts/Акт Банка России 730-П.pdf	3	inherited
+cbr0119_s2	cbr_acts/Акт Банка России 483-П.pdf	3	inherited
+cbr0119_s3	cbr_acts/Акт Банка России 483-П.pdf	3	inherited
+cbr0119_s4	cbr_acts/Акт Банка России 483-П.pdf	3	inherited
+cbr0250_s2	cbr_acts/Акт Банка России 716-П.pdf	3	inherited
+cbr0250_s3	cbr_acts/Акт Банка России 716-П.pdf	3	inherited
+cbr0250_s4	cbr_acts/Акт Банка России 716-П.pdf	3	inherited
+cbr0027_s2	cbr_acts/Акт Банка России 199-И.pdf	3	inherited
+cbr0027_s3	cbr_acts/Акт Банка России 199-И.pdf	3	inherited
+cbr0027_s4	cbr_acts/Акт Банка России 199-И.pdf	3	inherited
+cbr0158_s2	cbr_acts/Акт Банка России 646-П.pdf	3	inherited
+cbr0158_s3	cbr_acts/Акт Банка России 646-П.pdf	3	inherited
+cbr0158_s4	cbr_acts/Акт Банка России 646-П.pdf	3	inherited
+cbr0083_s2	cbr_acts/Акт Банка России 242-П.docx	3	inherited
+cbr0083_s3	cbr_acts/Акт Банка России 242-П.docx	3	inherited
+cbr0083_s4	cbr_acts/Акт Банка России 242-П.docx	3	inherited
+cbr0007_s2	cbr_acts/Акт Банка России 12-МР.pdf	3	inherited
+cbr0007_s2	cbr_acts/Акт Банка России 4927-У.pdf	2	inherited
+cbr0007_s2	cbr_acts/Акт Банка России 5697-У.pdf	2	inherited
+cbr0007_s3	cbr_acts/Акт Банка России 12-МР.pdf	3	inherited
+cbr0007_s3	cbr_acts/Акт Банка России 4927-У.pdf	2	inherited
+cbr0007_s3	cbr_acts/Акт Банка России 5697-У.pdf	2	inherited
+cbr0007_s4	cbr_acts/Акт Банка России 12-МР.pdf	3	inherited
+cbr0007_s4	cbr_acts/Акт Банка России 4927-У.pdf	2	inherited
+cbr0007_s4	cbr_acts/Акт Банка России 5697-У.pdf	2	inherited
+cbr0296_s2	cbr_acts/Акт Банка России 3624-У.pdf	3	inherited
+cbr0296_s3	cbr_acts/Акт Банка России 3624-У.pdf	3	inherited
+cbr0296_s4	cbr_acts/Акт Банка России 3624-У.pdf	3	inherited
+cbr0056_s2	cbr_acts/Акт Банка России 220-И.pdf	3	inherited
+cbr0056_s3	cbr_acts/Акт Банка России 220-И.pdf	3	inherited
+cbr0056_s4	cbr_acts/Акт Банка России 220-И.pdf	3	inherited
+cbr0100_s2	cbr_acts/Акт Банка России 421-П.pdf	3	inherited
+cbr0100_s3	cbr_acts/Акт Банка России 421-П.pdf	3	inherited
+cbr0100_s4	cbr_acts/Акт Банка России 421-П.pdf	3	inherited
+cbr0318_s2	cbr_acts/Акт Банка России 4336-У.pdf	3	inherited
+cbr0318_s2	cbr_acts/Акт Банка России 4927-У.pdf	2	inherited
+cbr0318_s3	cbr_acts/Акт Банка России 4336-У.pdf	3	inherited
+cbr0318_s3	cbr_acts/Акт Банка России 4927-У.pdf	2	inherited
+cbr0318_s4	cbr_acts/Акт Банка России 4336-У.pdf	3	inherited
+cbr0318_s4	cbr_acts/Акт Банка России 4927-У.pdf	2	inherited
+cbr0052_s2	cbr_acts/Акт Банка России 199-И.pdf	2	inherited
+cbr0052_s2	cbr_acts/Акт Банка России 207-И.pdf	3	inherited
+cbr0052_s3	cbr_acts/Акт Банка России 199-И.pdf	2	inherited
+cbr0052_s3	cbr_acts/Акт Банка России 207-И.pdf	3	inherited
+cbr0052_s4	cbr_acts/Акт Банка России 199-И.pdf	2	inherited
+cbr0052_s4	cbr_acts/Акт Банка России 207-И.pdf	3	inherited
+cbr0134_s2	cbr_acts/Акт Банка России 596-П.pdf	3	inherited
+cbr0134_s3	cbr_acts/Акт Банка России 596-П.pdf	3	inherited
+cbr0134_s4	cbr_acts/Акт Банка России 596-П.pdf	3	inherited
+cbr0287_s2	cbr_acts/Акт Банка России 3580-У.pdf	3	inherited
+cbr0287_s3	cbr_acts/Акт Банка России 3580-У.pdf	3	inherited
+cbr0287_s4	cbr_acts/Акт Банка России 3580-У.pdf	3	inherited
+cbr0133_s2	cbr_acts/Акт Банка России 511-П.pdf	3	inherited
+cbr0133_s3	cbr_acts/Акт Банка России 511-П.pdf	3	inherited
+cbr0133_s4	cbr_acts/Акт Банка России 511-П.pdf	3	inherited
+cbr0309_s2	cbr_acts/Акт Банка России 3780-У.pdf	3	inherited
+cbr0309_s2	cbr_acts/Акт Банка России 3783-У.pdf	2	inherited
+cbr0309_s3	cbr_acts/Акт Банка России 3780-У.pdf	3	inherited
+cbr0309_s3	cbr_acts/Акт Банка России 3783-У.pdf	2	inherited
+cbr0309_s4	cbr_acts/Акт Банка России 3780-У.pdf	3	inherited
+cbr0309_s4	cbr_acts/Акт Банка России 3783-У.pdf	2	inherited
+cbr0336_s2	cbr_acts/Акт Банка России 3081-У.pdf	2	inherited
+cbr0336_s2	cbr_acts/Акт Банка России 4482-У.pdf	3	inherited
+cbr0336_s2	cbr_acts/Акт Банка России 4638-У.pdf	2	inherited
+cbr0336_s3	cbr_acts/Акт Банка России 3081-У.pdf	2	inherited
+cbr0336_s3	cbr_acts/Акт Банка России 4482-У.pdf	3	inherited
+cbr0336_s3	cbr_acts/Акт Банка России 4638-У.pdf	2	inherited
+cbr0336_s4	cbr_acts/Акт Банка России 3081-У.pdf	2	inherited
+cbr0336_s4	cbr_acts/Акт Банка России 4482-У.pdf	3	inherited
+cbr0336_s4	cbr_acts/Акт Банка России 4638-У.pdf	2	inherited
+cbr0519_s2	cbr_acts/Акт Банка России 6406-У.pdf	3	inherited
+cbr0519_s3	cbr_acts/Акт Банка России 6406-У.pdf	3	inherited
+cbr0519_s4	cbr_acts/Акт Банка России 6406-У.pdf	3	inherited
+cbr0441_s2	cbr_acts/Акт Банка России 4927-У.pdf	3	inherited
+cbr0441_s3	cbr_acts/Акт Банка России 4927-У.pdf	3	inherited
+cbr0441_s4	cbr_acts/Акт Банка России 4927-У.pdf	3	inherited
+cbr0268_s2	cbr_acts/Акт Банка России 590-П.pdf	2	inherited
+cbr0268_s2	cbr_acts/Акт Банка России 611-П.pdf	2	inherited
+cbr0268_s2	cbr_acts/Акт Банка России 730-П.pdf	3	inherited
+cbr0268_s3	cbr_acts/Акт Банка России 590-П.pdf	2	inherited
+cbr0268_s3	cbr_acts/Акт Банка России 611-П.pdf	2	inherited
+cbr0268_s3	cbr_acts/Акт Банка России 730-П.pdf	3	inherited
+cbr0268_s4	cbr_acts/Акт Банка России 590-П.pdf	2	inherited
+cbr0268_s4	cbr_acts/Акт Банка России 611-П.pdf	2	inherited
+cbr0268_s4	cbr_acts/Акт Банка России 730-П.pdf	3	inherited
+cbr0120_s2	cbr_acts/Акт Банка России 180-И.pdf	2	inherited
+cbr0120_s2	cbr_acts/Акт Банка России 3752-У.pdf	2	inherited
+cbr0120_s2	cbr_acts/Акт Банка России 483-П.pdf	3	inherited
+cbr0120_s3	cbr_acts/Акт Банка России 180-И.pdf	2	inherited
+cbr0120_s3	cbr_acts/Акт Банка России 3752-У.pdf	2	inherited
+cbr0120_s3	cbr_acts/Акт Банка России 483-П.pdf	3	inherited
+cbr0120_s4	cbr_acts/Акт Банка России 180-И.pdf	2	inherited
+cbr0120_s4	cbr_acts/Акт Банка России 3752-У.pdf	2	inherited
+cbr0120_s4	cbr_acts/Акт Банка России 483-П.pdf	3	inherited
+cbr0186_s2	cbr_acts/Акт Банка России 716-П.pdf	3	inherited
+cbr0186_s3	cbr_acts/Акт Банка России 716-П.pdf	3	inherited
+cbr0186_s4	cbr_acts/Акт Банка России 716-П.pdf	3	inherited
+cbr0031_s2	cbr_acts/Акт Банка России 199-И.pdf	3	inherited
+cbr0031_s3	cbr_acts/Акт Банка России 199-И.pdf	3	inherited
+cbr0031_s4	cbr_acts/Акт Банка России 199-И.pdf	3	inherited
+cbr0145_s2	cbr_acts/Акт Банка России 646-П.pdf	3	inherited
+cbr0145_s3	cbr_acts/Акт Банка России 646-П.pdf	3	inherited
+cbr0145_s4	cbr_acts/Акт Банка России 646-П.pdf	3	inherited
+cbr0086_s2	cbr_acts/Акт Банка России 242-П.docx	3	inherited
+cbr0086_s3	cbr_acts/Акт Банка России 242-П.docx	3	inherited
+cbr0086_s4	cbr_acts/Акт Банка России 242-П.docx	3	inherited
+cbr0004_s2	cbr_acts/Акт Банка России 12-МР.pdf	3	inherited
+cbr0004_s2	cbr_acts/Акт Банка России 5697-У.pdf	2	inherited
+cbr0004_s3	cbr_acts/Акт Банка России 12-МР.pdf	3	inherited
+cbr0004_s3	cbr_acts/Акт Банка России 5697-У.pdf	2	inherited
+cbr0004_s4	cbr_acts/Акт Банка России 12-МР.pdf	3	inherited
+cbr0004_s4	cbr_acts/Акт Банка России 5697-У.pdf	2	inherited
+cbr0307_s2	cbr_acts/Акт Банка России 3624-У.pdf	3	inherited
+cbr0307_s3	cbr_acts/Акт Банка России 3624-У.pdf	3	inherited
+cbr0307_s4	cbr_acts/Акт Банка России 3624-У.pdf	3	inherited
+cbr0054_s2	cbr_acts/Акт Банка России 220-И.pdf	3	inherited
+cbr0054_s3	cbr_acts/Акт Банка России 220-И.pdf	3	inherited
+cbr0054_s4	cbr_acts/Акт Банка России 220-И.pdf	3	inherited
+cbr0099_s2	cbr_acts/Акт Банка России 421-П.pdf	3	inherited
+cbr0099_s2	cbr_acts/Акт Банка России 510-П.pdf	2	inherited
+cbr0099_s3	cbr_acts/Акт Банка России 421-П.pdf	3	inherited
+cbr0099_s3	cbr_acts/Акт Банка России 510-П.pdf	2	inherited
+cbr0099_s4	cbr_acts/Акт Банка России 421-П.pdf	3	inherited
+cbr0099_s4	cbr_acts/Акт Банка России 510-П.pdf	2	inherited
+cbr0319_s2	cbr_acts/Акт Банка России 4212-У.pdf	2	inherited
+cbr0319_s2	cbr_acts/Акт Банка России 4336-У.pdf	3	inherited
+cbr0319_s2	cbr_acts/Акт Банка России 590-П.pdf	2	inherited
+cbr0319_s2	cbr_acts/Акт Банка России 611-П.pdf	2	inherited
+cbr0319_s3	cbr_acts/Акт Банка России 4212-У.pdf	2	inherited
+cbr0319_s3	cbr_acts/Акт Банка России 4336-У.pdf	3	inherited
+cbr0319_s3	cbr_acts/Акт Банка России 590-П.pdf	2	inherited
+cbr0319_s3	cbr_acts/Акт Банка России 611-П.pdf	2	inherited
+cbr0319_s4	cbr_acts/Акт Банка России 4212-У.pdf	2	inherited
+cbr0319_s4	cbr_acts/Акт Банка России 4336-У.pdf	3	inherited
+cbr0319_s4	cbr_acts/Акт Банка России 590-П.pdf	2	inherited
+cbr0319_s4	cbr_acts/Акт Банка России 611-П.pdf	2	inherited
+cbr0051_s2	cbr_acts/Акт Банка России 207-И.pdf	3	inherited
+cbr0051_s3	cbr_acts/Акт Банка России 207-И.pdf	3	inherited
+cbr0051_s4	cbr_acts/Акт Банка России 207-И.pdf	3	inherited
+cbr0135_s2	cbr_acts/Акт Банка России 421-П.pdf	2	inherited
+cbr0135_s2	cbr_acts/Акт Банка России 596-П.pdf	3	inherited
+cbr0135_s3	cbr_acts/Акт Банка России 421-П.pdf	2	inherited
+cbr0135_s3	cbr_acts/Акт Банка России 596-П.pdf	3	inherited
+cbr0135_s4	cbr_acts/Акт Банка России 421-П.pdf	2	inherited
+cbr0135_s4	cbr_acts/Акт Банка России 596-П.pdf	3	inherited
+cbr0286_s2	cbr_acts/Акт Банка России 3580-У.pdf	3	inherited
+cbr0286_s3	cbr_acts/Акт Банка России 3580-У.pdf	3	inherited
+cbr0286_s4	cbr_acts/Акт Банка России 3580-У.pdf	3	inherited
+cbr0440_s2	cbr_acts/Акт Банка России 4927-У.pdf	3	inherited
+cbr0440_s3	cbr_acts/Акт Банка России 4927-У.pdf	3	inherited
+cbr0440_s4	cbr_acts/Акт Банка России 4927-У.pdf	3	inherited
+cbr0258_s2	cbr_acts/Акт Банка России 483-П.pdf	2	inherited
+cbr0258_s2	cbr_acts/Акт Банка России 730-П.pdf	3	inherited
+cbr0258_s3	cbr_acts/Акт Банка России 483-П.pdf	2	inherited
+cbr0258_s3	cbr_acts/Акт Банка России 730-П.pdf	3	inherited
+cbr0258_s4	cbr_acts/Акт Банка России 483-П.pdf	2	inherited
+cbr0258_s4	cbr_acts/Акт Банка России 730-П.pdf	3	inherited
+cbr0106_s2	cbr_acts/Акт Банка России 483-П.pdf	3	inherited
+cbr0106_s3	cbr_acts/Акт Банка России 483-П.pdf	3	inherited
+cbr0106_s4	cbr_acts/Акт Банка России 483-П.pdf	3	inherited
+cbr0207_s2	cbr_acts/Акт Банка России 716-П.pdf	3	inherited
+cbr0207_s3	cbr_acts/Акт Банка России 716-П.pdf	3	inherited
+cbr0207_s4	cbr_acts/Акт Банка России 716-П.pdf	3	inherited
+cbr0046_s2	cbr_acts/Акт Банка России 199-И.pdf	3	inherited
+cbr0046_s3	cbr_acts/Акт Банка России 199-И.pdf	3	inherited
+cbr0046_s4	cbr_acts/Акт Банка России 199-И.pdf	3	inherited
+cbr0144_s2	cbr_acts/Акт Банка России 646-П.pdf	3	inherited
+cbr0144_s3	cbr_acts/Акт Банка России 646-П.pdf	3	inherited
+cbr0144_s4	cbr_acts/Акт Банка России 646-П.pdf	3	inherited
+ai_7091c193c92e50dc_s2	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	inherited
+ai_7091c193c92e50dc_s4	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	inherited
+ai_95476210fecd2f6e_s2	ai360/Совкомбанк МСФО 2022 годовая.pdf	3	inherited
+ai_95476210fecd2f6e_s3	ai360/Совкомбанк МСФО 2022 годовая.pdf	3	inherited
+ai_95476210fecd2f6e_s4	ai360/Совкомбанк МСФО 2022 годовая.pdf	3	inherited
+ai_14f074bad2e8efb8_s2	ai360/Сбербанк МСФО 2022 годовая.pdf	3	inherited
+ai_14f074bad2e8efb8_s4	ai360/Сбербанк МСФО 2022 годовая.pdf	3	inherited
+ai_b8a1328284e4a199_s2	ai360/Россельхозбанк МСФО 2023 за 6 месяцев.pdf	3	inherited
+ai_b8a1328284e4a199_s4	ai360/Россельхозбанк МСФО 2023 за 6 месяцев.pdf	3	inherited
+ai_ed37c37828568fb5_s2	ai360/ДОМ.РФ МСФО 2025 годовая.pdf	3	inherited
+ai_ed37c37828568fb5_s4	ai360/ДОМ.РФ МСФО 2025 годовая.pdf	3	inherited
+ai_5f8d3a1aa0dad326_s2	ai360/Т-Банк МСФО 2025 годовая.pdf	3	inherited
+ai_5f8d3a1aa0dad326_s4	ai360/Т-Банк МСФО 2025 годовая.pdf	3	inherited
+ai_3e1fc2f0aaa2ab46_s2	ai360/ВТБ МСФО 2024 годовая.pdf	3	inherited
+ai_3e1fc2f0aaa2ab46_s3	ai360/ВТБ МСФО 2024 годовая.pdf	3	inherited
+ai_3e1fc2f0aaa2ab46_s4	ai360/ВТБ МСФО 2024 годовая.pdf	3	inherited
+ai_876024b432ff1587_s2	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	inherited
+ai_876024b432ff1587_s4	ai360/Совкомбанк МСФО 2025 за 6 месяцев.pdf	3	inherited
+ai_651499d69c5f7e9f_s2	ai360/Т-Банк МСФО 2022 годовая.pdf	3	inherited
+ai_651499d69c5f7e9f_s4	ai360/Т-Банк МСФО 2022 годовая.pdf	3	inherited
+ai_55e7a01578a0d64c_s2	ai360/ВТБ МСФО 2025 годовая.pdf	3	inherited
+ai_55e7a01578a0d64c_s4	ai360/ВТБ МСФО 2025 годовая.pdf	3	inherited
+ai_a43207655b2183b6_s2	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	inherited
+ai_a43207655b2183b6_s4	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	inherited
+ai_3fdb43da427e23f4_s2	ai360/ВТБ МСФО 2025 годовая.pdf	3	inherited
+ai_3fdb43da427e23f4_s3	ai360/ВТБ МСФО 2025 годовая.pdf	3	inherited
+ai_3fdb43da427e23f4_s4	ai360/ВТБ МСФО 2025 годовая.pdf	3	inherited
+ai_7fe8946a7e692528_s2	ai360/ВТБ МСФО 2025 за 6 месяцев.pdf	3	inherited
+ai_7fe8946a7e692528_s4	ai360/ВТБ МСФО 2025 за 6 месяцев.pdf	3	inherited
+ai_9c219dfa5dc2309d_s2	ai360/Сбербанк МСФО 2025 годовая.pdf	3	inherited
+ai_9c219dfa5dc2309d_s3	ai360/Сбербанк МСФО 2025 годовая.pdf	3	inherited
+ai_9c219dfa5dc2309d_s4	ai360/Сбербанк МСФО 2025 годовая.pdf	3	inherited
+ai_9fefafe69ca54bda_s2	ai360/Сбербанк МСФО 2023 за 6 месяцев.pdf	3	inherited
+ai_9fefafe69ca54bda_s2	ai360/Сбербанк МСФО 2025 за 6 месяцев.pdf	3	inherited
+ai_9fefafe69ca54bda_s3	ai360/Сбербанк МСФО 2023 за 6 месяцев.pdf	3	inherited
+ai_9fefafe69ca54bda_s3	ai360/Сбербанк МСФО 2025 за 6 месяцев.pdf	3	inherited
+ai_9fefafe69ca54bda_s4	ai360/Сбербанк МСФО 2023 за 6 месяцев.pdf	3	inherited
+ai_9fefafe69ca54bda_s4	ai360/Сбербанк МСФО 2025 за 6 месяцев.pdf	3	inherited
+ai_24d6f921a5894ef7_s2	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	inherited
+ai_24d6f921a5894ef7_s3	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	inherited
+ai_24d6f921a5894ef7_s4	ai360/Совкомбанк МСФО 2024 годовая.pdf	3	inherited
+ai_1e0b0c6b0cb65284_s2	ai360/Россельхозбанк МСФО 2023 за 6 месяцев.pdf	3	inherited
+ai_1e0b0c6b0cb65284_s4	ai360/Россельхозбанк МСФО 2023 за 6 месяцев.pdf	3	inherited
+ai_94a826f7b370d314_s2	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	inherited
+ai_94a826f7b370d314_s4	ai360/Газпромбанк МСФО 2022 годовая.pdf	3	inherited
+ai_c70f00060559c9bd_s2	ai360/Сбербанк МСФО 2024 за 6 месяцев.pdf	3	inherited
+ai_c70f00060559c9bd_s4	ai360/Сбербанк МСФО 2024 за 6 месяцев.pdf	3	inherited
+ai_974f54b42be3aabe_s2	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	inherited
+ai_974f54b42be3aabe_s3	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	inherited
+ai_974f54b42be3aabe_s4	ai360/ДОМ.РФ МСФО 2022 годовая.pdf	3	inherited
+ai_72eb212b8f78b28b_s2	ai360/Совкомбанк МСФО 2023 годовая.pdf	3	inherited
+ai_72eb212b8f78b28b_s4	ai360/Совкомбанк МСФО 2023 годовая.pdf	3	inherited
+ai_afa2a0eee18c1313_s2	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	inherited
+ai_afa2a0eee18c1313_s4	ai360/ДОМ.РФ МСФО 2025 за 6 месяцев.pdf	3	inherited
+ai_9e2854920609d733_s2	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	inherited
+ai_9e2854920609d733_s4	ai360/Россельхозбанк МСФО 2024 годовая.pdf	3	inherited
+ai_1ec088dbd548212d_s2	ai360/Альфа-Банк (Беларусь) МСФО 2022 годовая.pdf	3	inherited
+ai_1ec088dbd548212d_s3	ai360/Альфа-Банк (Беларусь) МСФО 2022 годовая.pdf	3	inherited
+ai_1ec088dbd548212d_s4	ai360/Альфа-Банк (Беларусь) МСФО 2022 годовая.pdf	3	inherited
+ai_7252315cdd3fe85d_s2	ai360/Альфа-Банк (Беларусь) МСФО 2025 годовая.pdf	3	inherited
+ai_7252315cdd3fe85d_s3	ai360/Альфа-Банк (Беларусь) МСФО 2025 годовая.pdf	3	inherited
+ai_7252315cdd3fe85d_s4	ai360/Альфа-Банк (Беларусь) МСФО 2025 годовая.pdf	3	inherited
+zx0014_s2	zx_bank/Как оформить чековую книжку в ZX Bank.docx	3	inherited
+zx0014_s4	zx_bank/Как оформить чековую книжку в ZX Bank.docx	3	inherited
+zx0009_s2	zx_bank/ZX Bank — кредиты для бизнеса.pptx	3	inherited
+zx0009_s4	zx_bank/ZX Bank — кредиты для бизнеса.pptx	3	inherited
+zx0003_s2	zx_bank/ZX Bank Ltd. — награды и признание.pdf	3	inherited
+zx0003_s4	zx_bank/ZX Bank Ltd. — награды и признание.pdf	3	inherited
+zx0277_s2	zx_bank/Автокредит ZX Bank.pptx	3	inherited
+zx0277_s4	zx_bank/Автокредит ZX Bank.pptx	3	inherited
+zx0165_s2	zx_bank/ASK Zia — ваш банковский помощник 24 7.pdf	3	inherited
+zx0165_s3	zx_bank/ASK Zia — ваш банковский помощник 24 7.pdf	3	inherited
+zx0165_s4	zx_bank/ASK Zia — ваш банковский помощник 24 7.pdf	3	inherited
+zx0279_s2	zx_bank/Автокредит ZX Bank.pptx	3	inherited
+zx0279_s4	zx_bank/Автокредит ZX Bank.pptx	3	inherited
+zx0005_s2	zx_bank/ZX Bank Ltd. — награды и признание.pdf	3	inherited
+zx0005_s4	zx_bank/ZX Bank Ltd. — награды и признание.pdf	3	inherited
+zx0007_s2	zx_bank/ZX Bank — кредиты для бизнеса.pptx	3	inherited
+zx0007_s4	zx_bank/ZX Bank — кредиты для бизнеса.pptx	3	inherited
+zx0043_s2	zx_bank/Как сообщить о мошеннической операции в ZX Bank.docx	3	inherited
+zx0043_s4	zx_bank/Как сообщить о мошеннической операции в ZX Bank.docx	3	inherited
+zx0147_s2	zx_bank/ZX Bank Ltd. — информация о потребительском кредите.pdf	3	inherited
+zx0147_s4	zx_bank/ZX Bank Ltd. — информация о потребительском кредите.pdf	3	inherited
+zx0237_s2	zx_bank/ZX Bank Ltd. — зарплатный сберегательный счёт.pdf	3	inherited
+zx0237_s3	zx_bank/ZX Bank Ltd. — зарплатный сберегательный счёт.pdf	3	inherited
+zx0237_s4	zx_bank/ZX Bank Ltd. — зарплатный сберегательный счёт.pdf	3	inherited
+zx0255_s2	zx_bank/Ипотечный кредит ZX Bank.pdf	3	inherited
+zx0255_s4	zx_bank/Ипотечный кредит ZX Bank.pdf	3	inherited
+zx0108_s2	zx_bank/Как открыть банковскую ячейку в отделении ZX Bank.docx	3	inherited
+zx0108_s3	zx_bank/Как открыть банковскую ячейку в отделении ZX Bank.docx	3	inherited
+zx0108_s4	zx_bank/Как открыть банковскую ячейку в отделении ZX Bank.docx	3	inherited
+zx0072_s2	zx_bank/Медицинское страхование.pdf	3	inherited
+zx0072_s4	zx_bank/Медицинское страхование.pdf	3	inherited
+zx0060_s2	zx_bank/Сельскохозяйственный кредит ZX Bank.pdf	3	inherited
+zx0060_s4	zx_bank/Сельскохозяйственный кредит ZX Bank.pdf	3	inherited
+zx0232_s2	zx_bank/ZX Bank — руководство по интернет-банку.pdf	3	inherited
+zx0232_s4	zx_bank/ZX Bank — руководство по интернет-банку.pdf	3	inherited
+zx0013_s2	zx_bank/Как оформить чековую книжку в ZX Bank.docx	3	inherited
+zx0013_s4	zx_bank/Как оформить чековую книжку в ZX Bank.docx	3	inherited
+zx0235_s2	zx_bank/ZX Bank Ltd. — зарплатный сберегательный счёт.pdf	3	inherited
+zx0235_s4	zx_bank/ZX Bank Ltd. — зарплатный сберегательный счёт.pdf	3	inherited
+zx0166_s2	zx_bank/ASK Zia — ваш банковский помощник 24 7.pdf	3	inherited
+zx0166_s3	zx_bank/ASK Zia — ваш банковский помощник 24 7.pdf	3	inherited
+zx0166_s4	zx_bank/ASK Zia — ваш банковский помощник 24 7.pdf	3	inherited
+zx0059_s2	zx_bank/Сельскохозяйственный кредит ZX Bank.pdf	3	inherited
+zx0059_s4	zx_bank/Сельскохозяйственный кредит ZX Bank.pdf	3	inherited
+obl0241_s2	adgm/ADGM CRS — Отчётность и хранение записей.txt	3	inherited
+obl0241_s4	adgm/ADGM CRS — Отчётность и хранение записей.txt	3	inherited
+obl0237_s2	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	inherited
+obl0237_s3	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	inherited
+obl0237_s4	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	inherited
+obl0139_s2	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	inherited
+obl0139_s3	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	inherited
+obl0139_s4	adgm/ADGM AML — СОБЛЮДЕНИЕ ТРЕБОВАНИЙ ПОД ФТ И АФС И ТРЕТЬИ СТОРОНЫ.txt	3	inherited
+obl0123_s2	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	inherited
+obl0123_s3	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	inherited
+obl0123_s4	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	inherited
+obl0082_s2	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	inherited
+obl0082_s2	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	inherited
+obl0082_s3	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	inherited
+obl0082_s3	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	inherited
+obl0082_s4	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	inherited
+obl0082_s4	adgm/ADGM AML — ОЦЕНКА РИСКОВ ДЕЯТЕЛЬНОСТИ.txt	3	inherited
+obl0113_s2	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	inherited
+obl0113_s3	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	inherited
+obl0113_s4	adgm/ADGM AML — НАДЛЕЖАЩАЯ ПРОВЕРКА КЛИЕНТА.txt	3	inherited
+obl0229_s2	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	inherited
+obl0229_s3	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	inherited
+obl0229_s4	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	inherited
+obl0232_s2	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	inherited
+obl0232_s3	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	inherited
+obl0232_s4	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	inherited
+obl0122_s2	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	inherited
+obl0122_s3	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	inherited
+obl0122_s4	adgm/ADGM AML — ОБЩИЕ ТРЕБОВАНИЯ В ОБЛАСТИ КОМПЛАЕНСА.txt	3	inherited
+obl0111_s2	adgm/ADGM AML — ОЦЕНКА РИСКА КЛИЕНТА.txt	3	inherited
+obl0111_s3	adgm/ADGM AML — ОЦЕНКА РИСКА КЛИЕНТА.txt	3	inherited
+obl0111_s4	adgm/ADGM AML — ОЦЕНКА РИСКА КЛИЕНТА.txt	3	inherited
+obl0226_s2	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	inherited
+obl0226_s3	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	inherited
+obl0226_s4	adgm/ADGM CLIMATE — ПРИНЦИПЫ.txt	3	inherited
+obl0248_s2	adgm/ADGM FATCA — Роль и полномочия Регулирующего органа.txt	3	inherited
+obl0248_s4	adgm/ADGM FATCA — Роль и полномочия Регулирующего органа.txt	3	inherited
+obl0059_s2	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	inherited
+obl0059_s2	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	inherited
+obl0059_s3	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	inherited
+obl0059_s3	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	inherited
+obl0059_s4	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	inherited
+obl0059_s4	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	inherited
+obl0107_s2	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	inherited
+obl0107_s3	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	inherited
+obl0107_s4	adgm/ADGM AML — АДРЕСНЫЕ ФИНАНСОВЫЕ САНКЦИИ И ИНЫЕ МЕЖДУНАРОДНЫЕ ОБЯЗАТЕЛЬСТВА.txt	3	inherited
+obl0055_s2	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	inherited
+obl0055_s3	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	inherited
+obl0055_s4	adgm/ADGM AML — ОБЗОР И НАЗНАЧЕНИЕ СВОДА ПРАВИЛ ПОД ФТ (AML RULEBOOK).txt	3	inherited

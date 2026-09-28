@@ -1,0 +1,20 @@
+# Окружения
+.venv/
+daemon-venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# Исходники наборов и рабочие файлы (пересоздаются скриптами src/)
+raw/
+work/*
+!work/judge/
+work/judge/*
+!work/judge/judged.tsv
+
+# Прогоны: в репозитории только ответы и состояние индекса R6 для сравнения
+runs/*
+!runs/R6/
+runs/R6/*
+!runs/R6/responses_hybrid.jsonl.gz
+!runs/R6/index_state.json

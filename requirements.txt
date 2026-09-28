@@ -1,0 +1,12 @@
+httpx
+beautifulsoup4
+lxml
+pymupdf
+python-docx
+python-pptx
+openpyxl
+rank-bm25
+numpy
+pytest
+pypandoc-binary
+snowballstemmer
