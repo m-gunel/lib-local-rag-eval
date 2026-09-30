@@ -74,6 +74,57 @@ def table(title: str, groups: dict[str, list[str]], pq: dict, clusters: dict) ->
     return out + [""]
 
 
+MODES = {"hybrid": "Гибрид (продукт)", "text": "Только BM25 (полнотекстовый)", "vector": "Только вектор"}
+
+
+def mode_comparison(runs, per_mode, unjudged_by, qrels, queries, answerable, clusters) -> list[str]:
+    """Три типа поиска рядом: одни и те же запросы и разметка, разный query_type."""
+    mean = lambda mode, m, qids: statistics.mean(per_mode[mode][q][m] for q in qids) if qids else 0.0
+    out = ["## Сравнение типов поиска", "",
+           "Одни и те же запросы и разметка, разный `query_type`. Неоценённый документ считается "
+           "неправильным: где неоценённых много, nDCG, Hit@10 и Recall — нижняя граница.", "",
+           "| Тип поиска | Неоценённых в топ-10 | " + " | ".join(METRICS) + " |",
+           "|---|---:|" + "---:|" * len(METRICS)]
+    for mode in runs:
+        out.append(f"| {MODES[mode]} | {unjudged_by[mode]} | "
+                   + " | ".join(f"{mean(mode, m, answerable):.3f}" for m in METRICS) + " |")
+    modes = list(runs)
+    out += ["", "### По сценариям: nDCG@10 и Hit@1", "",
+            "| Сценарий | Запросов | " + " | ".join(f"nDCG@10 {MODES[m].split(' (')[0]}" for m in modes) + " | "
+            + " | ".join(f"Hit@1 {MODES[m].split(' (')[0]}" for m in modes) + " |",
+            "|---|---:|" + "---:|" * (2 * len(modes))]
+    for sc in (1, 2, 3, 4, 5):
+        qids = [q for q in answerable if queries[q]["scenario"] == sc]
+        out.append(f"| {sc}. {SCENARIOS[sc]} | {len(qids)} | "
+                   + " | ".join(f"{mean(m, 'nDCG@10', qids):.3f}" for m in modes) + " | "
+                   + " | ".join(f"{mean(m, 'Hit@1', qids):.3f}" for m in modes) + " |")
+    others = [m for m in modes if m != "hybrid"]
+    if "hybrid" in per_mode and others:
+        out += ["", "### Разница с гибридом [95% ДИ]", "",
+                "| Метрика | " + " | ".join(f"{MODES[m]} − гибрид" for m in others) + " |",
+                "|---|" + "---:|" * len(others)]
+        for met in METRICS:
+            cells = []
+            for m in others:
+                diff = {q: {met: per_mode[m][q][met] - per_mode["hybrid"][q][met]} for q in answerable}
+                cells.append(fmt(*bootstrap_ci(diff, met, clusters)))
+            out.append(f"| {met} | " + " | ".join(cells) + " |")
+        out.append("")
+        out.append("Интервал целиком выше нуля — режим лучше гибрида, ниже нуля — хуже, пересекает ноль — "
+                   "разница не доказана.")
+    if all(m in runs for m in MODES):
+        h, t, v = (runs[m][0] for m in ("hybrid", "text", "vector"))
+        dis = [q for q in answerable if h.get(q) and t.get(q) and v.get(q) and t[q][0] != v[q][0]]
+        took_v = sum(1 for q in dis if h[q][0] == v[q][0])
+        took_t = sum(1 for q in dis if h[q][0] == t[q][0])
+        ok_t = sum(1 for q in dis if qrels.get(q, {}).get(t[q][0], 0) >= 2)
+        ok_v = sum(1 for q in dis if qrels.get(q, {}).get(v[q][0], 0) >= 2)
+        out += ["", f"Первые документы BM25 и вектора разные в {len(dis)} запросах из {len(answerable)}. "
+                f"Гибрид поставил первым документ вектора в {took_v}, документ BM25 — в {took_t}. "
+                f"Правильным при этом был первый документ BM25 в {ok_t} запросах, вектора — в {ok_v}."]
+    return out + [""]
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--run", required=True)
@@ -100,23 +151,23 @@ def main() -> None:
              f"проиндексировано файлов {len(indexed)}.", "",
              f"Запросов в метриках ранжирования: {len(answerable)}; "
              f"эталон не попал в индекс (не входят в метрики): {len(not_indexed)}.", ""]
-    per_mode = {}
-    for mode in ("hybrid", "vector", "text"):
-        ranked, raw = load_run(run_dir, mode)
-        if not ranked:
-            continue
-        unjudged = sum(1 for q in answerable for d in ranked.get(q, [])[:10] if d not in qrels.get(q, {}))
-        if mode != "hybrid":
-            # Диагностика: «сжатые» списки — неоценённые документы убираются
-            # (выдача vector/text дооценивалась не полностью, см. методику).
-            ranked = {q: [d for d in lst if d in qrels.get(q, {})] for q, lst in ranked.items()}
-        pq = per_query(ranked, qrels, answerable)
-        per_mode[mode] = pq
+    # Во всех разделах одно правило: неоценённый документ считается неправильным,
+    # поэтому при многих неоценённых значения — нижняя граница.
+    runs = {mode: load_run(run_dir, mode) for mode in MODES}
+    runs = {mode: r for mode, r in runs.items() if r[0]}
+    per_mode = {mode: per_query(r[0], qrels, answerable) for mode, r in runs.items()}
+    unjudged_by = {mode: sum(1 for q in answerable for d in r[0].get(q, [])[:10] if d not in qrels.get(q, {}))
+                   for mode, r in runs.items()}
+    if len(runs) > 1:
+        lines += mode_comparison(runs, per_mode, unjudged_by, qrels, queries, answerable, clusters)
+    for mode, (ranked, raw) in runs.items():
+        pq = per_mode[mode]
+        unjudged = unjudged_by[mode]
         by_sc = {"Итого": answerable}
         for sc in (1, 2, 3, 4, 5):
             by_sc[f"{sc}. {SCENARIOS[sc]}"] = [q for q in answerable if queries[q]["scenario"] == sc]
-        title = {"hybrid": "Продукт (hybrid, limit=10)", "vector": "Только вектор (диагностика, сжатые списки)",
-                 "text": "Только BM25 (диагностика, сжатые списки)"}[mode]
+        title = {"hybrid": "Продукт (hybrid, limit=10)", "vector": "Только вектор (диагностика)",
+                 "text": "Только BM25, полнотекстовый (диагностика)"}[mode]
         lines += [f"## {title}", "", f"Неоценённых документов в топ-10 по запросам с ответом: {unjudged}.", ""]
         lines += table("По сценариям", by_sc, pq, clusters)
         if mode == "hybrid":
