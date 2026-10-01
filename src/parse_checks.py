@@ -488,6 +488,155 @@ def check_ai360_numbers(docs):
             "questions_all_numbers_found_%": pct(c["all_found"], c["questions"])}
 
 
+# ---------- структура docx: строка таблицы с шапкой, номера пунктов ----------
+
+W_NS = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
+
+
+def wseq(s: str) -> str:
+    """Слова через пробел: сравнение без пунктуации и регистра."""
+    return " " + " ".join(re.findall(r"\w+", s.lower().replace("ё", "е"))) + " "
+
+
+def docx_table_rows(path) -> list[tuple[list[str], set[str]]]:
+    """Эталон из XML docx, независимо от парсера проекта: для каждой строки тела таблицы —
+    тексты её ячеек и подписи шапки (первая строка) над столбцами, где есть значение."""
+    import zipfile
+
+    from lxml import etree
+
+    with zipfile.ZipFile(path) as z:
+        root = etree.fromstring(z.read("word/document.xml"))
+    out = []
+    for tbl in root.iter(W_NS + "tbl"):
+        if any(a.tag == W_NS + "tc" for a in tbl.iterancestors()):
+            continue  # вложенные таблицы — внутри ячеек внешней
+        grid = []
+        for tr in tbl.findall(W_NS + "tr"):
+            row, col = {}, 0
+            for tc in tr.findall(W_NS + "tc"):
+                span_el = tc.find(f"{W_NS}tcPr/{W_NS}gridSpan")
+                span = int(span_el.get(W_NS + "val", "1")) if span_el is not None else 1
+                text = " ".join("".join(t.text or "" for t in tc.iter(W_NS + "t")).split())
+                for k in range(col, col + span):
+                    row[k] = text
+                col += span
+            grid.append(row)
+        if len(grid) < 2:
+            continue
+        head = grid[0]
+        for row in grid[1:]:
+            cells = list(dict.fromkeys(t for t in row.values() if wseq(t).strip()))
+            if len(cells) < 2 or all(re.fullmatch(r"\d{1,2}[а-я]?", t.strip()) for t in cells):
+                continue  # строка номеров граф «1 | 2 | 3» — не содержание
+            heads = {head.get(k, "") for k, t in row.items() if t} - {""}
+            out.append((cells, heads))
+    return out
+
+
+def check_docx_tables(docs):
+    """Строка таблицы docx и её шапка в одном чанке (сравнение по словам)."""
+    res = {}
+    for ds in ("zx_bank", "cbr_acts"):
+        c = collections.Counter()
+        for d in docs.values():
+            m = d["m"]
+            if m["dataset"] != ds or m["format"] != "docx":
+                continue
+            chunks = [wseq(x) for x in d["chunks"]]
+            for cells, heads in docx_table_rows(m["path"]):
+                cs, hs = [wseq(t) for t in cells], [wseq(h) for h in heads]
+                c["rows"] += 1
+                c["row_in_one_chunk"] += any(all(x in ch for x in cs) for ch in chunks)
+                c["row_with_header"] += any(all(x in ch for x in cs + hs) for ch in chunks)
+        res[ds] = {"rows": c["rows"], **{k + "_%": pct(v, c["rows"]) for k, v in c.items() if k != "rows"}}
+    return res
+
+
+def _md_norm(s: str) -> str:
+    s = s.replace(" ", " ")
+    s = re.sub("[“”«»„\"]", '"', s)
+    s = re.sub("[‘’']", "'", s)
+    s = re.sub("[–—−‑]", "-", s).replace("…", "...")
+    return re.sub(r"\s+", " ", s).strip().lower()
+
+
+def _md_clean(s: str) -> str:
+    s = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", s)
+    s = s.replace("**", "").replace("__", "").replace("`", "")
+    s = re.sub(r"(?<!\w)[_*]+(?=\S)|(?<=\S)[_*]+(?!\w)", "", s)
+    s = re.sub(r"\\([\\`*_{}\[\]()#+\-.!|>])", r"\1", s)
+    return _md_norm(s)
+
+
+def _md_line(line: str):
+    """Строка md → (вид, номер, тексты): row — ячейки таблицы, num — пункт «N.», bullet, text."""
+    s = re.sub(r"^\s*>\s?", "", line).strip()
+    if not s or re.fullmatch(r"(-{3,}|\*{3,}|_{3,})", s):
+        return None
+    if s.startswith("|"):
+        cells = [c.strip() for c in s.strip("|").split("|")]
+        if all(re.fullmatch(r":?-{2,}:?", c) or not c for c in cells):
+            return None
+        return ("row", None, [_md_clean(c) for c in cells if _md_clean(c)])
+    if m := re.match(r"^(#+)\s+(.*)", s):
+        return ("head", None, [_md_clean(m.group(2))])
+    if m := re.match(r"^(\d+)([.)])\s+(.*)", s):
+        return ("num", m.group(1) + m.group(2), [_md_clean(m.group(3))])
+    if m := re.match(r"^[-*+]\s+(.*)", s):
+        return ("bullet", None, [_md_clean(m.group(1))])
+    return ("text", None, [_md_clean(s)])
+
+
+def check_docx_structure(docs):
+    """«Ответ есть в индексе со структурой» для фактов ZX Bank в docx: строки таблицы — все
+    ячейки в одной строке чанка, пункты — с номером («1. …»), прочее — текстом в чанке."""
+    units = {m["key"]: m for m in MANIFEST if m["dataset"] == "zx_bank" and m["format"] == "docx"}
+    facts = {}
+    for q in jl(TR / "queries_zx.jsonl"):
+        for f in q["facts_en"]:
+            if f["unit_id"] in units:
+                facts.setdefault((f["unit_id"], f["text"]), q["qid"])
+    c, kinds = collections.Counter(), collections.Counter()
+    for u, fact in facts:
+        en = open(TR / "docs" / f"{u}.en.md", encoding="utf-8").read().split("\n")
+        ru = open(TR / "docs" / f"{u}.ru.md", encoding="utf-8").read().split("\n")
+        fn = _md_clean(fact)
+        fw = set(re.findall(r"\w+", fn))
+        support = []
+        for i, line in enumerate(en):
+            pl = _md_line(line)
+            if not pl or pl[0] == "head" or i >= len(ru):
+                continue
+            txt = " ".join(pl[2])
+            w = re.findall(r"\w+", txt)
+            if len(w) >= 3 and (txt in fn or sum(x in fw for x in w) / len(w) >= 0.8):
+                if (rl := _md_line(ru[i])) and rl[2]:
+                    support.append(rl)
+        if not support:
+            continue
+        raw = docs[units[u]["doc_id"]]["chunks"]
+        chunks = [_md_norm(x) for x in raw]
+        lines = [_md_norm(x) for ch in raw for x in ch.split("\n")]  # строки — до нормализации
+        ok_text = ok_struct = True
+        for kind, label, cells in support:
+            if kind == "row":
+                loose = any(all(x in ch for x in cells) for ch in chunks)
+                strict = any(all(x in ln for x in cells) for ln in lines)
+            else:
+                loose = any(cells[0] in ch for ch in chunks)
+                strict = loose if kind != "num" else any(f"{label} {cells[0]}" in ch for ch in chunks)
+            kinds[kind + "_lines"] += 1
+            kinds[kind + "_structured"] += strict
+            ok_text &= loose
+            ok_struct &= strict
+        c["facts"] += 1
+        c["text_found"] += ok_text
+        c["structure_found"] += ok_struct
+    return {"facts": c["facts"], "text_found_%": pct(c["text_found"], c["facts"]),
+            "structure_found_%": pct(c["structure_found"], c["facts"]), "lines_by_kind": dict(kinds)}
+
+
 # ---------- гигиена текста, короткие чанки, повторы ----------
 
 HYGIENE = {
@@ -884,6 +1033,7 @@ def cmd_check(a):
            "same_as_R7": check_same_as_view(docs) if a.live else None,
            "volume": check_volume(docs, count), "pdf_text": check_pdf_text(docs), "context": check_context(docs),
            "pptx": check_pptx(docs), "source_md_coverage": check_source_md(docs), "answers": check_answers(docs),
+           "docx_tables": check_docx_tables(docs), "docx_structure": check_docx_structure(docs),
            "xlsx": check_xlsx(docs), "hygiene": check_hygiene(docs), "short_dups": check_short_dups(docs),
            "metadata": check_metadata(docs), "seconds": round(time.perf_counter() - t, 1)}
     text = json.dumps(rep, ensure_ascii=False, indent=1, default=str)

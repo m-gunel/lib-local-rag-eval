@@ -19,6 +19,7 @@
   $PY src/offline_ab.py run B0 --rows view            # база: чанки R7
   LIB_LOCAL_RAG=<проект> $PY src/offline_ab.py run P0 --rows live
   $PY src/offline_ab.py run B0pref --rows view --prefix add
+  $PY src/offline_ab.py run P2s --rows live --section  # «Раздел: …» второй строкой чанка
   $PY src/offline_ab.py report B0 P0 B0pref           # первая — база
 Выдачи — work/offline_ab/runs/<имя>.json; таблицы — work/offline_ab/db (пересоздаются).
 """
@@ -126,6 +127,9 @@ def rows_of(a) -> list[tuple[str, str]]:
                 t = pc.own_text(t)
             elif a.prefix == "add" and not t.startswith(DOC_PREFIX):
                 t = f"{DOC_PREFIX}{stem}\n{t}"
+            if a.section and c.get("section"):  # «Раздел: …» второй строкой, после «Документ: …»
+                head, _, rest = t.partition("\n") if t.startswith(DOC_PREFIX) else ("", "", t)
+                t = (head + "\n" if head else "") + f"Раздел: {c['section']}\n" + rest
             rows.append((m["doc_id"], t))
     return rows
 
@@ -258,6 +262,7 @@ def main():
     r.add_argument("--rows", choices=("view", "live"), default="view")
     r.add_argument("--prefix", choices=("keep", "add", "strip"), default="keep")
     r.add_argument("--lower", action="store_true", help="эмбеддинг текста документов и запросов в нижнем регистре")
+    r.add_argument("--section", action="store_true", help="строка «Раздел: …» в тексте чанка (live: поле section)")
     p = sub.add_parser("report")
     p.add_argument("names", nargs="+")
     p.add_argument("--metrics", default="nDCG@10,Hit@1,Hit@10")
