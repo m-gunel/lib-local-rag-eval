@@ -125,11 +125,79 @@ def mode_comparison(runs, per_mode, unjudged_by, qrels, queries, answerable, clu
     return out + [""]
 
 
+FTS_KEYS = ("base_tokenizer", "language", "stem", "lower_case", "max_token_length", "remove_stop_words",
+            "ascii_folding", "with_position")
+
+
+def fts_params(state: dict) -> str | None:
+    """Параметры FTS прогона: блок emulation (src/fts_emulate.py) или details
+    индекса из lance_probe."""
+    if em := state.get("emulation"):
+        idx = em["index"]
+        d = idx["details"]
+        return (f"эмуляция {em['variant']} на чанках {em['source']}, колонка {', '.join(idx['columns'])}; "
+                + ", ".join(f"{k}={d.get(k)}" for k in FTS_KEYS))
+    for i in state.get("probe", {}).get("indices", []):
+        if i.get("type") == "FTS" and i.get("details"):
+            return ", ".join(f"{k}={i['details'].get(k)}" for k in FTS_KEYS)
+    return None
+
+
+def compare_block(run, other, mode, ranked, o_ranked, qrels, queries, answerable, clusters,
+                  slice_name, slice_qids) -> list[str]:
+    """Парное сравнение одного режима: разницы метрик с кластерным бутстрэпом
+    по срезам, сколько запросов стало лучше и хуже, совпавшие топ-10 и
+    неоценённые документы у обоих прогонов."""
+    pq, opq = per_query(ranked, qrels, answerable), per_query(o_ranked, qrels, answerable)
+    diff = {q: {m: pq[q][m] - opq[q][m] for m in METRICS} for q in answerable}
+    groups = {"Все": answerable}
+    if slice_name:
+        groups[f"Срез: {slice_name}"] = [q for q in answerable if q in slice_qids]
+        groups["Вне среза"] = [q for q in answerable if q not in slice_qids]
+    for sc in (1, 2, 3, 4, 5):
+        groups[f"{sc}. {SCENARIOS[sc]}"] = [q for q in answerable if queries[q]["scenario"] == sc]
+
+    def unjudged(rk, qids):
+        return sum(1 for q in qids for d in rk.get(q, [])[:10] if d not in qrels.get(q, {}))
+
+    out = [f"## Сравнение с прогоном {other} ({mode}): {run} − {other}", "",
+           "Разница метрик [95% ДИ]; «лучше / хуже» — запросы, где nDCG@10 вырос или упал; "
+           "неоценённые документы в топ-10 считаются неправильными.", "",
+           "| Срез | Запросов | " + " | ".join(METRICS) + f" | Лучше / хуже | Совпал топ-10 | "
+           f"Неоценённых {run} / {other} |",
+           "|---|---:|" + "---:|" * (len(METRICS) + 3)]
+    for g, qids in groups.items():
+        if not qids:
+            continue
+        sub = {q: diff[q] for q in qids}
+        better = sum(1 for q in qids if diff[q]["nDCG@10"] > 1e-9)
+        worse = sum(1 for q in qids if diff[q]["nDCG@10"] < -1e-9)
+        same = sum(1 for q in qids if ranked.get(q, [])[:10] == o_ranked.get(q, [])[:10])
+        out.append(f"| {g} | {len(qids)} | " + " | ".join(fmt(*bootstrap_ci(sub, m, clusters)) for m in METRICS)
+                   + f" | {better} / {worse} | {same} | {unjudged(ranked, qids)} / {unjudged(o_ranked, qids)} |")
+    out += ["", "Интервал целиком выше нуля — прогон лучше, ниже нуля — хуже, пересекает ноль — разница не доказана.",
+            ""]
+    order = sorted(answerable, key=lambda q: diff[q]["nDCG@10"])
+    for title, picked in (("Больше всего выиграли", order[::-1][:5]), ("Больше всего проиграли", order[:5])):
+        picked = [q for q in picked if abs(diff[q]["nDCG@10"]) > 1e-9]
+        if not picked:
+            continue
+        out += [f"{title} (nDCG@10 {run} / {other}):", ""]
+        for q in picked:
+            text = queries[q]["query"].replace("|", "/").replace("\n", " ")
+            out.append(f"- `{q}` ({queries[q]['scenario']}) {pq[q]['nDCG@10']:.2f} / {opq[q]['nDCG@10']:.2f} — "
+                       f"{text[:110]}{'…' if len(text) > 110 else ''}")
+        out.append("")
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--run", required=True)
     ap.add_argument("--out")
     ap.add_argument("--compare", action="append", default=[], help="прогон для парного сравнения")
+    ap.add_argument("--slice", help='JSON {"name": ..., "qids": [...]}: в сравнении — отдельные строки '
+                                    'по срезу и вне его')
     a = ap.parse_args()
     run_dir = EVAL / "runs" / a.run
     queries = {json.loads(l)["qid"]: json.loads(l) for l in open(DATA / "queries.jsonl", encoding="utf-8")}
@@ -151,6 +219,8 @@ def main() -> None:
              f"проиндексировано файлов {len(indexed)}.", "",
              f"Запросов в метриках ранжирования: {len(answerable)}; "
              f"эталон не попал в индекс (не входят в метрики): {len(not_indexed)}.", ""]
+    if fts := fts_params(state):
+        lines += [f"FTS: {fts}.", ""]
     # Во всех разделах одно правило: неоценённый документ считается неправильным,
     # поэтому при многих неоценённых значения — нижняя граница.
     runs = {mode: load_run(run_dir, mode) for mode in MODES}
@@ -180,19 +250,19 @@ def main() -> None:
             short = [len(r.get("results") or []) for r in raw.values()]
             lines += [f"HTTP-коды: {dict(errs)}; тихий фолбэк hybrid→vector (score<0): {fallback}; "
                       f"документов в ответе: медиана {statistics.median(short) if short else 0}.", ""]
+    slice_name, slice_qids = None, set()
+    if a.slice:
+        sl = json.load(open(a.slice, encoding="utf-8"))
+        slice_name, slice_qids = sl.get("name", Path(a.slice).stem), set(sl["qids"])
     for other in a.compare:
-        o_ranked, _ = load_run(EVAL / "runs" / other, "hybrid")
-        if not o_ranked or "hybrid" not in per_mode:
-            continue
-        opq = per_query(o_ranked, qrels, answerable)
-        diff = {q: {m: per_mode["hybrid"][q][m] - opq[q][m] for m in METRICS} for q in answerable}
-        lines += [f"## Сравнение с прогоном {other} (hybrid): {a.run} − {other}", "",
-                  "| Метрика | Разница [95% ДИ] |", "|---|---:|"]
-        for m in METRICS:
-            lines.append(f"| {m} | {fmt(*bootstrap_ci(diff, m, clusters))} |")
-        this_ranked = load_run(run_dir, "hybrid")[0]
-        same = sum(1 for q in queries if o_ranked.get(q) == this_ranked.get(q))
-        lines += ["", f"Полностью совпавших топ-10 (hybrid): {same} из {len(queries)}.", ""]
+        o_state = json.load(open(EVAL / "runs" / other / "index_state.json", encoding="utf-8"))
+        if o_fts := fts_params(o_state):
+            lines += [f"FTS прогона {other}: {o_fts}.", ""]
+        for mode in runs:
+            o_ranked, _ = load_run(EVAL / "runs" / other, mode)
+            if o_ranked:
+                lines += compare_block(a.run, other, mode, runs[mode][0], o_ranked, qrels, queries, answerable,
+                                       clusters, slice_name, slice_qids)
     text = "\n".join(lines) + "\n"
     out = Path(a.out) if a.out else EVAL / "reports" / f"{a.run}.md"
     out.parent.mkdir(parents=True, exist_ok=True)

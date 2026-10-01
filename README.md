@@ -85,6 +85,17 @@
    100000000"` (существующий run-id — отказ, `--resume` дописывает прерванный), затем
    `parse_checks.py compare --run P<n> --base R7`.
 
+### Полнотекстовый индекс: длинные слова и морфология (с 01.10.2026)
+
+1. Эмуляция BM25 на чанках R7 без демона: `$PY src/fts_emulate.py --dump-chunks
+   work/fts/chunks.jsonl --long-tokens-out work/fts/long_token_qids.json`, затем
+   `.venv/bin/python src/fts_lemma.py` (леммы для V2, pymorphy3) и `$PY src/fts_emulate.py
+   --variants V0,V1,V2 --check-against R7` → `runs/FTS_V*/responses_text.jsonl`.
+2. Демон на готовом индексе: `harness.py run --home-from runs/R7/home --expect-fts
+   max_token_length=100` (копия HOME, индексация выключена, сверка параметров FTS).
+3. Сравнение: `report.py --run <A> --compare <B> --slice work/fts/long_token_qids.json --out …`
+   (все общие режимы, разницы с ДИ, срез и «вне среза»).
+
 ## Решения, которые стоит знать
 
 - Корпус общий для всех наборов (как рабочая папка сотрудника), а не по набору.

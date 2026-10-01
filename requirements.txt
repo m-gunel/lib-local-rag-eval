@@ -10,3 +10,5 @@ numpy
 pytest
 pypandoc-binary
 snowballstemmer
+pymorphy3
+pymorphy3-dicts-ru

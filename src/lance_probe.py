@@ -34,7 +34,8 @@ def main() -> None:
     out["rows"] = t.count_rows()
     idx = []
     for i in t.list_indices():
-        rec = {"name": i.name, "type": str(i.index_type), "columns": list(i.columns)}
+        rec = {"name": i.name, "type": str(i.index_type), "columns": list(i.columns),
+               "details": i.index_details}
         try:
             st = t.index_stats(i.name)
             rec["indexed"] = st.num_indexed_rows
@@ -50,7 +51,7 @@ def main() -> None:
         for p in col:
             counts[p] = counts.get(p, 0) + 1
         out["paths"] = counts
-    print(json.dumps(out, ensure_ascii=False))
+    print(json.dumps(out, ensure_ascii=False, default=str))
 
 
 if __name__ == "__main__":

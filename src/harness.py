@@ -18,6 +18,7 @@
 import argparse
 import json
 import os
+import shutil
 import signal
 import subprocess
 import sys
@@ -109,6 +110,34 @@ def wait_ready(client: httpx.Client, home: Path, expected_files: int, log, timeo
     raise TimeoutError("индексы не достроились за отведённое время")
 
 
+def wait_static(client: httpx.Client, home: Path, expect_fts: dict[str, str], log, timeout: float) -> dict:
+    """Готовность демона на готовом индексе (--home-from): индексация выключена,
+    total_files у такого демона 0 — ждём статуса, готовых индексов и параметров
+    FTS из --expect-fts. Пересборка FTS по конфигу идёт до старта HTTP."""
+    t0 = time.time()
+    while time.time() - t0 < timeout:
+        try:
+            st = client.get("/api/v1/status").json()
+        except Exception as e:
+            log(f"статус недоступен: {e}")
+            time.sleep(5)
+            continue
+        if st.get("active"):
+            raise RuntimeError("демон индексирует готовый индекс: autostart_indexing не выключен")
+        p = probe(home)
+        ok, why = indexes_ready(p)
+        if ok:
+            details = next(i for i in p["indices"] if i["type"] == "FTS").get("details") or {}
+            wrong = {k: (details.get(k), v) for k, v in expect_fts.items() if str(details.get(k)) != v}
+            if wrong:
+                raise RuntimeError(f"параметры FTS не те (в индексе, ожидалось): {wrong}")
+            log(f"готовый индекс: строк {p.get('rows')}; FTS max_token_length={details.get('max_token_length')}")
+            return {"status": st, "probe": p, "seconds": round(time.time() - t0)}
+        log(f"индексы: {why}")
+        time.sleep(5)
+    raise TimeoutError("готовый индекс не поднялся за отведённое время")
+
+
 def run_queries(client: httpx.Client, queries: list[dict], mode: str, out: Path, log) -> None:
     done = set()
     if out.exists():
@@ -142,6 +171,10 @@ def cmd_run(a) -> None:
         )
     home = run_dir / "home"
     home.mkdir(parents=True, exist_ok=True)
+    if a.home_from and not a.resume:
+        # Готовый индекс другого прогона — копией: источник только читается.
+        shutil.copytree(Path(a.home_from).resolve(), home, ignore=shutil.ignore_patterns("logs"),
+                        dirs_exist_ok=True)
     logf = (run_dir / "harness.log").open("a", encoding="utf-8")
 
     def log(msg: str) -> None:
@@ -154,6 +187,8 @@ def cmd_run(a) -> None:
     files = corpus_files(corpus)
     cfg = run_dir / "config.yml"
     extra = "".join(f"{line}\n" for line in a.extra_config)
+    if a.home_from:
+        extra += "autostart_indexing: false\n"  # копию индекса не переиндексировать
     cfg.write_text(
         CONFIG.format(corpus=corpus, model=os.environ.get("RAG_MODEL_PATH", PROJECT / "models" / "rubert-tiny2_002")) + extra, encoding="utf-8"
     )
@@ -172,7 +207,8 @@ def cmd_run(a) -> None:
     proc = subprocess.Popen(
         [str(DAEMON_PY), "main.py"], cwd=PROJECT, env=env, stdout=daemon_log, stderr=subprocess.STDOUT
     )
-    meta = {"run_id": a.run_id, "corpus_files": len(files), "port": a.port, "extra_config": a.extra_config}
+    meta = {"run_id": a.run_id, "corpus_files": len(files), "port": a.port, "extra_config": a.extra_config,
+            "home_from": a.home_from, "project": str(PROJECT)}
     try:
         base = f"http://127.0.0.1:{a.port}"
         with httpx.Client(base_url=base, timeout=120) as client:
@@ -185,7 +221,11 @@ def cmd_run(a) -> None:
                 if proc.poll() is not None:
                     raise RuntimeError("демон завершился на старте, см. daemon.log")
                 time.sleep(2)
-            ready = wait_ready(client, home, len(files), log, a.timeout)
+            if a.home_from:
+                expect = dict(kv.split("=", 1) for kv in a.expect_fts)
+                ready = wait_static(client, home, expect, log, a.timeout)
+            else:
+                ready = wait_ready(client, home, len(files), log, a.timeout)
             meta.update(ready)
             meta["probe_paths"] = probe(home, paths=True)
             (run_dir / "index_state.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1))
@@ -233,6 +273,10 @@ def main() -> None:
                    help="дописать прерванный прогон с тем же run-id (иначе существующий run-id — ошибка)")
     r.add_argument("--extra-config", action="append", default=[],
                    help="строка YAML, дописываемая в конфиг прогона (можно несколько раз)")
+    r.add_argument("--home-from",
+                   help="готовый HOME прогона (runs/R7/home): копия без logs, индексация выключена")
+    r.add_argument("--expect-fts", action="append", default=[],
+                   help="KEY=VALUE: параметр FTS-индекса после старта (index_details), иначе ошибка")
     a = ap.parse_args()
     if a.cmd == "run":
         cmd_run(a)
