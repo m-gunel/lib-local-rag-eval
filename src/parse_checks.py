@@ -702,6 +702,7 @@ def xlsx_gold():
     return derive_xlsx_gold()[0]
 
 
+_SUPERSCRIPTS = str.maketrans("", "", "⁰¹²³⁴⁵⁶⁷⁸⁹")
 NUM_IN_TEXT = re.compile(r"-?\d[\d \u00a0\u202f]*(?:[.,]\d+)?")
 
 
@@ -763,7 +764,10 @@ def check_xlsx(docs, show=("xl000", "xl003")):
         titles = [c.get("title") or "" for c in g.get("candidates", [{"title": g.get("title")}])]
         title_w = [w[:6] for w in tok(re.sub(r"^\s*Таблица\s*[\d.]+", "", titles[0]))][:8]
         tol = max(0.051, 1e-6 * abs(g["value"]))
-        hits = [x for x in docs[g["doc_id"]]["chunks"] if norm(g["label"]) in norm(x) and any(abs(v - g["value"]) <= tol for v in numbers_in(x))]
+        # Надстрочную сноску («доход¹») парсер снимает с подписи — сравниваем без неё.
+        label = norm(g["label"].translate(_SUPERSCRIPTS))
+        hits = [x for x in docs[g["doc_id"]]["chunks"] if label in norm(x.translate(_SUPERSCRIPTS))
+                and any(abs(v - g["value"]) <= tol for v in numbers_in(x))]
         ans["gold"] += 1
         if not hits:
             continue
