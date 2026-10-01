@@ -201,6 +201,11 @@ def cmd_run(a) -> None:
             for mode in a.modes.split(","):
                 log(f"прогон {mode}: {len(queries)} запросов")
                 run_queries(client, queries, mode, run_dir / f"responses_{mode}.jsonl", log)
+            if a.upper:
+                # Те же запросы ЗАГЛАВНЫМИ на том же индексе: регистр не должен менять выдачу.
+                log(f"прогон hybrid ЗАГЛАВНЫМИ: {len(queries)} запросов")
+                upper = [{**q, "query": q["query"].upper()} for q in queries]
+                run_queries(client, upper, "hybrid", run_dir / "responses_hybrid_upper.jsonl", log)
             log("готово")
     finally:
         if not a.keep:
@@ -222,6 +227,8 @@ def main() -> None:
     r.add_argument("--modes", default="hybrid,vector,text")
     r.add_argument("--timeout", type=float, default=6 * 3600)
     r.add_argument("--keep", action="store_true", help="не останавливать демон после прогона")
+    r.add_argument("--upper", action="store_true",
+                   help="ещё раз прогнать запросы hybrid ЗАГЛАВНЫМИ (responses_hybrid_upper.jsonl)")
     r.add_argument("--resume", action="store_true",
                    help="дописать прерванный прогон с тем же run-id (иначе существующий run-id — ошибка)")
     r.add_argument("--extra-config", action="append", default=[],

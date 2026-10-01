@@ -547,10 +547,11 @@ def check_short_dups(docs):
 
 # ---------- метаданные ----------
 
+# Поля как в src/common/doc_meta.py проекта.
 DOC_FIELDS = ("title", "author", "last_modified_by", "subject", "doc_created", "doc_modified", "page_count",
-              "language", "mime", "size_bytes", "sha256", "date_created", "date_modified", "source_uri",
+              "language", "mime", "size", "sha256", "date_created", "date_modified", "source_uri",
               "origin_url", "encoding")
-CHUNK_FIELDS = ("page_start", "section", "kind", "table_id", "char_start", "sheet", "table_title")
+CHUNK_FIELDS = ("page_start", "line_start", "section", "kind", "table_id", "row_start", "char_start")
 TITLE_JUNK = re.compile(r"^(microsoft (word|excel|powerpoint)\s*-|please read first|документ\d*$|книга\d*$|"
                         r"презентация\d*$|untitled|без названия|[a-z]:\\|/)", re.I)
 
@@ -860,6 +861,11 @@ def cmd_compare(a):
     run, _ = load_run(EVAL / "runs" / a.run, "hybrid")
     base, _ = load_run(EVAL / "runs" / a.base, "hybrid")
     print("\n".join(compare_lines(run, base, ans_run & ans_base, a.run, a.base, a.metrics.split(","))))
+    upper, _ = load_run(EVAL / "runs" / a.run, "hybrid_upper")
+    if upper:  # прогон с --upper: те же запросы ЗАГЛАВНЫМИ на том же индексе
+        same = sum(upper.get(q, [])[:10] == run.get(q, [])[:10] for q in run)
+        print(f"\nРегистр ({a.run}): топ-10 запросов ЗАГЛАВНЫМИ совпал с обычными в {same} из {len(run)}\n")
+        print("\n".join(compare_lines(upper, run, ans_run, f"{a.run} ЗАГЛАВНЫМИ", a.run, a.metrics.split(","))[:5]))
 
 
 # ---------- команды ----------
