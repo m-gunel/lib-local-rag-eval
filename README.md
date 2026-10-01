@@ -38,6 +38,9 @@
 | `report.py` | метрики по сценариям и наборам, сравнение типов поиска (гибрид / BM25 / вектор), парное сравнение прогонов |
 | `rule_foreign.py` | оценка 0 по правилу для явно чужих пар из выдачи (документ из набора другой тематики) |
 | `vector_probe.py` | векторный поиск: приближённый индекс IVF-PQ против точного перебора на готовом индексе прогона (запускать `daemon-venv/bin/python`) |
+| `parse_checks.py` | быстрые проверки парсинга без демона: чанки R7 (`--view`) или текущих парсеров проекта (`--live`, кэш `work/parse_cache`) — диагноз, «ответ есть в индексе», гигиена текста, метаданные по форматам; `delta`, `compare` прогонов по срезам; `freeze-xlsx-gold` (запускать `daemon-venv/bin/python`) |
+| `offline_ab.py` | офлайн-A/B «что кладём в индекс»: гибрид точным перебором на строках R7 или текущих парсеров, префикс и нижний регистр как преобразования, запросы как есть и ЗАГЛАВНЫМИ (запускать `daemon-venv/bin/python`) |
+| `dup_check.py` | мини-корпус с копиями файлов в разных папках и подсчёт мест выдачи, занятых копиями |
 
 Тесты: `.venv/bin/python -m pytest -q tests` (метрики сверены с pytrec_eval).
 
@@ -53,10 +56,34 @@
    код, полный индекс — обход дефекта потери чанков).
 3. Дооценка выдачи hybrid: `judge_prep.py postrun --run R6 --run R7 --modes hybrid
    --batch 40` → `src/judge_workflow.js` частями (`a_from`/`a_to`, `b_from`/`b_to`,
-   `skip_c: true`, `model_a: "sonnet"`) → `judge_merge.py collect <раунд> <выводы>` →
+   `skip_c: true`; первичная оценка — основной моделью сессии, `model_a` не задаётся) →
+   `judge_merge.py collect <раунд> <выводы>` →
    `judge_merge.py todo <раунд>` (повтор пропущенных) → `judge_merge.py conflicts` →
    workflow с `c_pids` → `judge_merge.py merge <раунд>`.
 4. Отчёт: `report.py --run R6 --compare R7`.
+
+### Улучшение парсинга (с 01.10.2026)
+
+Проект по умолчанию — `~/Downloads/pip_local_rag_0110` (`LIB_LOCAL_RAG` переопределяет).
+`PY="env PYTHONDONTWRITEBYTECODE=1 daemon-venv/bin/python"`.
+
+1. Один раз, до правки парсера xlsx: `$PY src/parse_checks.py freeze-xlsx-gold` — эталон
+   ответов xlsx-запросов в `data/xlsx_gold.jsonl` (55 из 55; `build_corpus.py` не перезапускать).
+2. После каждой правки парсеров: `$PY src/parse_checks.py check --live --label <метка>` и
+   `$PY src/parse_checks.py delta work/parse_checks/R7.json work/parse_checks/<метка>.json`
+   (база `check --view --label R7`).
+3. Решение «стоит ли полного прогона»: `$PY src/offline_ab.py seed` (один раз), затем
+   `run <имя> --rows view|live [--prefix add|strip] [--lower]` и `report <база> <варианты…>`.
+   Строки и векторы базы — ровно R7 (сверено), но поиск точный: B0 ≠ R7 (Hit@1 0,496 против
+   0,469). Шум: две одинаковые сборки расходятся в топ-10 в ~30 из 1982 запросов (равные
+   оценки), метрики — в пределах ±0,001. Вариант без нижнего регистра считается только
+   эмбеддером без него: A/B регистра — до правки эмбеддера проекта.
+4. Дубли: `dup_check.py build` → `harness.py run --run-id DUP<n> --corpus
+   work/dup_corpus/files --queries work/dup_corpus/queries.jsonl --modes hybrid` →
+   `dup_check.py report --run DUP<n>`.
+5. Полный прогон: `harness.py run --run-id P<n> --extra-config "parquet_record_batch_size:
+   100000000"` (существующий run-id — отказ, `--resume` дописывает прерванный), затем
+   `parse_checks.py compare --run P<n> --base R7`.
 
 ## Решения, которые стоит знать
 

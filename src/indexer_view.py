@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 sys.dont_write_bytecode = True  # не оставлять __pycache__ в дереве проекта
-PROJECT = Path(os.environ.get("LIB_LOCAL_RAG", "/Users/gunel30/Downloads/lib_local_rag"))
+PROJECT = Path(os.environ.get("LIB_LOCAL_RAG", "/Users/gunel30/Downloads/pip_local_rag_0110"))
 os.environ.setdefault("CONFIG_PATH", str(PROJECT / "cfg" / "dev.yml"))
 # Config() читает ~/.ragsearch и заводит ~/.files-search — уводим HOME во
 # временный каталог, чтобы не трогать настоящие данные пользователя.
@@ -34,11 +34,41 @@ from src.utils.config_mixin import set_config  # noqa: E402
 set_config()
 
 
-def chunks_of(path: Path) -> list[str]:
+def _jsonable(v):
+    """Метаданные проекта (datetime, вложенные dict) → то, что ложится в JSON."""
+    if isinstance(v, dict):
+        return {k: _jsonable(x) for k, x in v.items()}
+    if isinstance(v, (list, tuple)):
+        return [_jsonable(x) for x in v]
+    if hasattr(v, "isoformat"):
+        return v.isoformat()
+    return v
+
+
+def records_of(path: Path) -> tuple[list[dict], dict | None]:
+    """Чанки файла с полями метаданных и метаданные документа — как их пишет индексатор.
+
+    Если в проекте есть общий синхронный конвейер `src.parsers.file_chunks` (тот же путь,
+    что `_process_path`: нормализация, обогащение текста, поля чанка), берём его — иначе
+    проверки не увидят префикс и метаданные. Старые версии проекта: парсер напрямую.
+    """
     parser = get_parser(file_extension(path))
     if parser is None:
-        return []
-    return [c["text"] if isinstance(c, dict) else c.text for c in parser.iter_chunks(str(path))]
+        return [], None
+    import src.parsers as parsers_pkg
+
+    file_chunks = getattr(parsers_pkg, "file_chunks", None)
+    if file_chunks is not None:
+        rows = list(file_chunks(str(path)))
+        meta = _jsonable(rows[0].get("meta")) if rows else None
+        chunks = [_jsonable({k: v for k, v in r.items() if k not in ("meta", "file_meta", "path")}) for r in rows]
+        return chunks, meta
+    chunks = [dict(c) if isinstance(c, dict) else {"idx": c.idx, "text": c.text} for c in parser.iter_chunks(str(path))]
+    return _jsonable(chunks), _jsonable(dict(parser.get_metadata(str(path))))
+
+
+def chunks_of(path: Path) -> list[str]:
+    return [c["text"] for c in records_of(path)[0]]
 
 
 def main() -> None:

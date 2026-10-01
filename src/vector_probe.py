@@ -18,7 +18,7 @@ import sys
 from pathlib import Path
 
 EVAL = Path(__file__).resolve().parent.parent
-PROJECT = Path(os.environ.get("LIB_LOCAL_RAG", "/Users/gunel30/Downloads/lib_local_rag"))
+PROJECT = Path(os.environ.get("LIB_LOCAL_RAG", "/Users/gunel30/Downloads/pip_local_rag_0110"))
 sys.path.insert(0, str(EVAL / "src"))
 from metrics import METRICS, per_query, relevant  # noqa: E402
 from report import corpus_rel, load_qrels, load_run  # noqa: E402

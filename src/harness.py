@@ -27,7 +27,7 @@ from pathlib import Path
 import httpx
 
 EVAL = Path(__file__).resolve().parent.parent
-PROJECT = Path(os.environ.get("LIB_LOCAL_RAG", "/Users/gunel30/Downloads/lib_local_rag"))
+PROJECT = Path(os.environ.get("LIB_LOCAL_RAG", "/Users/gunel30/Downloads/pip_local_rag_0110"))
 # Интерпретатор индексатора: на другой машине — .venv проекта (uv sync --frozen).
 DAEMON_PY = Path(os.environ.get("DAEMON_PY", EVAL / "daemon-venv" / "bin" / "python"))
 CORPUS = EVAL / "corpus"
@@ -133,6 +133,13 @@ def run_queries(client: httpx.Client, queries: list[dict], mode: str, out: Path,
 
 def cmd_run(a) -> None:
     run_dir = EVAL / "runs" / a.run_id
+    # Повтор того же run-id молча дописывал бы ответы к старым: run_queries
+    # пропускает уже записанные qid, а HOME со старым индексом остаётся.
+    if run_dir.exists() and any(run_dir.iterdir()) and not a.resume:
+        raise SystemExit(
+            f"прогон {a.run_id} уже есть ({run_dir}): возьмите новый --run-id "
+            "или добавьте --resume, чтобы дописать прерванный прогон"
+        )
     home = run_dir / "home"
     home.mkdir(parents=True, exist_ok=True)
     logf = (run_dir / "harness.log").open("a", encoding="utf-8")
@@ -215,6 +222,8 @@ def main() -> None:
     r.add_argument("--modes", default="hybrid,vector,text")
     r.add_argument("--timeout", type=float, default=6 * 3600)
     r.add_argument("--keep", action="store_true", help="не останавливать демон после прогона")
+    r.add_argument("--resume", action="store_true",
+                   help="дописать прерванный прогон с тем же run-id (иначе существующий run-id — ошибка)")
     r.add_argument("--extra-config", action="append", default=[],
                    help="строка YAML, дописываемая в конфиг прогона (можно несколько раз)")
     a = ap.parse_args()
