@@ -71,3 +71,82 @@ A384:
   docs: true
   card: true
   name_code: true
+A256:
+  project: work/project_chunk
+  splitter:
+    <<: *sent
+    chunk_size: 256
+    chunk_overlap: 40
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+A448:
+  project: work/project_chunk
+  splitter:
+    <<: *sent
+    chunk_size: 448
+    chunk_overlap: 70
+  pool: 50
+  docs: true
+  card: true
+  name_code: true
+A128:
+  project: work/project_chunk
+  splitter:
+    <<: *sent
+    chunk_size: 128
+    chunk_overlap: 20
+  pool: 150
+  docs: true
+  card: true
+  name_code: true
+# Пул для победителя оси А
+A256p50:
+  project: work/project_chunk
+  splitter:
+    <<: *sent
+    chunk_size: 256
+    chunk_overlap: 40
+  pool: 50
+  docs: true
+  card: true
+  name_code: true
+A256p150:
+  project: work/project_chunk
+  splitter:
+    <<: *sent
+    chunk_size: 256
+    chunk_overlap: 40
+  pool: 150
+  docs: true
+  card: true
+  name_code: true
+# Шаг 3в — проверка итога по частям: итог = A256 (пул 100, карточка, код из имени)
+A256nc:      # без карточки
+  project: work/project_chunk
+  splitter:
+    <<: *sent
+    chunk_size: 256
+    chunk_overlap: 40
+  pool: 100
+  docs: true
+  name_code: true
+A256nn:      # без кода из имени
+  project: work/project_chunk
+  splitter:
+    <<: *sent
+    chunk_size: 256
+    chunk_overlap: 40
+  pool: 100
+  docs: true
+  card: true
+A256c10:     # выдача как сейчас: 10 чанков
+  project: work/project_chunk
+  splitter:
+    <<: *sent
+    chunk_size: 256
+    chunk_overlap: 40
+  pool: 10
+  card: true
+  name_code: true

@@ -476,6 +476,27 @@ def cmd_report(a):
         lines.append(f"| {n} | {r['project_head']} | {r['rows']} ({r['cards']}) | {r['mean_tokens']} | {v['pool']} | "
                      f"{'10 документов' if v['docs'] else '10 чанков'} | {md} | {nd:.1f} | {unj} | {r['embed_seconds']} | "
                      f"{r['main_ms']} |")
+    # качество нарезки: границы чанков прозы PDF и длины
+    lines += ["", "## Нарезка", "",
+              "| Вариант | Чанков (pdf / docx / txt / xlsx / pptx) | Медиана символов прозы | PDF: конец на конце фразы | PDF: начало со строчной |",
+              "|---|---|---:|---:|---:|"]
+    for n, r in runs.items():
+        meta_n = load_meta(n)
+        cnt, lens, ends, lows, npdf = collections.Counter(), [], 0, 0, 0
+        for row in load_rows(r["table"]):
+            if row["kind"] == "card":
+                continue
+            ext = (meta_n.get(row["doc"]) or {}).get("ext") or "?"
+            cnt[ext] += 1
+            if row["kind"] in ("text", "ocr"):
+                body = strip_prefix(row["text"])
+                lens.append(len(body))
+                if ext == "pdf":
+                    npdf += 1
+                    ends += body.rstrip()[-1:] in ".!?…;:»)"
+                    lows += body[:1].islower()
+        lines.append(f"| {n} | {' / '.join(str(cnt[e]) for e in ('pdf', 'docx', 'txt', 'xlsx', 'pptx'))} | "
+                     f"{statistics.median(lens) if lens else 0:.0f} | {ends / max(1, npdf):.0%} | {lows / max(1, npdf):.0%} |")
     # ранжирование обычных запросов: две версии неоценённых
     lines += ["", "## Обычные запросы: ранжирование документов", "",
               "«Правильные» — неоценённые документы топ-10 обеих выдач получают оценку 2 (одинаково для обеих сторон).", ""]
@@ -564,6 +585,66 @@ def cmd_report(a):
         Path(a.out).write_text(text + "\n", encoding="utf-8")
 
 
+def cmd_judgeprep(a):
+    """Пакеты асессорам по выдачам вариантов (как judge_prep.py postrun, но по прогонам лаборатории).
+
+    Пары — неоценённые документы топ-10, от которых зависит сравнение: есть только в одной из
+    выдач или стоят выше первого правильного (--mode diff, по умолчанию) либо все (--mode all).
+    «Явно чужие» (документ из набора другой тематики) получают 0 по правилу rule_foreign.py —
+    строками раунда lab_rule_foreign в work/judge/judged.tsv. Асессор видит до двух фрагментов,
+    которые вернул вариант, и три лучших по независимому BM25 (pool.passages).
+    Запуск окружением стенда: .venv/bin/python src/chunk_lab.py judgeprep A256 MCN100 --part dev
+    """
+    import judge_prep as jp
+    from metrics import relevant
+    from pool import passages
+    from report import load_qrels
+    from rule_foreign import OWN
+
+    runs = {n: json.loads((RUNS / f"{n}.json").read_text(encoding="utf-8")) for n in a.names}
+    queries = {q["qid"]: q for q in jl(EVAL / "data" / "queries.jsonl")}
+    man = {m["doc_id"]: m for m in jl(EVAL / "data" / "manifest.jsonl")}
+    qrels = load_qrels()
+    split = json.loads(SPLIT.read_text(encoding="utf-8"))
+    part_q = set(queries) if a.part == "all" else set(split["main"][a.part])
+    texts = {}
+    for n, r in runs.items():
+        need_cids = {c for x in r["main"].values() for cs in x["frags"].values() for c in cs[:2]}
+        texts[n] = {row["cid"]: strip_prefix(row["text"]) for row in load_rows(r["table"]) if row["cid"] in need_cids}
+    todo, foreign = {}, set()
+    for q in sorted(part_q):
+        if queries[q]["scenario"] == 6 or not relevant(qrels.get(q, {})):
+            continue
+        tops = {n: r["main"][q]["docs"][:10] for n, r in runs.items()}
+        rel = relevant(qrels.get(q, {}))
+        for n, docs in tops.items():
+            first = next((i for i, d in enumerate(docs) if d in rel), 10)
+            for i, d in enumerate(docs):
+                if d in qrels.get(q, {}):
+                    continue
+                if man[d]["dataset"] not in OWN[queries[q]["dataset"]]:
+                    foreign.add((q, d))
+                    continue
+                if a.mode == "all" or sum(d in t for t in tops.values()) == 1 or i < first:
+                    sys_chunks = todo.setdefault((q, d), [])
+                    for c in runs[n]["main"][q]["frags"].get(d, [])[:2]:
+                        if texts[n][c] not in sys_chunks:
+                            sys_chunks.append(texts[n][c])
+    judged = EVAL / "work" / "judge" / "judged.tsv"
+    if foreign:
+        with open(judged, "a", encoding="utf-8") as f:
+            f.write("".join(f"{q}\t{d}\t0\tlab_rule_foreign\n" for q, d in sorted(foreign)))
+    pairs = []
+    for (q, d), sys_chunks in sorted(todo.items(), key=lambda x: (x[0][1], x[0][0])):
+        need = jp.need_text(queries[q], queries)
+        pairs.append({"qid": q, "need": need, "doc_id": d, "title": man[d]["title"],
+                      "passages": passages(need, d, 3, extra=sys_chunks[:2])})
+    random.Random(jp.SEED).shuffle(pairs)
+    round_name = a.round or f"lab_{'_'.join(a.names)}_{a.part}"
+    jp.write_batches(round_name, pairs, a.batch)
+    log(f"{round_name}: пар асессорам {len(pairs)}, «чужих» с оценкой 0 по правилу {len(foreign)}")
+
+
 def load_meta(name: str) -> dict:
     return json.loads((ROWS / f"{name}.meta.json").read_text(encoding="utf-8"))
 
@@ -585,8 +666,15 @@ def main():
     p.add_argument("--metrics", default="Hit@1,MRR@10,nDCG@10,Hit@10,Recall@10")
     p.add_argument("--units", default="chunk,window,parent")
     p.add_argument("--out")
+    j = sub.add_parser("judgeprep")
+    j.add_argument("names", nargs="+")
+    j.add_argument("--part", choices=("dev", "test", "all"), default="dev")
+    j.add_argument("--mode", choices=("diff", "all"), default="diff")
+    j.add_argument("--round")
+    j.add_argument("--batch", type=int, default=30)
     a = ap.parse_args()
-    {"split": cmd_split, "nav": cmd_nav, "run": cmd_run, "_run": cmd_child_run, "report": cmd_report}[a.cmd](a)
+    {"split": cmd_split, "nav": cmd_nav, "run": cmd_run, "_run": cmd_child_run, "report": cmd_report,
+     "judgeprep": cmd_judgeprep}[a.cmd](a)
 
 
 if __name__ == "__main__":
