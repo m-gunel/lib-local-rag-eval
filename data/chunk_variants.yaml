@@ -5,7 +5,8 @@
 #   docs: false — выдача как сейчас (10 чанков → документы); true — 10 документов из пула
 #   card: карточка документа (имя, название, автор, тема) отдельной строкой — false
 #   name_code: файл по коду из имени первым («ЦБ_21», «5348-У», «obs_286») — false
-#   fields: веса полей FTS {section: w, title: w} поверх text — null
+#   fields: веса полей FTS {section: w, title: w, mode: sum|max} поверх text — null (только text, как в продукте);
+#           sum — сумма оценок полей (BooleanQuery SHOULD), max — максимум по полям (MultiMatchQuery)
 # План: ~/.claude/plans/users-gunel30-downloads-pip-local-rag-0-moonlit-hamster.md
 
 C0:          # база: код 1.0.8, выдача как сейчас
@@ -18,3 +19,55 @@ D100:
   docs: true
 C0r:         # повтор базы — проверка шума офлайна
   pool: 10
+# Шаг 2 — метаданные в ранжировании, поверх D50
+MC:          # карточка документа
+  pool: 50
+  docs: true
+  card: true
+MN:          # файл по коду из имени
+  pool: 50
+  docs: true
+  name_code: true
+MF:          # раздел и название документа полями FTS: сумма оценок с весами
+  pool: 50
+  docs: true
+  fields: {section: 1.0, title: 1.0, mode: sum}
+MFm:         # то же, максимум по полям
+  pool: 50
+  docs: true
+  fields: {section: 1.0, title: 1.0, mode: max}
+MCNF:        # всё вместе
+  pool: 50
+  docs: true
+  card: true
+  name_code: true
+  fields: {section: 1.0, title: 1.0, mode: sum}
+MCN:         # итог шага 2: карточка + код из имени (поля FTS отклонены)
+  pool: 50
+  docs: true
+  card: true
+  name_code: true
+# Шаг 3 — стратегия нарезки поверх MCN. База на том же пуле, что вариант
+MCN100:
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+MCN150:
+  pool: 150
+  docs: true
+  card: true
+  name_code: true
+# Ось А: улучшенная рекурсивная нарезка (exp/chunking: честный счёт, хвосты) + разделители по фразам
+A384:
+  project: work/project_chunk
+  splitter: &sent
+    chunk_size: 384
+    chunk_overlap: 60
+    keep_separator: end
+    is_separator_regex: true
+    separators: ['\n\n', '(?<=[.!?…;:])\n(?=[А-ЯЁA-Z0-9«"(•–—-])', '\n', '(?<=[.!?…])\s+(?=[А-ЯЁA-Z«"(])', '(?<=[;:])\s+', ' ', '']
+  pool: 50
+  docs: true
+  card: true
+  name_code: true

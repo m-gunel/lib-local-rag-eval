@@ -214,7 +214,7 @@ def cmd_child_run(a):
     import numpy as np
     import pyarrow as pa
     from lancedb.index import FTS
-    from lancedb.query import MultiMatchQuery
+    from lancedb.query import BooleanQuery, MatchQuery, MultiMatchQuery, Occur
 
     import offline_ab as oa
     import parse_checks as pc
@@ -277,15 +277,26 @@ def cmd_child_run(a):
                 hits += [d for d in found if d not in hits]
         return hits
 
-    fields = v["fields"] or {}
+    fields = dict(v["fields"] or {})
+    mode = fields.pop("mode", "sum")
+    weights = {c: float(w) for c, w in fields.items() if float(w) > 0}
+
+    def text_query(q: str):
+        """FTS-часть гибрида. Без полей — только text, как в продукте: при нескольких
+        FTS-индексах строковый запрос гибрида LanceDB ищет по всем полям сразу.
+        sum — сумма оценок полей с весами (BooleanQuery SHOULD), max — максимум (MultiMatchQuery)."""
+        if not weights:
+            return MatchQuery(q, column="text")
+        if mode == "max":
+            return MultiMatchQuery(q, columns=["text", *weights], boosts=[1.0, *weights.values()])
+        return BooleanQuery([(Occur.SHOULD, MatchQuery(q, column="text")),
+                             *((Occur.SHOULD, MatchQuery(q, column=c, boost=w)) for c, w in weights.items())])
 
     def search(q: str, vec) -> dict:
-        tq = (MultiMatchQuery(q, columns=["text", "section", "title"],
-                              boosts=[1.0, float(fields.get("section", 0.0)), float(fields.get("title", 0.0))])
-              if fields else q)
+        tq = text_query(q)
         try:
-            r = (table.search(query_type="hybrid", vector_column_name="vector").distance_type("cosine")
-                 .vector(vec).text(tq).limit(v["pool"]).to_arrow())
+            r = (table.search(query_type="hybrid", vector_column_name="vector", fts_columns="text")
+                 .distance_type("cosine").vector(vec).text(tq).limit(v["pool"]).to_arrow())
             cids, fb = r.column("cid").to_pylist(), False
         except Exception:
             r = (table.search(vec, query_type="vector", vector_column_name="vector").distance_type("cosine")
@@ -487,6 +498,11 @@ def cmd_report(a):
                 mb, mr = statistics.mean(pb[q][m] for q in qs), statistics.mean(pr[q][m] for q in qs)
                 lines.append(f"| {s} | {len(qs)} | {m} | {mb:.3f} | {mr:.3f} | {fmt_ci(*bootstrap_ci(d, m, clusters))} | "
                              f"{fmt_ci(*bootstrap_ci(du, m, clusters))} |")
+        fired = [q for q in ans if runs[n]["main"][q].get("rule")]
+        if fired:
+            cells = ", ".join(f"{m} {statistics.mean(pb[q][m] for q in fired):.3f} → {statistics.mean(pr[q][m] for q in fired):.3f}"
+                              for m in ("Hit@1", "MRR@10", "nDCG@10"))
+            lines += ["", f"Правило «код из имени» сработало в {len(fired)} из {len(ans)} запросов: {cells}."]
         lines.append("")
     # навигационные запросы
     nav = [x for x in (jl(NAV) if NAV.exists() else []) if part_d is None or x["doc_id"] in part_d]
