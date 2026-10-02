@@ -1,0 +1,20 @@
+# Реестр вариантов лаборатории нарезки (src/chunk_lab.py). Поля и умолчания:
+#   project: копия проекта (git worktree), из неё парсеры и модель — work/project_wt (код 1.0.8)
+#   splitter: настройки сплиттера поверх cfg/dev.yml копии ({chunk_size, chunk_overlap, ...}) — null: как в коде
+#   pool: чанков на канал гибрида (limit LanceDB) — 10
+#   docs: false — выдача как сейчас (10 чанков → документы); true — 10 документов из пула
+#   card: карточка документа (имя, название, автор, тема) отдельной строкой — false
+#   name_code: файл по коду из имени первым («ЦБ_21», «5348-У», «obs_286») — false
+#   fields: веса полей FTS {section: w, title: w} поверх text — null
+# План: ~/.claude/plans/users-gunel30-downloads-pip-local-rag-0-moonlit-hamster.md
+
+C0:          # база: код 1.0.8, выдача как сейчас
+  pool: 10
+D50:         # шаг 1: 10 документов из пула 50 чанков на канал
+  pool: 50
+  docs: true
+D100:
+  pool: 100
+  docs: true
+C0r:         # повтор базы — проверка шума офлайна
+  pool: 10
