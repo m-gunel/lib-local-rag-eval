@@ -246,7 +246,7 @@ def main() -> None:
                 by_ds[queries[q]["dataset"]].append(q)
             lines += table("По наборам (справочно)", dict(sorted(by_ds.items())), pq, clusters)
             errs = Counter(r["http"] for r in raw.values())
-            fallback = sum(1 for r in raw.values() if r.get("results") and r["results"][0]["score"] < 0)
+            fallback = sum(1 for r in raw.values() if r.get("results") and (r["results"][0]["score"] or 0) < 0)
             short = [len(r.get("results") or []) for r in raw.values()]
             lines += [f"HTTP-коды: {dict(errs)}; тихий фолбэк hybrid→vector (score<0): {fallback}; "
                       f"документов в ответе: медиана {statistics.median(short) if short else 0}.", ""]
