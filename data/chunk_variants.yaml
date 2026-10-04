@@ -150,3 +150,225 @@ A256c10:     # выдача как сейчас: 10 чанков
   pool: 10
   card: true
   name_code: true
+# Подбор гиперпараметров (03.10, план ~/.claude/plans/10-15-20-cozy-eagle.md). Копия — exp/chunking 9dc1041
+# (tail_share из конфига). Всё поверх выдачи 1.0.9: 10 документов, карточка, код из имени.
+T0:          # база подбора: A256 на новом коммите (256/40, разделители S1, хвосты 0,25)
+  project: work/project_chunk
+  splitter: &t256
+    <<: *sent
+    chunk_size: 256
+    chunk_overlap: 40
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+T256o10:     # шаг 1: перекрытие 10%
+  project: work/project_chunk
+  splitter:
+    <<: *t256
+    chunk_overlap: 26
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+T256o20:     # шаг 1: перекрытие 20%
+  project: work/project_chunk
+  splitter:
+    <<: *t256
+    chunk_overlap: 51
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+# Шаг 2 подбора — разделители (256/40, хвосты 0,25). S1 = T0.
+# S0 — умолчание langchain; S2 — фраза важнее строки (без сокращений и номеров пунктов);
+# S3 — начало пункта/списка, затем фраза; S4 — просто «. »
+T256s0:
+  project: work/project_chunk
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+  splitter:
+    chunk_size: 256
+    chunk_overlap: 40
+T256s2:
+  project: work/project_chunk
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+  splitter:
+    chunk_size: 256
+    chunk_overlap: 40
+    keep_separator: end
+    is_separator_regex: true
+    separators:
+    - '
+
+
+      '
+    - (?<!\sруб\.)(?<!\sг\.)(?<!\sгг\.)(?<!\sп\.)(?<!\sпп\.)(?<!\sст\.)(?<!\sдр\.)(?<!\sч\.)(?<!\sсм\.)(?<!\sстр\.)(?<!\sтыс\.)(?<!\sмлн\.)(?<!\sмлрд\.)(?<!\sт\.е\.)(?<!\sт\.д\.)(?<!\sт\.п\.)(?<!\sим\.)(?<!\sул\.)(?<!\sд\.)(?<!\sабз\.)(?<!\sподп\.)(?<!\sгл\.)(?<!\sрис\.)(?<!\sтабл\.)(?<!\sприм\.)(?<!\d\.\d\.)(?<!\n\d\.)(?<!\n\d\d\.)(?<=[.!?…])\s+(?=[«\"(]?[А-ЯЁA-Z])
+    - '
+
+      '
+    - (?<=[;:])\s+
+    - ' '
+    - ''
+T256s3:
+  project: work/project_chunk
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+  splitter:
+    chunk_size: 256
+    chunk_overlap: 40
+    keep_separator: end
+    is_separator_regex: true
+    separators:
+    - '
+
+
+      '
+    - \n(?=\s*(?:\d{1,3}(?:\.\d{1,3})*[.)]\s|[а-я]\)\s|[•–—-]\s|(?:Статья|Глава|Раздел|Приложение)\s))
+    - (?<!\sруб\.)(?<!\sг\.)(?<!\sгг\.)(?<!\sп\.)(?<!\sпп\.)(?<!\sст\.)(?<!\sдр\.)(?<!\sч\.)(?<!\sсм\.)(?<!\sстр\.)(?<!\sтыс\.)(?<!\sмлн\.)(?<!\sмлрд\.)(?<!\sт\.е\.)(?<!\sт\.д\.)(?<!\sт\.п\.)(?<!\sим\.)(?<!\sул\.)(?<!\sд\.)(?<!\sабз\.)(?<!\sподп\.)(?<!\sгл\.)(?<!\sрис\.)(?<!\sтабл\.)(?<!\sприм\.)(?<!\d\.\d\.)(?<!\n\d\.)(?<!\n\d\d\.)(?<=[.!?…])\s+(?=[«\"(]?[А-ЯЁA-Z])
+    - '
+
+      '
+    - (?<=[;:])\s+
+    - ' '
+    - ''
+T256s4:
+  project: work/project_chunk
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+  splitter:
+    chunk_size: 256
+    chunk_overlap: 40
+    keep_separator: end
+    is_separator_regex: true
+    separators:
+    - '
+
+
+      '
+    - (?<=\.)\s+
+    - '
+
+      '
+    - (?<=[;:])\s+
+    - ' '
+    - ''
+# Шаг 2 (S5 = S1 + запятая) и шаг 3 — размер с разделителями S0 (умолчание langchain), перекрытие 15%, пул 100
+T256s5:
+  project: work/project_chunk
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+  splitter:
+    chunk_size: 256
+    chunk_overlap: 40
+    keep_separator: end
+    is_separator_regex: true
+    separators:
+    - \n\n
+    - (?<=[.!?…;:])\n(?=[А-ЯЁA-Z0-9«"(•–—-])
+    - \n
+    - (?<=[.!?…])\s+(?=[А-ЯЁA-Z«"(])
+    - (?<=[;:])\s+
+    - (?<=,)\s+
+    - ' '
+    - ''
+T192s0:
+  project: work/project_chunk
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+  splitter:
+    chunk_size: 192
+    chunk_overlap: 29
+T320s0:
+  project: work/project_chunk
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+  splitter:
+    chunk_size: 320
+    chunk_overlap: 48
+# Шаг 4 — хвосты (0 — выключено, 0,5) и шаг 5 — мини-сетка: перекрытие 10% при 256 и 192 (S0)
+T256s0t0:
+  project: work/project_chunk
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+  splitter:
+    chunk_size: 256
+    chunk_overlap: 40
+    tail_share: 0.0
+T256s0t50:
+  project: work/project_chunk
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+  splitter:
+    chunk_size: 256
+    chunk_overlap: 40
+    tail_share: 0.5
+T256s0o10:
+  project: work/project_chunk
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+  splitter:
+    chunk_size: 256
+    chunk_overlap: 26
+T192s0o10:
+  project: work/project_chunk
+  pool: 100
+  docs: true
+  card: true
+  name_code: true
+  splitter:
+    chunk_size: 192
+    chunk_overlap: 19
+# Веса каналов при слиянии (03.10). База — MCN (продукт 1.0.9: нарезка 1.0.8, пул 50, карточка, код из имени).
+# fusion: слияние стендом — w_vector/(K+ранг) + w_text/(K+ранг); F60 — проверка, что повторяет RRF LanceDB.
+F60:
+  pool: 50
+  docs: true
+  card: true
+  name_code: true
+  fusion: {k: 60, w_vector: 1.0, w_text: 1.0}
+Fv05:
+  pool: 50
+  docs: true
+  card: true
+  name_code: true
+  fusion: {k: 60, w_vector: 0.5, w_text: 1.0}
+Fv07:
+  pool: 50
+  docs: true
+  card: true
+  name_code: true
+  fusion: {k: 60, w_vector: 0.7, w_text: 1.0}
+Fk20:
+  pool: 50
+  docs: true
+  card: true
+  name_code: true
+  fusion: {k: 20, w_vector: 1.0, w_text: 1.0}
+Fbm25:       # справочно: только BM25 (вес вектора 0)
+  pool: 50
+  docs: true
+  card: true
+  name_code: true
+  fusion: {k: 60, w_vector: 0.0, w_text: 1.0}

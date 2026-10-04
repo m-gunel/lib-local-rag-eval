@@ -64,7 +64,7 @@ def strip_prefix(text: str) -> str:
 
 # ---------- реестр ----------
 
-DEFAULTS = {"project": "work/project_wt", "splitter": None, "pool": 10, "docs": False,
+DEFAULTS = {"project": "work/project_wt", "splitter": None, "pool": 10, "docs": False, "fusion": None,
             "card": False, "name_code": False, "fields": None}
 
 
@@ -292,12 +292,37 @@ def cmd_child_run(a):
         return BooleanQuery([(Occur.SHOULD, MatchQuery(q, column="text")),
                              *((Occur.SHOULD, MatchQuery(q, column=c, boost=w)) for c, w in weights.items())])
 
+    fusion = v["fusion"]
+
+    def fused(q: str, vec) -> list[int]:
+        """Слияние каналов самим стендом: как RRFReranker LanceDB 0.38 (по pool кандидатов из
+        вектора и BM25, ранги с 1, сначала строки вектора, устойчивая сортировка, срез до pool),
+        но с весами каналов: w_vector/(K + ранг) + w_text/(K + ранг)."""
+        vc = (table.search(vec, query_type="vector", vector_column_name="vector").distance_type("cosine")
+              .limit(v["pool"]).select(["cid"]).to_arrow().column("cid").to_pylist())
+        try:
+            fc = table.search(text_query(q), query_type="fts").limit(v["pool"]).select(["cid"]).to_arrow().column("cid").to_pylist()
+        except Exception:
+            fc = []
+        k, wv, wt = float(fusion.get("k", 60)), float(fusion.get("w_vector", 1.0)), float(fusion.get("w_text", 1.0))
+        score = collections.defaultdict(float)
+        for i, c in enumerate(vc, 1):
+            score[c] += wv / (i + k)
+        for i, c in enumerate(fc, 1):
+            score[c] += wt / (i + k)
+        order = list(dict.fromkeys(vc + fc))
+        order.sort(key=lambda c: -score[c])
+        return order[: v["pool"]]
+
     def search(q: str, vec) -> dict:
         tq = text_query(q)
         try:
-            r = (table.search(query_type="hybrid", vector_column_name="vector", fts_columns="text")
-                 .distance_type("cosine").vector(vec).text(tq).limit(v["pool"]).to_arrow())
-            cids, fb = r.column("cid").to_pylist(), False
+            if fusion:
+                cids, fb = fused(q, vec), False
+            else:
+                r = (table.search(query_type="hybrid", vector_column_name="vector", fts_columns="text")
+                     .distance_type("cosine").vector(vec).text(tq).limit(v["pool"]).to_arrow())
+                cids, fb = r.column("cid").to_pylist(), False
         except Exception:
             r = (table.search(vec, query_type="vector", vector_column_name="vector").distance_type("cosine")
                  .limit(v["pool"]).to_arrow())
