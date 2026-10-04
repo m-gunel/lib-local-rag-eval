@@ -95,6 +95,10 @@
    max_token_length=100` (копия HOME, индексация выключена, сверка параметров FTS).
 3. Сравнение: `report.py --run <A> --compare <B> --slice work/fts/long_token_qids.json --out …`
    (все общие режимы, разницы с ДИ, срез и «вне среза»).
+4. На чанках другого прогона и с гибридом (точный перебор векторов, векторы запросов — кэш
+   `offline_ab.py`): `$PY src/fts_emulate.py --source P3 --dump-chunks work/fts/P3/chunks.jsonl`,
+   `.venv/bin/python src/fts_lemma.py --work work/fts/P3`, затем `$PY src/fts_emulate.py --source P3
+   --work work/fts/P3 --run-prefix FTS_P3_ --modes text,hybrid --variants V1,V2 --check-against P3`.
 
 ## Решения, которые стоит знать
 

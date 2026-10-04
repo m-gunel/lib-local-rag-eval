@@ -1,10 +1,10 @@
 """Леммы для варианта FTS_V2 (лемматизация вместо стемминга Snowball).
 
-    .venv/bin/python src/fts_lemma.py
+    .venv/bin/python src/fts_lemma.py [--work work/fts/P3]
 
-Читает work/fts/chunks.jsonl (выгрузка src/fts_emulate.py --dump-chunks) и
-data/queries.jsonl, пишет work/fts/lemma_chunks.jsonl (тот же порядок чанков) и
-work/fts/lemma_queries.jsonl. Правила:
+Читает <work>/chunks.jsonl (выгрузка src/fts_emulate.py --dump-chunks; <work> по умолчанию work/fts) и
+data/queries.jsonl, пишет <work>/lemma_chunks.jsonl (тот же порядок чанков) и
+<work>/lemma_queries.jsonl. Правила:
 - токены — [^\\W_]+, как base_tokenizer=simple у Lance;
 - слово из одной кириллицы → нормальная форма pymorphy3, затем ё→е;
 - слово из одной латиницы → Snowball English;
@@ -12,6 +12,7 @@ work/fts/lemma_queries.jsonl. Правила:
 Леммы склеиваются пробелом: индекс по ним строится с base_tokenizer=whitespace.
 """
 
+import argparse
 import json
 import re
 import sys
@@ -66,23 +67,26 @@ def checks() -> bool:
 
 
 def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--work", type=Path, default=WORK, help="каталог с chunks.jsonl (выгрузка fts_emulate.py)")
+    work = ap.parse_args().work
     if not checks():
         sys.exit("контрольные примеры не прошли")
     t = time.perf_counter()
     n = 0
-    with (WORK / "chunks.jsonl").open(encoding="utf-8") as src, \
-            (WORK / "lemma_chunks.jsonl").open("w", encoding="utf-8") as out:
+    with (work / "chunks.jsonl").open(encoding="utf-8") as src, \
+            (work / "lemma_chunks.jsonl").open("w", encoding="utf-8") as out:
         for line in src:
             r = json.loads(line)
             out.write(json.dumps({"path": r["path"], "idx": r["idx"], "text_fts": lemmatize(r["text"])},
                                  ensure_ascii=False) + "\n")
             n += 1
     with (EVAL / "data" / "queries.jsonl").open(encoding="utf-8") as src, \
-            (WORK / "lemma_queries.jsonl").open("w", encoding="utf-8") as out:
+            (work / "lemma_queries.jsonl").open("w", encoding="utf-8") as out:
         for line in src:
             q = json.loads(line)
             out.write(json.dumps({"qid": q["qid"], "lemma": lemmatize(q["query"])}, ensure_ascii=False) + "\n")
-    print(f"чанков {n}, разных слов {lemma.cache_info().currsize}, {time.perf_counter() - t:.0f} с → {WORK}")
+    print(f"чанков {n}, разных слов {lemma.cache_info().currsize}, {time.perf_counter() - t:.0f} с → {work}")
 
 
 if __name__ == "__main__":
